@@ -204,6 +204,7 @@
           <li><a href="/shuoshuo/">说说</a></li>
         <li><a href="/plan/">小站施工计划</a></li>
         <li><a href="/guestbook/">留言板</a></li>
+        <li><a href="/test/">网页测试</a></li>
         </ul>
     </li>
     <li class="has-sub"><span class="dropdown-heading">
@@ -254,26 +255,7 @@
 }());
 </script>
 <script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/local.search.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/valine@1.4.16/dist/Valine.min.js"></script>
-<script>
-  var GUEST = ['nick', 'mail', 'link'];
-  var guest = 'nick,mail,link';
-  guest = guest.split(',').filter(function(item) {
-    return GUEST.indexOf(item) > -1;
-  });
-  new Valine({
-    el: '#comments',
-    verify: false,
-    notify: false,
-    appId: 'ugr288l7CymUqwf74C3mcAtf-gzGzoHsz',
-    appKey: 'lXxSS2uGBBXu3acJqGBo62eN',
-    placeholder: '来留言喵~',
-    avatar: 'identicon',
-    meta: guest,
-    pageSize: '10' || 10,
-    lang: 'zh-cn' || 'zh-cn'
-  });
-</script>
+
 
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":300,"height":300},"mobile":{"show":true},"react":{"opacity":1}});</script></body>
 </html>
