@@ -1,37 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content=#58b77a>
-  <title>Hexo</title>
+  <title>云彩观测站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="弋茵">
   <meta name="keywords" content="">
-  <meta name="description" content="">
+  <meta name="description" content="白云升远岫，摇曳入晴空。乘化随舒卷，无心任始终。">
   <script id="hexo-configurations">
   var CONFIG = {
     root: '/',
     theme: 'lx',
     version: '0.4.3',
     localsearch:{
-      "enable": false,
+      "enable": true,
       "trigger": "auto",
       "top_n_per_article": 1,
       "unescape": false,
       "preload": false
       },
-    path: 'null'
+    path: 'search.xml'
   };
 </script>
 
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/css/main.min.css">
-  
+  <link rel="stylesheet" href="/css/custom.css">
   <style type="text/css">
     pre,
     code {
-      font-family: 'Fira Code', monospace;
+      font-family: 'Quicksand', monospace;
     }
     html {
       font-family: sans-serif;
@@ -59,21 +59,37 @@
 	}); 
 	</script>
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira Code:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
 <meta name="generator" content="Hexo 6.2.0"></head>
 <body>
 <div id="page">
+<div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="要查找什么呢？" spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
 
 <div class="header">
-  <div id="lx-aside" style="background-image: url(https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/cover.min.jpeg)">
+  <div id="lx-aside" style="background-image: url(https://cdn.jsdelivr.net/gh/Grooveofmimosa/Picture/cover.jpg)">
     <div class="overlay">
-      
+      <a href="javascript:;" class="popup-trigger" title="search"><i class="menu-item-icon fa fa-search fa-fw"></i></a>
       <div class="featured">
-        <div class="avatar"><a href="/"><img src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/avatar.min.jpeg" alt="John Doe"></a></div>
-        <span>John Doe</span>
-        <h1>Hexo</h1>
-        
+        <div class="avatar"><a href="/"><img src="https://cdn.jsdelivr.net/gh/Grooveofmimosa/Picture/avatar.jpg" alt="弋茵"></a></div>
+        <span>弋茵</span>
+        <h1>云彩观测站</h1>
+        <span>琐事，和一些相片</span>
         
       </div>
     </div>
@@ -84,23 +100,44 @@
 
   <div class="lx-entry padding">
     <div>
-      <h2 class="title"><a href="/2022/06/18/hello-world/">Hello World</a></h2>
-      <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> 2022-06-18</span>
-      <p><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+      <h2 class="title"><a href="/2022/06/18/The%20Raven/">The Raven</a></h2>
+      <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> 2022-06-18 | <i class="fa fa-folder-o"></i> <a class="category-link" href="/categories/%E6%96%87/">文</a></span>
+      <p><blockquote class='blockquote-center'><p>It is my design to render it manifest that no one point in its composition is referrible either to accident or intuition — that the work proceeded, step by step, to its completion with the precision and rigid consequence of a mathematical problem.</p>
+<p>——Edgar Allan Poe </p>
+</blockquote>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>Once upon a midnight dreary, while I pondered, weak and weary,<br>Over many a quaint and curious volume of forgotten lore—<br>While I nodded, nearly napping, suddenly there came a tapping,<br>As of some one gently rapping, rapping at my chamber door—<br>“‘Tis some visitor,” I muttered, “tapping at my chamber door—<br>        Only this and nothing more.”</p>
+<p>Ah, distinctly I remember it was in the bleak December;<br>And each separate dying ember wrought its ghost upon the floor.<br>Eagerly I wished the morrow;—vainly I had sought to borrow<br>From my books surcease of sorrow—sorrow for the lost Lenore—<br>For the rare and radiant maiden whom the angels name Lenore—<br>        Nameless <em>here</em> for evermore.</p>
+<p>And the silken, sad, uncertain rustling of each purple curtain<br>Thrilled me—filled me with fantastic terrors never felt before;<br>So that now, to still the beating of my heart, I stood repeating,<br>“‘Tis some visitor entreating entrance at my chamber door—<br>Some late visitor entreating entrance at my chamber door;—<br>        This it is and nothing more.”</p>
+<p>Presently my soul grew stronger; hesitating then no longer,<br>“Sir,” said I, “or Madam, truly your forgiveness I implore;<br>But the fact is I was napping, and so gently you came rapping,<br>And so faintly you came tapping, tapping at my chamber door,<br>That I scarce was sure I heard you”—here I opened wide the door;—<br>        Darkness there and nothing more.</p>
+<p>Deep into that darkness peering, long I stood there wondering, fearing,<br>Doubting, dreaming dreams no mortal ever dared to dream before;<br>But the silence was unbroken, and the stillness gave no token,<br>And the only word there spoken was the whispered word, “Lenore?”<br>This I whispered, and an echo murmured back the word, “Lenore!”—<br>        Merely this and nothing more.</p>
+<p>Back into the chamber turning, all my soul within me burning,<br>Soon again I heard a tapping somewhat louder than before.<br>“Surely,” said I, “surely that is something at my window lattice;<br>Let me see, then, what thereat is, and this mystery explore—<br>Let my heart be still a moment and this mystery explore;—<br>        ‘Tis the wind and nothing more!”</p>
+<p>Open here I flung the shutter, when, with many a flirt and flutter,<br>In there stepped a stately Raven of the saintly days of yore;<br>Not the least obeisance made he; not a minute stopped or stayed he;<br>But, with mien of lord or lady, perched above my chamber door—<br>Perched upon a bust of Pallas just above my chamber door—<br>        Perched, and sat, and nothing more.</p>
+<p>Then this ebony bird beguiling my sad fancy into smiling,<br>By the grave and stern decorum of the countenance it wore,<br>“Though thy crest be shorn and shaven, thou,” I said, “art sure no craven,<br>Ghastly grim and ancient Raven wandering from the Nightly shore—<br>Tell me what thy lordly name is on the Night’s Plutonian shore!”<br>        Quoth the Raven “Nevermore.”</p>
+<p>Much I marvelled this ungainly fowl to hear discourse so plainly,<br>Though its answer little meaning—little relevancy bore;<br>For we cannot help agreeing that no living human being<br>Ever yet was blest with seeing bird above his chamber door—<br>Bird or beast upon the sculptured bust above his chamber door,<br>        With such name as “Nevermore.”</p>
+<p>But the Raven, sitting lonely on the placid bust, spoke only<br>That one word, as if his soul in that one word he did outpour.<br>Nothing further then he uttered—not a feather then he fluttered—<br>Till I scarcely more than muttered “Other friends have flown before—<br>On the morrow <em>he</em> will leave me, as my hopes have flown before.”<br>        Then the bird said “Nevermore.”</p>
+<p>Startled at the stillness broken by reply so aptly spoken,<br>“Doubtless,” said I, “what it utters is its only stock and store<br>Caught from some unhappy master whom unmerciful Disaster<br>Followed fast and followed faster till his songs one burden bore—<br>Till the dirges of his Hope that melancholy burden bore<br>        Of ‘Never—nevermore.’”</p>
+<p>But the Raven still beguiling my sad fancy into smiling,<br>Straight I wheeled a cushioned seat in front of bird, and bust and door;<br>Then, upon the velvet sinking, I betook myself to linking<br>Fancy unto fancy, thinking what this ominous bird of yore—<br>What this grim, ungainly, ghastly, gaunt and ominous bird of yore<br>        Meant in croaking “Nevermore.”</p>
+<p>This I sat engaged in guessing, but no syllable expressing<br>To the fowl whose fiery eyes now burned into my bosom’s core;<br>This and more I sat divining, with my head at ease reclining<br>On the cushion’s velvet lining that the lamp-light gloated o’er,<br>But whose velvet violet lining with the lamp-light gloating o’er,<br>        <em>She</em> shall press, ah, nevermore!</p>
+<p>Then, methought, the air grew denser, perfumed from an unseen censer<br>Swung by Seraphim whose foot-falls tinkled on the tufted floor.<br>“Wretch,” I cried, “thy God hath lent thee—by these angels he hath sent thee<br>Respite—respite and nepenthe, from thy memories of Lenore;<br>Quaff, oh quaff this kind nepenthe and forget this lost Lenore!”<br>        Quoth the Raven “Nevermore.”</p>
+<p>“Prophet!” said I, “thing of evil!—prophet still, if bird or devil!—<br>Whether Tempter sent, or whether tempest tossed thee here ashore,<br>Desolate yet all undaunted, on this desert land enchanted—<br>On this home by Horror haunted—tell me truly, I implore—<br>Is there—is there balm in Gilead?—tell me—tell me, I implore!”<br>        Quoth the Raven “Nevermore.”</p>
+<p>“Prophet!” said I, “thing of evil—prophet still, if bird or devil!<br>By that Heaven that bends above us—by that God we both adore—<br>Tell this soul with sorrow laden if, within the distant Aidenn,<br>It shall clasp a sainted maiden whom the angels name Lenore—<br>Clasp a rare and radiant maiden whom the angels name Lenore.”<br>        Quoth the Raven “Nevermore.”</p>
+<p>“Be that word our sign in parting, bird or fiend!” I shrieked, upstarting—<br>“Get thee back into the tempest and the Night’s Plutonian shore!<br>Leave no black plume as a token of that lie thy soul hath spoken!<br>Leave my loneliness unbroken!—quit the bust above my door!<br>Take thy beak from out my heart, and take thy form from off my door!”<br>        Quoth the Raven “Nevermore.”</p>
+<p>And the Raven, never flitting, still is sitting, <em>still</em> is sitting<br>On the pallid bust of Pallas just above my chamber door;<br>And his eyes have all the seeming of a demon’s that is dreaming,<br>And the lamp-light o’er him streaming throws his shadow on the floor;<br>And my soul from out that shadow that lies floating on the floor<br>        Shall be lifted—nevermore!</p>
+<p><img src="/images/A.png" title="The Raven"></p>
 </p>
-      <div class="post-button"><a class="btn" href="/2022/06/18/hello-world/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>Read More</a></div>
+      <div class="post-button"><a class="btn" href="/2022/06/18/The%20Raven/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>Read More</a></div>
+    </div>
+  </div>
+  <div class="lx-entry padding">
+    <div>
+      <h2 class="title"><a href="/2022/06/18/Sunny/">Sunny</a></h2>
+      <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> 2022-06-18 | <i class="fa fa-folder-o"></i> <a class="category-link" href="/categories/%E5%9B%BE/">图</a></span>
+      <p><p><img src="/images/21-8-21.jpg" title="大晴天！"></p>
+</p>
+      <div class="post-button"><a class="btn" href="/2022/06/18/Sunny/" rel="noopener"><i class="fa fa-angle-double-right fa-fw"></i>Read More</a></div>
     </div>
   </div>
 
@@ -109,7 +146,7 @@
 
 <footer>
   <div>
-  Copyright &copy; 2022.<a href="/">Hexo</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.js.org" target="_blank">Lx</a><br>
+  Copyright &copy; 2022.<a href="/">云彩观测站</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.js.org" target="_blank">Lx</a><br>
   </div>
 </footer>
 
@@ -128,12 +165,12 @@
       <div class="col">
         <div class="row for-pic">
           <div class="profile-pic">
-            <a href="/"><img src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/images/avatar.min.jpeg" alt="John Doe"/></a>
+            <a href="/"><img src="https://cdn.jsdelivr.net/gh/Grooveofmimosa/Picture/avatar.jpg" alt="弋茵"/></a>
           </div>
         </div>
         <div class="row for-name">
-          <p>John Doe</p>
-          <span class="tagline">Hello, World!</span>
+          <p>弋茵</p>
+          <span class="tagline">乘化随舒卷。</span>
         </div>
       </div>
     </span>
@@ -142,18 +179,29 @@
   <ul class="menu-items">
     <li><a href="/"><i class="fa fa-home fa-fw"></i>Home</a></li>
     <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
-    
+    <li class="has-sub"><span class="dropdown-heading">
+      <i class="fa fa-th-list fa-fw"></i>Categories</span>
+        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9B%BE/">图</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87/">文</a></li></ul>
+    </li>
     <li class="has-sub"><span class="dropdown-heading">
       <i class="fa fa-bookmark fa-fw"></i>Pages</span>
         <ul>
-          <li><a href="/guestbook/">Guestbook</a></li>
-        <li><a href="/about/">About</a></li>
+          <li><a href="/shuoshuo/">说说</a></li>
+        <li><a href="/guestbook/">小站留言板</a></li>
         </ul>
     </li>
     <li class="has-sub"><span class="dropdown-heading">
       <i class="fa fa-link fa-fw"></i>Friends</span>
         <ul>
-          <li> <a href="https://lx.js.org" target="_blank">Theme-Lx</a></li>
+          <li> <a href="https://space.bilibili.com/32696995?spm_id_from=333.788.0.0" target="_blank">bilibili个人空间</a></li>
+        <li> <a href="https://space.bilibili.com/38631128/?spm_id_from=333.999.0.0" target="_blank">可爱的fufu不来关注一下吗~</a></li>
+        <li> <a href="https://space.bilibili.com/11086692/?spm_id_from=333.999.0.0" target="_blank">Aipoi的bilibili主页</a></li>
+        <li> <a href="https://space.bilibili.com/25742561/?spm_id_from=333.999.0.0" target="_blank">4cc的bilibili主页</a></li>
+        <li> <a href="https://github.com/blleng/hexo-theme-lx" target="_blank">Hexo-lx主题</a></li>
+        <li> <a href="https://hexo.io/zh-cn/index.html" target="_blank">Hexo官网</a></li>
+        <li> <a href="https://briefcake.com/" target="_blank">RSS订阅</a></li>
+        <li> <a href="https://artitalk.js.org/" target="_blank">Artitalk文档</a></li>
+        <li> <a href="https://nocilol.me/" target="_blank">魔药制作师live2d模型贡献者</a></li>
         </ul>
     </li>
   </ul>
@@ -189,7 +237,20 @@
 	});
 }());
 </script>
+<script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/local.search.min.js"></script>
 
+<!-- 评论框美化 -->
+<style>
+    .v .vwrap .vedit{
+        background: url(https://cdn.jsdelivr.net/gh/drew233/cdn/20200409110727.webp); 
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+</style>
 
 </body>
 </html>
+
+<!--树叶飘落-->
+<script type="text/javascript" src="/js/sakura.js"></script>
+

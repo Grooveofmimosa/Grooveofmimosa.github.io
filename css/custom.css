@@ -1,1 +1,10 @@
 /*--put your own style sheet here--*/
+body {
+  cursor: url("https://fastly.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur"),;
+default
+}
+a,
+img {
+  cursor: url("https://fastly.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur"),;
+default
+}
