@@ -101,7 +101,9 @@
   <div class="lx-post">
     <div class="lx-entry padding">
       <div>
-        <p><img src="/images/21-8-21.jpg" title="大晴天！"></p>
+        <p>大晴天！</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">#代码测试</span><br><span class="line">// 动态心跳</span><br><span class="line">$(document).ready(function(e)&#123;</span><br><span class="line">    $(&#x27;.copyright&#x27;).html(&#x27;©2021 - 2022 &lt;i class=&quot;fa-fw fas fa-heartbeat fa-beat&quot; style=&quot;color: #f92672;&quot;&gt;&lt;/i&gt; By 花猪&#x27;);</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">$(document).ready(function(e)&#123;</span><br><span class="line">    show_date_time();</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line">//本站运行时间</span><br><span class="line">function show_date_time()&#123;</span><br><span class="line">$(&#x27;.framework-info&#x27;).html(&#x27;本站已运行&lt;span id=&quot;span_dt_dt&quot; style=&quot;color: #fff;&quot;&gt;&lt;/span&gt;&#x27;);</span><br><span class="line">window.setTimeout(&quot;show_date_time()&quot;, 1000);</span><br><span class="line">BirthDay=new Date(&quot;1/20/2021 0:0:0&quot;);</span><br><span class="line">today=new Date();</span><br><span class="line">timeold=(today.getTime()-BirthDay.getTime());</span><br><span class="line">sectimeold=timeold/1000</span><br><span class="line">secondsold=Math.floor(sectimeold);</span><br><span class="line">msPerDay=24*60*60*1000</span><br><span class="line">e_daysold=timeold/msPerDay</span><br><span class="line">daysold=Math.floor(e_daysold);</span><br><span class="line">e_hrsold=(e_daysold-daysold)*24;</span><br><span class="line">hrsold=Math.floor(e_hrsold);</span><br><span class="line">e_minsold=(e_hrsold-hrsold)*60;</span><br><span class="line">minsold=Math.floor((e_hrsold-hrsold)*60);</span><br><span class="line">seconds=Math.floor((e_minsold-minsold)*60);</span><br><span class="line">span_dt_dt.innerHTML=&#x27;&lt;font style=color:#afb4db&gt;&#x27;+daysold+&#x27;&lt;/font&gt; 天 &lt;font style=color:#f391a9&gt;&#x27;+hrsold+&#x27;&lt;/font&gt; 时 &lt;font style=color:#fdb933&gt;&#x27;+minsold+&#x27;&lt;/font&gt; 分 &lt;font style=color:#a3cf62&gt;&#x27;+seconds+&#x27;&lt;/font&gt; 秒&#x27;;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 
       </div>
     </div>
@@ -128,7 +130,7 @@
 				<div class="display-tc">
 					<div>
 						<span>Prev</span>
-						<h3>没有更早的文章</h3>
+						<h3>No older post</h3>
 					</div>
 				</div>
 			</div>
@@ -140,7 +142,7 @@
 <div class="comment"><div id="comments"></div></div>
 <footer>
   <div>
-  Copyright &copy; 2022.<a href="/">云彩观测站</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.js.org" target="_blank">Lx</a><br>
+  来自2022&copy;<a href="/">云彩观测站</a>&#10047;<br>
   </div>
 </footer>
 
@@ -169,21 +171,22 @@
   </div>
   <nav class="menu-container">
   <ul class="menu-items">
-    <li><a href="/"><i class="fa fa-home fa-fw"></i>首页</a></li>
-    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+    <li><a href="/"><i class="fa fa-home fa-fw"></i>Home</a></li>
+    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
     <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-th-list fa-fw"></i>分类</span>
+      <i class="fa fa-th-list fa-fw"></i>Categories</span>
         <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9B%BE/">图</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%96%87/">文</a></li></ul>
     </li>
     <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-bookmark fa-fw"></i>页面</span>
+      <i class="fa fa-bookmark fa-fw"></i>Pages</span>
         <ul>
           <li><a href="/shuoshuo/">说说</a></li>
-        <li><a href="/guestbook/">小站留言板</a></li>
+        <li><a href="/plan/">小站施工计划</a></li>
+        <li><a href="/guestbook/">留言板</a></li>
         </ul>
     </li>
     <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-link fa-fw"></i>友链</span>
+      <i class="fa fa-link fa-fw"></i>Friends</span>
         <ul>
           <li> <a href="https://www.feed2mail.com/" target="_blank">RSS订阅</a></li>
         <li> <a href="https://space.bilibili.com/32696995?spm_id_from=333.788.0.0" target="_blank">bilibili个人空间</a></li>

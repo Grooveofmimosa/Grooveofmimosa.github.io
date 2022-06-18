@@ -1,10 +1,29 @@
 /*--put your own style sheet here--*/
 body {
-  cursor: url("https://fastly.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur"),;
-default
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: $black-s;
+  background: $white-l;
+  cursor: url("https://cdn.jsdelivr.net/gh/Grooveofmimosa/Picture/planet.cur"), auto;
 }
-a,
-img {
-  cursor: url("https://fastly.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur"),;
-default
+#page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+a {
+  color: $a-post;
+  text-decoration: none;
+  transition: 0.5s;
+}
+a:hover,
+a:active,
+a:focus {
+  color: $a-hover-post;
+  outline: none;
+  text-decoration: none;
+  cursor: url("https://cdn.jsdelivr.net/gh/Grooveofmimosa/Picture/pointer.cur"), auto !important;
 }
