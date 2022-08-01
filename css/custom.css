@@ -1,4 +1,5 @@
 /*--put your own style sheet here--*/
+/*--鼠标指针+改字重--*/
 body {
   margin: 0;
   font-weight: 400;
@@ -27,6 +28,44 @@ a:focus {
   outline: none;
   text-decoration: none;
   cursor: url("https://cdn.jsdelivr.net/gh/Grooveofmimosa/Picture/pointer0.cur"), auto !important;
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+figure {
+  color: $black-l;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+h2.pagehead {
+  padding: 20px 0px 0px 60px;
+  color: $black;
+  font-weight: 500;
+}
+h2.title {
+  padding-left: 8px;
+  border-left: 4px solid $deep-red;
+}
+h2.title a {
+  color: $black-g;
+}
+#lx-aside .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: $green-classic;
 }
 /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
 ::-webkit-scrollbar {

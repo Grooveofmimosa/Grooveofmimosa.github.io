@@ -6,7 +6,7 @@
   <link href="https://grooveofmimosa.github.io/atom.xml" rel="self"/>
   
   <link href="https://grooveofmimosa.github.io/"/>
-  <updated>2022-06-18T15:52:33.904Z</updated>
+  <updated>2022-08-01T13:40:49.275Z</updated>
   <id>https://grooveofmimosa.github.io/</id>
   
   <author>
@@ -20,25 +20,8 @@
     <title>页面测试</title>
     <link href="https://grooveofmimosa.github.io/2022/06/18/%E9%A1%B5%E9%9D%A2%E6%B5%8B%E8%AF%95/"/>
     <id>https://grooveofmimosa.github.io/2022/06/18/%E9%A1%B5%E9%9D%A2%E6%B5%8B%E8%AF%95/</id>
-    <published>2022-06-18T09:19:56.951Z</published>
-    <updated>2022-06-18T15:52:33.904Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;Once upon a midnight dreary, while I pondered, weak and weary,&lt;br&gt;Over many a quaint and curious volume of forgotten lore—&lt;br&gt;While I nodded, nearly napping, suddenly there came a tapping,&lt;br&gt;As of some one gently rapping, rapping at my chamber door—&lt;br&gt;“‘Tis some visitor,” I muttered, “tapping at my chamber door—&lt;br&gt;        Only this and nothing more.”&lt;br&gt;Ah, distinctly I remember it was in the bleak December;&lt;br&gt;And each separate dying ember wrought its ghost upon the floor.&lt;br&gt;Eagerly I wished the morrow;—vainly I had sought to borrow&lt;br&gt;From my books surcease of sorrow—sorrow for the lost Lenore—&lt;br&gt;For the rare and radiant maiden whom the angels name Lenore—&lt;br&gt;        Nameless &lt;em&gt;here&lt;/em&gt; for evermore.&lt;br&gt;And the silken, sad, uncertain rustling of each purple curtain&lt;br&gt;Thrilled me—filled me with fantastic terrors never felt before;&lt;br&gt;So that now, to still the beating of my heart, I stood repeating,&lt;br&gt;“‘Tis some visitor entreating entrance at my chamber door—&lt;br&gt;Some late visitor entreating entrance at my chamber door;—&lt;br&gt;        This it is and nothing more.”&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="文" scheme="https://grooveofmimosa.github.io/categories/%E6%96%87/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>The Raven</title>
-    <link href="https://grooveofmimosa.github.io/2022/06/18/The%20Raven/"/>
-    <id>https://grooveofmimosa.github.io/2022/06/18/The%20Raven/</id>
     <published>2022-06-18T00:20:55.131Z</published>
-    <updated>2022-06-18T12:55:23.323Z</updated>
+    <updated>2022-08-01T13:40:49.275Z</updated>
     
     
     <summary type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;It is my design to render it manifest that no one point in its composition is referrible either to accident or intuition — that the work proceeded, step by step, to its completion with the precision and rigid consequence of a mathematical problem.&lt;/p&gt;
@@ -47,26 +30,24 @@
     
     
     
-    <category term="文" scheme="https://grooveofmimosa.github.io/categories/%E6%96%87/"/>
+    <category term="测试" scheme="https://grooveofmimosa.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
     
-    
-    <category term="Edgar Allan Poe" scheme="https://grooveofmimosa.github.io/tags/Edgar-Allan-Poe/"/>
     
   </entry>
   
   <entry>
-    <title>Sunny</title>
-    <link href="https://grooveofmimosa.github.io/2022/06/18/Sunny/"/>
-    <id>https://grooveofmimosa.github.io/2022/06/18/Sunny/</id>
+    <title>代码块测试</title>
+    <link href="https://grooveofmimosa.github.io/2022/06/18/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B5%8B%E8%AF%95/"/>
+    <id>https://grooveofmimosa.github.io/2022/06/18/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B5%8B%E8%AF%95/</id>
     <published>2022-06-18T00:20:55.116Z</published>
-    <updated>2022-06-19T08:27:56.444Z</updated>
+    <updated>2022-08-01T13:39:36.418Z</updated>
     
     
     <summary type="html">&lt;p&gt;大晴天！&lt;/p&gt;</summary>
     
     
     
-    <category term="图" scheme="https://grooveofmimosa.github.io/categories/%E5%9B%BE/"/>
+    <category term="测试" scheme="https://grooveofmimosa.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
     
     
   </entry>
