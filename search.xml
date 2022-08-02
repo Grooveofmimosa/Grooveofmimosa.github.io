@@ -71,4 +71,64 @@
         <category>测试</category>
       </categories>
   </entry>
+  <entry>
+    <title>写作样式测试</title>
+    <url>/2022/08/02/%E5%86%99%E4%BD%9C%E6%A0%B7%E5%BC%8F%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p>测试</p>
+<h2><a href="#wen-zhang-xie-zuo-yang-shi" class="header-anchor">&#127795</a><span id="wen-zhang-xie-zuo-yang-shi">文章写作样式</span></h2><h3><a href="#wen-zhang-zhai-yao" class="header-anchor">&#127795</a><span id="wen-zhang-zhai-yao">文章摘要</span></h3><p>在<code>&lt;!--more--&gt;</code>标签之前的内容将作为文章摘要在首页展示。</p>
+<h3><a href="#note-tag" class="header-anchor">&#127795</a><span id="note-tag">Note tag</span></h3><p>可选用<code>default</code>、<code>info</code>、<code>primary</code>、<code>success</code>、<code>warning</code>、<code>danger</code>。</p>
+<p>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;%note default%&#125;</span><br><span class="line"><span class="section">### title</span></span><br><span class="line">content</span><br><span class="line">&#123;%endnote%&#125;</span><br></pre></td></tr></table></figure>
+<div class="note default">
+            <h3><a href="#title" class="header-anchor">&#127795</a><span id="title">title</span></h3><p>content</p>
+          </div>
+
+<div class="note info">
+            <h3><a href="#title" class="header-anchor">&#127795</a><span id="title">title</span></h3><p>content</p>
+          </div>
+
+<div class="note primary">
+            <h3><a href="#title" class="header-anchor">&#127795</a><span id="title">title</span></h3><p>content</p>
+          </div>
+
+<div class="note success">
+            <h3><a href="#title" class="header-anchor">&#127795</a><span id="title">title</span></h3><p>content</p>
+          </div>
+
+<div class="note warning">
+            <h3><a href="#title" class="header-anchor">&#127795</a><span id="title">title</span></h3><p>content</p>
+          </div>
+
+<div class="note danger">
+            <h3><a href="#title" class="header-anchor">&#127795</a><span id="title">title</span></h3><p>content</p>
+          </div>
+
+<h3><a href="#label-tag" class="header-anchor">&#127795</a><span id="label-tag">Label tag</span></h3><p>可选用<code>default</code>、<code>info</code>、<code>primary</code>、<code>success</code>、<code>warning</code>、<code>danger</code>。</p>
+<p>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;%label default@content%&#125;</span><br></pre></td></tr></table></figure>
+<span class="label default">测试</span><span class="label info">测试</span>
+
+<h3><a href="#button-tag" class="header-anchor">&#127795</a><span id="button-tag">Button tag</span></h3><p>标准样式：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;%btn url,content,hand-o-right fa-fw,title%&#125;</span><br></pre></td></tr></table></figure>
+<a class="btn" href="https://grooveofmimosa.github.io/ " title="title"><i class="fa fa-hand-o-right fa-fw"></i>测试</a>
+
+<p>说明：</p>
+<p><code>url</code>：指向的链接</p>
+<p><code>content</code>：内容</p>
+<p><code>hand-o-right fa-fw</code>：图标，可换成其他图标。<code>fa-fw</code>：fix width</p>
+<p><code>title</code>：title</p>
+<h3><a href="#center-quote-tag" class="header-anchor">&#127795</a><span id="center-quote-tag">center-quote tag</span></h3><p>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;%cq%&#125;</span><br><span class="line">人类的悲欢并不相通，我只觉得他们吵闹。<span class="language-xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><span class="language-xml"><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span>——鲁迅<span class="language-xml"><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span></span><br><span class="line">&#123;%endcq%&#125;</span><br></pre></td></tr></table></figure>
+
+<h3><a href="#video-tag" class="header-anchor">&#127795</a><span id="video-tag">video tag</span></h3><p>示例：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% video url %&#125;</span><br></pre></td></tr></table></figure>
+<video src="https://www.bilibili.com/video/BV1yB4y1Q7VQ?spm_id_from=333.999.0.0&vd_source=270fb41443e0f10c086b20454d4898d0" preload="metadata" controls playsinline poster>Sorry, your browser does not support the video tag.</video>
+
+<p>说明：</p>
+<p><code>url</code>：视频链接</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
 </search>
