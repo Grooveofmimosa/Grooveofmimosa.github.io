@@ -6,7 +6,7 @@
   <link href="https://grooveofmimosa.github.io/atom.xml" rel="self"/>
   
   <link href="https://grooveofmimosa.github.io/"/>
-  <updated>2023-03-28T08:50:41.063Z</updated>
+  <updated>2023-03-28T08:56:19.015Z</updated>
   <id>https://grooveofmimosa.github.io/</id>
   
   <author>
@@ -17,24 +17,58 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>每周回顾测试</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/28/%E6%AF%8F%E5%91%A8%E5%9B%9E%E9%A1%BE%E6%B5%8B%E8%AF%95/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/28/%E6%AF%8F%E5%91%A8%E5%9B%9E%E9%A1%BE%E6%B5%8B%E8%AF%95/</id>
-    <published>2023-03-28T07:32:35.262Z</published>
-    <updated>2023-03-28T08:50:41.063Z</updated>
+    <title>第八周回顾</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/28/%E7%AC%AC%E5%85%AB%E5%91%A8%E5%9B%9E%E9%A1%BE/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/28/%E7%AC%AC%E5%85%AB%E5%91%A8%E5%9B%9E%E9%A1%BE/</id>
+    <published>2023-03-28T08:48:47.051Z</published>
+    <updated>2023-03-28T08:56:19.015Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;本周完成（3-22-3-27）&quot;&gt;&lt;a href=&quot;#本周完成（3-22-3-27）&quot; class=&quot;headerlink&quot; title=&quot;本周完成（3.22-3.27）&quot;&gt;&lt;/a&gt;本周完成（3.22-3.27）&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;考研&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;英语：单词120个&lt;/li&gt;
+&lt;li&gt;数学：完成高数第八章，回顾了一点点第六章&lt;/li&gt;
+&lt;li&gt;专业课：看完《大学物理》力学部分第一章、第二章&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;学业&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;学年论文：完成了初稿的draft（本周写了2000字）&lt;/li&gt;
+&lt;li&gt;课程作业：初步准备政治文献课的pre&lt;/li&gt;
+&lt;li&gt;文献考试：读了一点点《全球化的悖论》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生活&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;充分而彻底地研究了inoreader、WeRSS以及RSS订阅方案&lt;/li&gt;
+&lt;li&gt;试图注册ChatGPT&lt;/li&gt;
+&lt;li&gt;重启Hexo，用作每周回顾记录&lt;/li&gt;
+&lt;li&gt;和翟师一起吃饭&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;下周展望（3-29-4-3）&quot;&gt;&lt;a href=&quot;#下周展望（3-29-4-3）&quot; class=&quot;headerlink&quot; title=&quot;下周展望（3.29-4.3）&quot;&gt;&lt;/a&gt;下周展望（3.29-4.3）&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;考研&lt;/strong&gt;（并联）&lt;ul&gt;
+&lt;li&gt;英语：单词背至余量1960，一天20；feedly一天一篇&lt;/li&gt;
+&lt;li&gt;数学：高数六七章练习&amp;amp;三四章纠错&lt;/li&gt;
+&lt;li&gt;专业课：大学物理力学部分看完，热学部分看两眼&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;学业&lt;/strong&gt;（串联）&lt;ul&gt;
+&lt;li&gt;学年论文：初稿整理2000字，发给老师&lt;/li&gt;
+&lt;li&gt;课程作业：政治文献pre&lt;/li&gt;
+&lt;li&gt;文献考试：看完《全球化的悖论》《东周战争》&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生活&lt;/strong&gt;&lt;ul&gt;
+&lt;li&gt;好好睡觉：及时上床和洗漱，不在床上玩手机&lt;/li&gt;
+&lt;li&gt;运动：至少去一次健身房&lt;/li&gt;
+&lt;li&gt;玩耍：珺珺生日&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
-    <category term="测试" scheme="https://grooveofmimosa.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    <category term="每周回顾" scheme="https://grooveofmimosa.github.io/categories/%E6%AF%8F%E5%91%A8%E5%9B%9E%E9%A1%BE/"/>
     
     
   </entry>
@@ -44,16 +78,57 @@
     <link href="https://grooveofmimosa.github.io/2022/08/02/Blog%E6%B5%8B%E8%AF%95/"/>
     <id>https://grooveofmimosa.github.io/2022/08/02/Blog%E6%B5%8B%E8%AF%95/</id>
     <published>2022-08-02T03:26:01.486Z</published>
-    <updated>2023-03-28T06:51:35.120Z</updated>
+    <updated>2023-03-28T08:56:10.208Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;文章写作样式&quot;&gt;&lt;a href=&quot;#文章写作样式&quot; class=&quot;headerlink&quot; title=&quot;文章写作样式&quot;&gt;&lt;/a&gt;文章写作样式&lt;/h2&gt;&lt;h3 id=&quot;文章摘要&quot;&gt;&lt;a href=&quot;#文章摘要&quot; class=&quot;headerlink&quot; title=&quot;文章摘要&quot;&gt;&lt;/a&gt;文章摘要&lt;/h3&gt;&lt;p&gt;在&lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;标签之前的内容将作为文章摘要在首页展示。&lt;/p&gt;
+&lt;h3 id=&quot;Note-tag&quot;&gt;&lt;a href=&quot;#Note-tag&quot; class=&quot;headerlink&quot; title=&quot;Note tag&quot;&gt;&lt;/a&gt;Note tag&lt;/h3&gt;&lt;p&gt;可选用&lt;code&gt;default&lt;/code&gt;、&lt;code&gt;info&lt;/code&gt;、&lt;code&gt;primary&lt;/code&gt;、&lt;code&gt;success&lt;/code&gt;、&lt;code&gt;warning&lt;/code&gt;、&lt;code&gt;danger&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%note default%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;### title&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;content&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%endnote%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;div class=&quot;note default&quot;&gt;
+            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
+          &lt;/div&gt;
+
+&lt;div class=&quot;note info&quot;&gt;
+            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
+          &lt;/div&gt;
+
+&lt;div class=&quot;note primary&quot;&gt;
+            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
+          &lt;/div&gt;
+
+&lt;div class=&quot;note success&quot;&gt;
+            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
+          &lt;/div&gt;
+
+&lt;div class=&quot;note warning&quot;&gt;
+            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
+          &lt;/div&gt;
+
+&lt;div class=&quot;note danger&quot;&gt;
+            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
+          &lt;/div&gt;
+
+&lt;h3 id=&quot;Label-tag&quot;&gt;&lt;a href=&quot;#Label-tag&quot; class=&quot;headerlink&quot; title=&quot;Label tag&quot;&gt;&lt;/a&gt;Label tag&lt;/h3&gt;&lt;p&gt;可选用&lt;code&gt;default&lt;/code&gt;、&lt;code&gt;info&lt;/code&gt;、&lt;code&gt;primary&lt;/code&gt;、&lt;code&gt;success&lt;/code&gt;、&lt;code&gt;warning&lt;/code&gt;、&lt;code&gt;danger&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%label default@content%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;span class=&quot;label default&quot;&gt;测试&lt;/span&gt;&lt;span class=&quot;label info&quot;&gt;测试&lt;/span&gt;
+
+&lt;h3 id=&quot;Button-tag&quot;&gt;&lt;a href=&quot;#Button-tag&quot; class=&quot;headerlink&quot; title=&quot;Button tag&quot;&gt;&lt;/a&gt;Button tag&lt;/h3&gt;&lt;p&gt;标准样式：&lt;/p&gt;
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%btn url,content,hand-o-right fa-fw,title%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;a class=&quot;btn&quot; href=&quot;https://grooveofmimosa.github.io/ &quot; title=&quot;title&quot;&gt;&lt;i class=&quot;fa fa-hand-o-right fa-fw&quot;&gt;&lt;/i&gt;测试&lt;/a&gt;
+
+&lt;p&gt;说明：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;url&lt;/code&gt;：指向的链接&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;content&lt;/code&gt;：内容&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hand-o-right fa-fw&lt;/code&gt;：图标，可换成其他图标。&lt;code&gt;fa-fw&lt;/code&gt;：fix width&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;title&lt;/code&gt;：title&lt;/p&gt;
+&lt;h3 id=&quot;center-quote-tag&quot;&gt;&lt;a href=&quot;#center-quote-tag&quot; class=&quot;headerlink&quot; title=&quot;center-quote tag&quot;&gt;&lt;/a&gt;center-quote tag&lt;/h3&gt;&lt;p&gt;示例：&lt;/p&gt;
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%cq%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;人类的悲欢并不相通，我只觉得他们吵闹。&lt;span class=&quot;language-xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;language-xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;strong&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;——鲁迅&lt;span class=&quot;language-xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;strong&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%endcq%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+
+
+&lt;h2 id=&quot;代码块测试&quot;&gt;&lt;a href=&quot;#代码块测试&quot; class=&quot;headerlink&quot; title=&quot;代码块测试&quot;&gt;&lt;/a&gt;代码块测试&lt;/h2&gt;&lt;figure class=&quot;highlight json&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 动态心跳&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$(document).ready(function(e)&lt;span class=&quot;punctuation&quot;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    $(&amp;#x27;.copyright&amp;#x27;).html(&amp;#x27;©&lt;span class=&quot;number&quot;&gt;2021&lt;/span&gt; - &lt;span class=&quot;number&quot;&gt;2022&lt;/span&gt; &amp;lt;i class=&lt;span class=&quot;string&quot;&gt;&amp;quot;fa-fw fas fa-heartbeat fa-beat&amp;quot;&lt;/span&gt; style=&lt;span class=&quot;string&quot;&gt;&amp;quot;color: #f92672;&amp;quot;&lt;/span&gt;&amp;gt;&amp;lt;/i&amp;gt; By 花猪&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;punctuation&quot;&gt;&amp;#125;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$(document).ready(function(e)&lt;span class=&quot;punctuation&quot;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    show_date_time();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;punctuation&quot;&gt;&amp;#125;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//本站运行时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;function show_date_time()&lt;span class=&quot;punctuation&quot;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$(&amp;#x27;.framework-info&amp;#x27;).html(&amp;#x27;本站已运行&amp;lt;span id=&lt;span class=&quot;string&quot;&gt;&amp;quot;span_dt_dt&amp;quot;&lt;/span&gt; style=&lt;span class=&quot;string&quot;&gt;&amp;quot;color: #fff;&amp;quot;&lt;/span&gt;&amp;gt;&amp;lt;/span&amp;gt;&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;window.setTimeout(&lt;span class=&quot;string&quot;&gt;&amp;quot;show_date_time()&amp;quot;&lt;/span&gt;&lt;span class=&quot;punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;1000&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;BirthDay=new Date(&lt;span class=&quot;string&quot;&gt;&amp;quot;1/20/2021 0:0:0&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;today=new Date();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;timeold=(today.getTime()-BirthDay.getTime());&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sectimeold=timeold/&lt;span class=&quot;number&quot;&gt;1000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;secondsold=Math.floor(sectimeold);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;msPerDay=&lt;span class=&quot;number&quot;&gt;24&lt;/span&gt;*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;*&lt;span class=&quot;number&quot;&gt;1000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e_daysold=timeold/msPerDay&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;daysold=Math.floor(e_daysold);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e_hrsold=(e_daysold-daysold)*&lt;span class=&quot;number&quot;&gt;24&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hrsold=Math.floor(e_hrsold);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e_minsold=(e_hrsold-hrsold)*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;minsold=Math.floor((e_hrsold-hrsold)*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;seconds=Math.floor((e_minsold-minsold)*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;span_dt_dt.innerHTML=&amp;#x27;&amp;lt;font style=color&lt;span class=&quot;punctuation&quot;&gt;:&lt;/span&gt;#afb4db&amp;gt;&amp;#x27;+daysold+&amp;#x27;&amp;lt;/font&amp;gt; 天 &amp;lt;font style=color&lt;span class=&quot;punctuation&quot;&gt;:&lt;/span&gt;#f391a9&amp;gt;&amp;#x27;+hrsold+&amp;#x27;&amp;lt;/font&amp;gt; 时 &amp;lt;font style=color&lt;span class=&quot;punctuation&quot;&gt;:&lt;/span&gt;#fdb933&amp;gt;&amp;#x27;+minsold+&amp;#x27;&amp;lt;/font&amp;gt; 分 &amp;lt;font style=color&lt;span class=&quot;punctuation&quot;&gt;:&lt;/span&gt;#a3cf62&amp;gt;&amp;#x27;+seconds+&amp;#x27;&amp;lt;/font&amp;gt; 秒&amp;#x27;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;punctuation&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     
