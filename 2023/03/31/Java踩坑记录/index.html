@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content=#58b77a>
-  <title>分类-测试 | 云彩观测站</title>
+  <title>Java踩坑记录 | 云彩观测站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="弋茵">
   <meta name="keywords" content="">
@@ -64,8 +64,7 @@
 <meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="云彩观测站" type="application/atom+xml">
 </head>
 <body>
-
-<div id="page">
+<div class="single">
 <div class="popup search-popup local-search-popup">
   <div class="local-search-header clearfix">
     <span class="search-icon">
@@ -83,15 +82,16 @@
   <div id="local-search-result"></div>
 </div>
 
+<div id="page">
 <div class="header">
-  <div id="lx-aside" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZGhvD.jpg)">
+  <div id="lx-aside" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZGb5t.jpg)" data-stellar-background-ratio="0.5">
     <div class="overlay">
       <a href="javascript:;" class="popup-trigger" title="search"><i class="menu-item-icon fa fa-search fa-fw"></i></a>
-      <div class="featured">
+      <div class="page-title">
         <div class="avatar"><a href="/"><img src="https://s1.ax1x.com/2022/08/03/vZGW8K.jpg" alt="弋茵"></a></div>
-        <span>弋茵</span>
-        <h1>云彩观测站</h1>
-        <span>琐事，和一些相片</span>
+        <span>2023-03-31</span>
+        <h2>Java踩坑记录</h2>
+        <div class="tags"><i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/Java/" rel="tag">Java</a> <i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E5%B0%8F%E5%B0%8F%E6%80%BB%E7%BB%93/" rel="tag">小小总结</a></div>
         
       </div>
     </div>
@@ -99,12 +99,59 @@
 </div>
 <div id="lx-main-content">
   <div class="lx-post">
-  <h2 class="pagehead">分类 测试</h2>
-    <div class="lx-entry padding"><div>
-    <span class="lx-post-detail">2022-08-02</span>
-    <h2 class="title"><a href="/2022/08/02/Blog%E6%B5%8B%E8%AF%95/">Blog测试</a></h2>
-    <p></p></div></div>
+    <div class="lx-entry padding">
+      <div>
+        <h2><a href="#cuo-wu-zhao-bu-dao-fu-hao" class="header-anchor">&#127795</a><span id="cuo-wu-zhao-bu-dao-fu-hao">错误：找不到符号</span></h2><p>使用通配符进行批量编译</p>
+<h2><a href="#jar-zhong-mei-you-zhu-qing-dan-shu-xing" class="header-anchor">&#127795</a><span id="jar-zhong-mei-you-zhu-qing-dan-shu-xing">jar中没有主清单属性</span></h2><ul>
+<li>用压缩包的方式打开jar文件</li>
+<li>打开META-INF文件夹,看到MANIFEST.MF文件</li>
+<li>添加一句代码 Main-Class: xxxxx</li>
+</ul>
+<h2><a href="#zhao-bu-dao-huo-wu-fa-jia-zai-zhu-lei" class="header-anchor">&#127795</a><span id="zhao-bu-dao-huo-wu-fa-jia-zai-zhu-lei">找不到或无法加载主类</span></h2><ol>
+<li>编译时需要加-d . (有package)</li>
+<li>运行时需要加包名</li>
+</ol>
+<h2><a href="#xx-bu-shi-nei-bu-huo-wai-bu-ming-ling" class="header-anchor">&#127795</a><span id="xx-bu-shi-nei-bu-huo-wai-bu-ming-ling">xx不是内部或外部命令</span></h2><ol>
+<li>重启cmd</li>
+<li>未配置环境变量，或将%%中间内容替换为实际路径</li>
+</ol>
+<h2><a href="#lei-zhong-zhao-bu-dao-fu-hao" class="header-anchor">&#127795</a><span id="lei-zhong-zhao-bu-dao-fu-hao">类中找不到符号</span></h2><p>记得import组件文件</p>
+<h2><a href="#mo-ming-bao-yu-fa-cuo-wu" class="header-anchor">&#127795</a><span id="mo-ming-bao-yu-fa-cuo-wu">莫名报语法错误</span></h2><p>可能是自动import了不需要的包</p>
 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="lx-navigation">
+	<div class="lx-cover next lx-cover-sm" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZG5Ke.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="/2023/03/31/Katex%E5%B8%B8%E8%A7%81%E7%94%A8%E4%BE%8B/">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Next</span>
+						<h3>Katex常见用例</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+        <div class="lx-cover prev lx-cover-sm" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZG7VA.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="/2023/03/31/C++%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Prev</span>
+						<h3>C++踩坑记录</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+</div>
 
 <footer>
   <div>
@@ -112,8 +159,6 @@
   </div>
 </footer>
 
-  </div>
-</div>
 </div>
 
 <button class="hamburger hamburger--arrow-r" type="button" title="menu">
@@ -141,10 +186,7 @@
   <ul class="menu-items">
     <li><a href="/"><i class="fa fa-home fa-fw"></i>首页</a></li>
     <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>归档</a></li>
-    <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-th-list fa-fw"></i>分类</span>
-        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%AF%8F%E5%91%A8%E5%9B%9E%E9%A1%BE/">每周回顾</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%B5%8B%E8%AF%95/">测试</a></li></ul>
-    </li>
+    
     <li class="has-sub"><span class="dropdown-heading">
       <i class="fa fa-bookmark fa-fw"></i>页面</span>
         <ul>
@@ -187,6 +229,36 @@
 </script>
 <script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/local.search.min.js"></script>
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+  TeX: {
+          extensions: ["mhchem.js"]
+    }
+  });
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
+        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
+      }
+    });
+  });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      document.getElementById(all[i].inputID + '-Frame').parentNode.className += ' has-jax';
+    }
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js"></script>
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":300,"height":300},"mobile":{"show":false},"react":{"opacity":1}});</script></body>
 </html>
 

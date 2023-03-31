@@ -6,7 +6,7 @@
   <link href="https://grooveofmimosa.github.io/atom.xml" rel="self"/>
   
   <link href="https://grooveofmimosa.github.io/"/>
-  <updated>2023-03-28T08:56:19.015Z</updated>
+  <updated>2023-03-31T14:07:32.995Z</updated>
   <id>https://grooveofmimosa.github.io/</id>
   
   <author>
@@ -17,11 +17,409 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>自制桌面小屏幕</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E8%87%AA%E5%88%B6%E6%A1%8C%E9%9D%A2%E5%B0%8F%E5%B1%8F%E5%B9%95/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E8%87%AA%E5%88%B6%E6%A1%8C%E9%9D%A2%E5%B0%8F%E5%B1%8F%E5%B9%95/</id>
+    <published>2023-03-31T14:07:32.995Z</published>
+    <updated>2023-03-31T14:07:32.995Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="嵌入式" scheme="https://grooveofmimosa.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    <category term="动手记录" scheme="https://grooveofmimosa.github.io/tags/%E5%8A%A8%E6%89%8B%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高等代数第二章-n阶行列式</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC2%E7%AB%A0-N%E9%98%B6%E8%A1%8C%E5%88%97%E5%BC%8F/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC2%E7%AB%A0-N%E9%98%B6%E8%A1%8C%E5%88%97%E5%BC%8F/</id>
+    <published>2023-03-31T13:23:01.272Z</published>
+    <updated>2023-03-31T13:57:42.668Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="高等代数" scheme="https://grooveofmimosa.github.io/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    
+    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高等代数第三章-线性空间</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC3%E7%AB%A0-%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC3%E7%AB%A0-%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4/</id>
+    <published>2023-03-31T13:23:01.272Z</published>
+    <updated>2023-03-31T13:57:11.811Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="高等代数" scheme="https://grooveofmimosa.github.io/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    
+    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高等代数第零章-数学的思维方式</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC0%E7%AB%A0-%E6%95%B0%E5%AD%A6%E7%9A%84%E6%80%9D%E7%BB%B4%E6%96%B9%E5%BC%8F/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC0%E7%AB%A0-%E6%95%B0%E5%AD%A6%E7%9A%84%E6%80%9D%E7%BB%B4%E6%96%B9%E5%BC%8F/</id>
+    <published>2023-03-31T13:23:01.253Z</published>
+    <updated>2023-03-31T13:59:00.183Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="高等代数" scheme="https://grooveofmimosa.github.io/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    
+    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高等代数第一章-线性方程组的解法</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC1%E7%AB%A0-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E7%9A%84%E8%A7%A3%E6%B3%95/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC1%E7%AB%A0-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E7%9A%84%E8%A7%A3%E6%B3%95/</id>
+    <published>2023-03-31T13:23:01.253Z</published>
+    <updated>2023-03-31T13:58:37.426Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="高等代数" scheme="https://grooveofmimosa.github.io/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    
+    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电路原理第二讲-电阻电路的基本分析方法</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC2%E8%AE%B2%20%E7%94%B5%E9%98%BB%E7%94%B5%E8%B7%AF%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC2%E8%AE%B2%20%E7%94%B5%E9%98%BB%E7%94%B5%E8%B7%AF%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</id>
+    <published>2023-03-31T13:22:46.789Z</published>
+    <updated>2023-03-31T14:00:36.926Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="电路原理" scheme="https://grooveofmimosa.github.io/tags/%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电路原理第三讲-电路的等效变换</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC3%E8%AE%B2%20%E7%94%B5%E8%B7%AF%E7%9A%84%E7%AD%89%E6%95%88%E5%8F%98%E6%8D%A2/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC3%E8%AE%B2%20%E7%94%B5%E8%B7%AF%E7%9A%84%E7%AD%89%E6%95%88%E5%8F%98%E6%8D%A2/</id>
+    <published>2023-03-31T13:22:46.789Z</published>
+    <updated>2023-03-31T14:00:54.215Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="电路原理" scheme="https://grooveofmimosa.github.io/tags/%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电路原理第一讲-绪论，电压电路和功率</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC1%E8%AE%B2%20%E7%BB%AA%E8%AE%BA%EF%BC%8C%E7%94%B5%E5%8E%8B%E7%94%B5%E8%B7%AF%E5%92%8C%E5%8A%9F%E7%8E%87/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC1%E8%AE%B2%20%E7%BB%AA%E8%AE%BA%EF%BC%8C%E7%94%B5%E5%8E%8B%E7%94%B5%E8%B7%AF%E5%92%8C%E5%8A%9F%E7%8E%87/</id>
+    <published>2023-03-31T13:22:46.772Z</published>
+    <updated>2023-03-31T14:00:13.605Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="电路原理" scheme="https://grooveofmimosa.github.io/tags/%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Katex常见用例</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/Katex%E5%B8%B8%E8%A7%81%E7%94%A8%E4%BE%8B/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/Katex%E5%B8%B8%E8%A7%81%E7%94%A8%E4%BE%8B/</id>
+    <published>2023-03-31T13:22:15.134Z</published>
+    <updated>2023-03-31T14:03:33.944Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="小小总结" scheme="https://grooveofmimosa.github.io/tags/%E5%B0%8F%E5%B0%8F%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="Katex" scheme="https://grooveofmimosa.github.io/tags/Katex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java踩坑记录</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/Java%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/Java%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</id>
+    <published>2023-03-31T13:22:04.499Z</published>
+    <updated>2023-03-31T14:06:41.536Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="Java" scheme="https://grooveofmimosa.github.io/tags/Java/"/>
+    
+    <category term="小小总结" scheme="https://grooveofmimosa.github.io/tags/%E5%B0%8F%E5%B0%8F%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++踩坑记录</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/C++%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/C++%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</id>
+    <published>2023-03-31T13:21:56.132Z</published>
+    <updated>2023-03-31T14:06:14.130Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="小小总结" scheme="https://grooveofmimosa.github.io/tags/%E5%B0%8F%E5%B0%8F%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="C语言" scheme="https://grooveofmimosa.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《精力管理》和《超效率手册》</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E3%80%8A%E7%B2%BE%E5%8A%9B%E7%AE%A1%E7%90%86%E3%80%8B%E5%92%8C%E3%80%8A%E8%B6%85%E6%95%88%E7%8E%87%E6%89%8B%E5%86%8C%E3%80%8B/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E3%80%8A%E7%B2%BE%E5%8A%9B%E7%AE%A1%E7%90%86%E3%80%8B%E5%92%8C%E3%80%8A%E8%B6%85%E6%95%88%E7%8E%87%E6%89%8B%E5%86%8C%E3%80%8B/</id>
+    <published>2023-03-31T13:21:46.952Z</published>
+    <updated>2023-03-31T13:54:24.420Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="效率" scheme="https://grooveofmimosa.github.io/tags/%E6%95%88%E7%8E%87/"/>
+    
+    <category term="读书笔记" scheme="https://grooveofmimosa.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《C primer plus》</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E3%80%8AC%20primer%20plus%E3%80%8B/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E3%80%8AC%20primer%20plus%E3%80%8B/</id>
+    <published>2023-03-31T13:21:35.371Z</published>
+    <updated>2023-03-31T13:53:45.666Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="C语言" scheme="https://grooveofmimosa.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="阅读笔记" scheme="https://grooveofmimosa.github.io/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《国际经济学：理论与政策》</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E3%80%8A%E5%9B%BD%E9%99%85%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%9A%E7%90%86%E8%AE%BA%E4%B8%8E%E6%94%BF%E7%AD%96%E3%80%8B/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E3%80%8A%E5%9B%BD%E9%99%85%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%9A%E7%90%86%E8%AE%BA%E4%B8%8E%E6%94%BF%E7%AD%96%E3%80%8B/</id>
+    <published>2023-03-31T13:21:33.090Z</published>
+    <updated>2023-03-31T14:04:01.498Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="阅读笔记" scheme="https://grooveofmimosa.github.io/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="国际经济学" scheme="https://grooveofmimosa.github.io/tags/%E5%9B%BD%E9%99%85%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>5个跑步姿势秘诀</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/5%E4%B8%AA%E8%B7%91%E6%AD%A5%E5%A7%BF%E5%8A%BF%E7%A7%98%E8%AF%80/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/5%E4%B8%AA%E8%B7%91%E6%AD%A5%E5%A7%BF%E5%8A%BF%E7%A7%98%E8%AF%80/</id>
+    <published>2023-03-31T13:20:32.479Z</published>
+    <updated>2023-03-31T13:55:42.111Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="跑步" scheme="https://grooveofmimosa.github.io/tags/%E8%B7%91%E6%AD%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>画画成长路线</title>
+    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%94%BB%E7%94%BB%E6%88%90%E9%95%BF%E8%B7%AF%E7%BA%BF/"/>
+    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%94%BB%E7%94%BB%E6%88%90%E9%95%BF%E8%B7%AF%E7%BA%BF/</id>
+    <published>2023-03-31T13:19:53.354Z</published>
+    <updated>2023-03-31T13:54:11.993Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="画画" scheme="https://grooveofmimosa.github.io/tags/%E7%94%BB%E7%94%BB/"/>
+    
+  </entry>
+  
+  <entry>
     <title>第八周回顾</title>
     <link href="https://grooveofmimosa.github.io/2023/03/28/%E7%AC%AC%E5%85%AB%E5%91%A8%E5%9B%9E%E9%A1%BE/"/>
     <id>https://grooveofmimosa.github.io/2023/03/28/%E7%AC%AC%E5%85%AB%E5%91%A8%E5%9B%9E%E9%A1%BE/</id>
     <published>2023-03-28T08:48:47.051Z</published>
-    <updated>2023-03-28T08:56:19.015Z</updated>
+    <updated>2023-03-31T13:40:24.941Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;本周完成（3-22-3-27）&quot;&gt;&lt;a href=&quot;#本周完成（3-22-3-27）&quot; class=&quot;headerlink&quot; title=&quot;本周完成（3.22-3.27）&quot;&gt;&lt;/a&gt;本周完成（3.22-3.27）&lt;/h2&gt;&lt;ul&gt;
@@ -68,8 +466,8 @@
     
     
     
-    <category term="每周回顾" scheme="https://grooveofmimosa.github.io/categories/%E6%AF%8F%E5%91%A8%E5%9B%9E%E9%A1%BE/"/>
     
+    <category term="每周回顾" scheme="https://grooveofmimosa.github.io/tags/%E6%AF%8F%E5%91%A8%E5%9B%9E%E9%A1%BE/"/>
     
   </entry>
   
@@ -78,7 +476,7 @@
     <link href="https://grooveofmimosa.github.io/2022/08/02/Blog%E6%B5%8B%E8%AF%95/"/>
     <id>https://grooveofmimosa.github.io/2022/08/02/Blog%E6%B5%8B%E8%AF%95/</id>
     <published>2022-08-02T03:26:01.486Z</published>
-    <updated>2023-03-28T08:56:10.208Z</updated>
+    <updated>2023-03-31T13:40:14.870Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;文章写作样式&quot;&gt;&lt;a href=&quot;#文章写作样式&quot; class=&quot;headerlink&quot; title=&quot;文章写作样式&quot;&gt;&lt;/a&gt;文章写作样式&lt;/h2&gt;&lt;h3 id=&quot;文章摘要&quot;&gt;&lt;a href=&quot;#文章摘要&quot; class=&quot;headerlink&quot; title=&quot;文章摘要&quot;&gt;&lt;/a&gt;文章摘要&lt;/h3&gt;&lt;p&gt;在&lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;标签之前的内容将作为文章摘要在首页展示。&lt;/p&gt;
@@ -132,8 +530,8 @@
     
     
     
-    <category term="测试" scheme="https://grooveofmimosa.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
     
+    <category term="测试" scheme="https://grooveofmimosa.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   

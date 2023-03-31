@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content=#58b77a>
+  <title>电路原理第二讲-电阻电路的基本分析方法 | 云彩观测站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="弋茵">
+  <meta name="keywords" content="">
+  <meta name="description" content="白云升远岫，摇曳入晴空。乘化随舒卷，无心任始终。">
+  <script id="hexo-configurations">
+  var CONFIG = {
+    root: '/',
+    theme: 'lx',
+    version: '0.4.3',
+    localsearch:{
+      "enable": true,
+      "trigger": "auto",
+      "top_n_per_article": 1,
+      "unescape": false,
+      "preload": false
+      },
+    path: 'search.xml'
+  };
+</script>
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/css/main.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <style type="text/css">
+    pre,
+    code {
+      font-family: 'Quicksand', monospace;
+    }
+    html {
+      font-family: 'Noto Serif SC', sans-serif;
+    }
+    body {
+      font-family: 'Noto Serif SC', sans-serif;
+    }
+    h1, h2, h3, h4, h5, figure {
+      font-family: 'Noto Serif SC', sans-serif;
+    }
+    .menu-container{
+      font-family: 'Noto Serif SC', sans-serif;
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/jquery.jside.menu.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	$(".menu-container").jSideMenu({
+	    jSidePosition: "position-right",
+	    jSideSticky: true,
+	    jSideSkin: "",
+	     });
+	}); 
+	</script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,300italic,400,400italic,700,700italic|Noto Serif SC:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="云彩观测站" type="application/atom+xml">
+</head>
+<body>
+<div class="single">
+<div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="要找什么呢？" spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+<div id="page">
+<div class="header">
+  <div id="lx-aside" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZGb5t.jpg)" data-stellar-background-ratio="0.5">
+    <div class="overlay">
+      <a href="javascript:;" class="popup-trigger" title="search"><i class="menu-item-icon fa fa-search fa-fw"></i></a>
+      <div class="page-title">
+        <div class="avatar"><a href="/"><img src="https://s1.ax1x.com/2022/08/03/vZGW8K.jpg" alt="弋茵"></a></div>
+        <span>2023-03-31</span>
+        <h2>电路原理第二讲-电阻电路...</h2>
+        <div class="tags"><i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">学习笔记</a> <i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86/" rel="tag">电路原理</a></div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div id="lx-main-content">
+  <div class="lx-post">
+    <div class="lx-entry padding">
+      <div>
+        <h2><a href="#nei-rong-ti-yao" class="header-anchor">&#127795</a><span id="nei-rong-ti-yao">内容提要</span></h2><ul>
+<li>电阻器</li>
+<li>独立电源</li>
+<li>受控元件<ul>
+<li>受控电阻</li>
+<li><strong>受控电源</strong></li>
+</ul>
+</li>
+<li><strong>基尔霍夫定律</strong></li>
+<li>2b法求解电路</li>
+</ul>
+<h2><a href="#dian-zu-qi" class="header-anchor">&#127795</a><span id="dian-zu-qi">电阻器</span></h2><ul>
+<li>电阻R</li>
+<li>电导G  单位为S(西门子)</li>
+</ul>
+<p>$$<br>G&#x3D;\frac{1}{R}<br>$$</p>
+<h3><a href="#kai-lu-he-duan-lu" class="header-anchor">&#127795</a><span id="kai-lu-he-duan-lu">开路和短路</span></h3><p>电阻两个性质: 电阻和<strong>额定功率</strong> (功率超过会烧)</p>
+<h3><a href="#jue-ding-zu-zhi-de-yin-su" class="header-anchor">&#127795</a><span id="jue-ding-zu-zhi-de-yin-su">决定阻值的因素</span></h3><p>$$<br>R&#x3D;\rho \frac{L}{S}<br>$$</p>
+<p>$$<br>\rho_T&#x3D;\rho_0 (1+\alpha T)<br>$$</p>
+<h3><a href="#dian-zu-qi" class="header-anchor">&#127795</a><span id="dian-zu-qi">电阻器</span></h3><ul>
+<li>贴片电阻 体积小, 重量轻, 可靠性高</li>
+<li>碳膜电阻 阻值范围宽, 价格低廉</li>
+<li>金属膜电阻 稳定性高, 精度高</li>
+<li>线绕电阻 功率大</li>
+</ul>
+<p>电阻的物理尺寸设计—–由散热决定</p>
+<h2><a href="#du-li-dian-yuan" class="header-anchor">&#127795</a><span id="du-li-dian-yuan">独立电源</span></h2><h5><a href="#li-xiang-du-li-dian-ya-yuan-u-s" class="header-anchor">&#127795</a><span id="li-xiang-du-li-dian-ya-yuan-u-s">理想独立电压源 $$U_S$$</span></h5><img align="center" src="https://s2.loli.net/2022/08/08/lGMJ4ZcYt8eCP6K.jpg">
+- 保持电压不变, 电压与电路其余部分无关
+- 电路电流由外电路决定
+
+<blockquote>
+<p><strong>等效</strong> 在U-I平面上的线, 能画成一样的就可以看做U-I特性等效的, 如零值电阻&amp;U&#x3D;0的电源&amp;理想导线</p>
+</blockquote>
+<h5><a href="#li-xiang-du-li-dian-liu-yuan-i-s" class="header-anchor">&#127795</a><span id="li-xiang-du-li-dian-liu-yuan-i-s">理想独立电流源 $$I_S$$</span></h5><img align="center" src="https://s2.loli.net/2022/08/08/WbHwkiqd98ca2XR.jpg">
+
+<ul>
+<li>保持电流不变, 电流与电路其余部分无关</li>
+<li>电路电压由外电路决定</li>
+<li>直流: $$I_S$$     正弦交流: $$i_S&#x3D;{I_m} \sin \omega t$$</li>
+</ul>
+<p>$$I_S$$&#x3D;0, 等效开路</p>
+<h5><a href="#du-li-dian-yuan-de-gong-lu" class="header-anchor">&#127795</a><span id="du-li-dian-yuan-de-gong-lu">独立电源的功率</span></h5><h2><a href="#shou-kong-yuan-jian" class="header-anchor">&#127795</a><span id="shou-kong-yuan-jian">受控元件</span></h2><h3><a href="#shou-kong-dian-zu-kai-guan" class="header-anchor">&#127795</a><span id="shou-kong-dian-zu-kai-guan">受控电阻—-开关</span></h3><p>力控电阻—–单刀单掷开关</p>
+<p><strong>端口</strong>: 有两个接线端构成, 且满足如下条件: <font color="red">从一个接线端流入的电流等于从另一个接线端流出的电流</font></p>
+<p>二端元件自然构成一个端口</p>
+<h3><a href="#li-xiang-kai-guan-de-u-i-te-xing" class="header-anchor">&#127795</a><span id="li-xiang-kai-guan-de-u-i-te-xing">理想开关的u-i特性</span></h3><p>一个压控电阻的实例: MOSFET</p>
+<p>看成两个端口的元件</p>
+<p>有时可以看成是（压控）电阻, 有时可以看成是（压控）电流源</p>
+<h3><a href="#shou-kong-dian-yuan" class="header-anchor">&#127795</a><span id="shou-kong-dian-yuan">受控电源</span></h3><p>受控电压源&#x2F;受控电流源</p>
+<ul>
+<li><p>压控电流源（VCCS）</p>
+<ul>
+<li><img align="center" src="https://s2.loli.net/2022/08/14/qnspX6Eb3VL4a5w.jpg" width="200"></li>
+<li>$$<br>  \left{ \begin{align}<br>  i_1&amp;&#x3D;0\<br>  i_2&amp;&#x3D;gu_1<br>  \end{align}\right. （g:转移电导）<br>  $$</li>
+</ul>
+</li>
+<li><p>流控电流源（CCCS）</p>
+<ul>
+<li><img align="center" src="https://s2.loli.net/2022/08/14/JeoMxbYd4tfsgCI.jpg" width="200"></li>
+<li>$$<br>\left{ \begin{align}<br>u_1&amp;&#x3D;0\<br>i_2&amp;&#x3D;\beta i_1<br>\end{align}\right. （\beta :转移电流比）<br>$$</li>
+</ul>
+</li>
+<li><p>流控电压源（CCVS）</p>
+<ul>
+<li><img align="center" src="https://s2.loli.net/2022/08/14/wWM9jNmq7RdaoUK.jpg" width="200"></li>
+<li>$$<br>\left{ \begin{align}<br>u_1&amp;&#x3D;0\<br>u_2&amp;&#x3D;ri_1<br>\end{align}\right. （r:转移电阻）<br>$$</li>
+</ul>
+</li>
+<li><p>压控电压源（VCVS）</p>
+<ul>
+<li><img align="center" src="https://s2.loli.net/2022/08/14/QEJACyqYub3oB1k.jpg" width="200"></li>
+<li>$$<br>\left{ \begin{align}<br>i_1&amp;&#x3D;0\<br>u_2&amp;&#x3D;\mu u_1<br>\end{align}\right. （\mu :转移电压比）<br>$$</li>
+</ul>
+</li>
+</ul>
+<h3><a href="#shou-kong-yuan-de-jin-yi-bu-tao-lun" class="header-anchor">&#127795</a><span id="shou-kong-yuan-de-jin-yi-bu-tao-lun">受控源的进一步讨论</span></h3><ol>
+<li>受控源是二端元件吗？ ——不是</li>
+<li>与独立源的比较<ul>
+<li>独立源电压或电流由电源本身决定，而受控源电压或电直接由控制量决定</li>
+<li>独立源是真正电路中的“源”，受控源在电路中是能量或信号处理元件</li>
+</ul>
+</li>
+</ol>
+<h2><a href="#ji-er-huo-fu-ding-lu" class="header-anchor">&#127795</a><span id="ji-er-huo-fu-ding-lu">基尔霍夫定律</span></h2><ul>
+<li><strong>支路</strong>branch：若干元件无分叉地首尾相连构成一条支路，也有教材认为二端元件构成一个支路</li>
+<li><strong>节点</strong>node：3个或更多支路的连接点，也有教材认为2个元件间的接线端构成一个节点</li>
+<li><strong>路径</strong>path：两个节点间包含的支路</li>
+<li><strong>回路</strong>loop：由支路组成的闭合路径</li>
+<li><strong>网格</strong>mesh：平面电路中不与其余支路相交的回路</li>
+</ul>
+<p><strong>基尔霍夫电流定律</strong>(KCL)：流出节点的电流的代数和为零，流入节点的电流的代数和为零</p>
+<ul>
+<li>只适用于集总参数电路</li>
+<li>对有参考方向的电流依然有效</li>
+<li>广义KCL: 任意子电路可以等效为一个节点</li>
+</ul>
+<p><strong>基尔霍夫电压定律</strong>(KVL)：回路中所有电压（降）的代数和为零</p>
+<ul>
+<li>广义KVL: 电路中任意两点间的电压等于两点间任意一条路径经过的各元件电压的代数和</li>
+</ul>
+<h2><a href="#2b-fa-qiu-jie-dian-lu" class="header-anchor">&#127795</a><span id="2b-fa-qiu-jie-dian-lu">2b法求解电路</span></h2><p>对于有b个支路的任意电路，可列写<strong>b</strong>个独立元件约束，<strong>n-1</strong>个独立KCL，<strong>b-n+1</strong>个独立KVL</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="lx-navigation">
+	<div class="lx-cover next lx-cover-sm" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZG5Ke.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="/2023/03/31/%E7%AC%AC1%E7%AB%A0-%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E7%9A%84%E8%A7%A3%E6%B3%95/">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Next</span>
+						<h3>高等代数第一章...</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+        <div class="lx-cover prev lx-cover-sm" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZG7VA.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="/2023/03/31/%E7%AC%AC3%E8%AE%B2%20%E7%94%B5%E8%B7%AF%E7%9A%84%E7%AD%89%E6%95%88%E5%8F%98%E6%8D%A2/">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Prev</span>
+						<h3>电路原理第三讲...</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+</div>
+
+<footer>
+  <div>
+  来自2023&copy;<a href="/">云彩观测站</a>&#10047;<br>
+  </div>
+</footer>
+
+</div>
+
+<button class="hamburger hamburger--arrow-r" type="button" title="menu">
+    <div class="hamburger-box">
+      <div class="hamburger-inner"></div>
+    </div>
+</button>
+<div class="menu visibility">
+  <div class="menu-head">
+    <span class="layer">
+      <div class="col">
+        <div class="row for-pic">
+          <div class="profile-pic">
+            <a href="/"><img src="https://s1.ax1x.com/2022/08/03/vZGW8K.jpg" alt="弋茵"/></a>
+          </div>
+        </div>
+        <div class="row for-name">
+          <p>弋茵</p>
+          <span class="tagline">乘化随舒卷。</span>
+        </div>
+      </div>
+    </span>
+  </div>
+  <nav class="menu-container">
+  <ul class="menu-items">
+    <li><a href="/"><i class="fa fa-home fa-fw"></i>首页</a></li>
+    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+    
+    <li class="has-sub"><span class="dropdown-heading">
+      <i class="fa fa-bookmark fa-fw"></i>页面</span>
+        <ul>
+          <li><a href="/board/">Board</a></li>
+        </ul>
+    </li>
+    
+  </ul>
+  </nav>
+</div>
+
+<div class="gototop js-top">
+  <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/jquery.easing.min.js"></script>
+<script>
+(function () {
+	"use strict";
+	var goToTop = function() {
+		$(".js-gotop").on("click", function(event){
+			event.preventDefault();
+			$("html, body").animate({
+				scrollTop: $("html").offset().top
+			}, 500, "easeInOutExpo");
+			return false;
+		});
+		$(window).scroll(function(){
+			var $win = $(window);
+			if ($win.scrollTop() > 200) {
+				$(".js-top").addClass("active");
+			} else {
+				$(".js-top").removeClass("active");
+			}
+		});
+	};
+	$(function(){
+		goToTop();
+	});
+}());
+</script>
+<script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/local.search.min.js"></script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+  TeX: {
+          extensions: ["mhchem.js"]
+    }
+  });
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
+        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
+      }
+    });
+  });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      document.getElementById(all[i].inputID + '-Frame').parentNode.className += ' has-jax';
+    }
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":300,"height":300},"mobile":{"show":false},"react":{"opacity":1}});</script></body>
+</html>
+
+<!--树叶飘落-->
+<script type="text/javascript" src="/js/sakura.js"></script>
+
+<!--鼠标点击烟花爆炸效果-->
+<!--<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> -->
+<!--<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> -->
+<!--<script type="text/javascript" src="/js/fireworks.js"></script>-->
+
+
+
