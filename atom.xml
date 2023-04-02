@@ -6,7 +6,7 @@
   <link href="https://grooveofmimosa.github.io/atom.xml" rel="self"/>
   
   <link href="https://grooveofmimosa.github.io/"/>
-  <updated>2023-03-31T14:06:41.536Z</updated>
+  <updated>2023-04-02T13:40:05.738Z</updated>
   <id>https://grooveofmimosa.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>inorganyx-prayer</title>
+    <link href="https://grooveofmimosa.github.io/2023/04/02/inorganyx-prayer/"/>
+    <id>https://grooveofmimosa.github.io/2023/04/02/inorganyx-prayer/</id>
+    <published>2023-04-02T13:40:05.738Z</published>
+    <updated>2023-04-02T13:40:05.738Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><div class="soundcloud-wrapper"><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fhalvsan%2Flanotahalv-inorganyx-prayer&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>]]></content>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;div class=&quot;soundcloud-wrapper&quot;&gt;&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A%2F%2Fsoundcloud.com%2Fhalvsan%2Flanotahalv-inorganyx-prayer&amp;amp;auto_play=false&amp;amp;hide_related=true&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;</summary>
+    
+    
+    
+    
+    <category term="soundcloud" scheme="https://grooveofmimosa.github.io/tags/soundcloud/"/>
+    
+  </entry>
   
   <entry>
     <title>Java踩坑记录</title>
@@ -128,115 +147,6 @@
     <category term="阅读笔记" scheme="https://grooveofmimosa.github.io/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
     
     <category term="国际经济学" scheme="https://grooveofmimosa.github.io/tags/%E5%9B%BD%E9%99%85%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>5个跑步姿势秘诀</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/5%E4%B8%AA%E8%B7%91%E6%AD%A5%E5%A7%BF%E5%8A%BF%E7%A7%98%E8%AF%80/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/5%E4%B8%AA%E8%B7%91%E6%AD%A5%E5%A7%BF%E5%8A%BF%E7%A7%98%E8%AF%80/</id>
-    <published>2023-03-31T13:20:32.479Z</published>
-    <updated>2023-03-31T13:55:42.111Z</updated>
-    
-    <content type="html"><![CDATA[<p>1.想象头顶有个鸡蛋，不要让它掉下来<br>（跑步的时候眼睛要目视前方）<br>2.想象肚子被人打一拳<br>（上腹部的区域收紧）<br>3.想象你是一个西部牛仔将要拔枪的样子<br>（手腕在摆臂的时候尽可能贴近腰）<br>4.把重心踩在脚下<br>（注意落地点不要离重心太远）<br>5.小动作可能会毁掉你的跑姿<br>（推荐使用一个腰包，推荐FlipBelt飞比特）</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;1.想象头顶有个鸡蛋，不要让它掉下来&lt;br&gt;（跑步的时候眼睛要目视前方）&lt;br&gt;2.想象肚子被人打一拳&lt;br&gt;（上腹部的区域收紧）&lt;br&gt;3.想象你是一个西部牛仔将要拔枪的样子&lt;br&gt;（手腕在摆臂的时候尽可能贴近腰）&lt;br&gt;4.把重心踩在脚下&lt;br&gt;（注意落地点不要离重心太远）&lt;br&gt;5.小动作可能会毁掉你的跑姿&lt;br&gt;（推荐使用一个腰包，推荐FlipBelt飞比特）&lt;/p&gt;
-</summary>
-    
-    
-    
-    
-    <category term="跑步" scheme="https://grooveofmimosa.github.io/tags/%E8%B7%91%E6%AD%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>画画成长路线</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%94%BB%E7%94%BB%E6%88%90%E9%95%BF%E8%B7%AF%E7%BA%BF/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%94%BB%E7%94%BB%E6%88%90%E9%95%BF%E8%B7%AF%E7%BA%BF/</id>
-    <published>2023-03-31T13:19:53.354Z</published>
-    <updated>2023-04-02T12:46:18.856Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2><a href="#xue-xi-lu-xian-can-kao" class="header-anchor">&#127795</a><span id="xue-xi-lu-xian-can-kao">学习路线参考</span></h2><p>以每天练习2-3h计算，且是理想状态，实际上需要8年以上甚至更久</p><ul><li><strong>0-6个月</strong> 随便画，注意运笔，不要“刷腿毛”</li><li><strong>6个月-1年</strong> 60%精准临摹画面（临摹，不是描图）；20%临摹几何体；20%把临摹的东西组合起来进行半原创</li><li><strong>1-2年</strong> 作品+现实精准临摹30%（作品:现实&#x3D;3:1）；15%明暗原理；15%透视原理；20%人体结构；20%原创成稿（原创稿完成就行，不追求画好，也不用修改）；掌握绘画软件用法</li><li><strong>2-3年</strong> 由精准临摹和提炼升级至速写；20%时间速写生物（人体、动态、动物，作品:显示&#x3D;1:1）；20%时间速写物品和场景；20%时间速涂现实摄影、电影明暗和构图，辅助简单色彩练习（不用着急上色）；40%原创成稿（以成稿为导向练习，每张至少100小时以上，完成2-3张成稿，如果有薄弱环节，学习提升之后修改稿子）</li><li><strong>3-4年</strong> 可以进入专业绘画领域了；25%生活速写；25%色彩构图速涂；50%成稿（综合运用基本功，深层次领悟）</li><li><strong>4-6年</strong> 提升设计、构图、讲故事的技能；除去成稿时间外，速写、速涂、提升艺术审美时间配比1:1:3</li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;h2&gt;&lt;a href=&quot;#xue-xi-lu-xian-can-kao&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;xue-xi-lu-xian-can-kao&quot;&gt;学习路线参考&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;以每天练习2-3h计算，且是理想状态，实际上需要8年以上甚至更久&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;0-6个月&lt;/strong&gt; 随便画，注意运笔，不要“刷腿毛”&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;6个月-1年&lt;/strong&gt; 60%精准临摹画面（临摹，不是描图）；20%临摹几何体；20%把临摹的东西组合起来进行半原创&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;1-2年&lt;/strong&gt; 作品+现实精准临摹30%（作品:现实&amp;#x3D;3:1）；15%明暗原理；15%透视原理；20%人体结构；20%原创成稿（原创稿完成就行，不追求画好，也不用修改）；掌握绘画软件用法&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;2-3年&lt;/strong&gt; 由精准临摹和提炼升级至速写；20%时间速写生物（人体、动态、动物，作品:显示&amp;#x3D;1:1）；20%时间速写物品和场景；20%时间速涂现实摄影、电影明暗和构图，辅助简单色彩练习（不用着急上色）；40%原创成稿（以成稿为导向练习，每张至少100小时以上，完成2-3张成稿，如果有薄弱环节，学习提升之后修改稿子）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;3-4年&lt;/strong&gt; 可以进入专业绘画领域了；25%生活速写；25%色彩构图速涂；50%成稿（综合运用基本功，深层次领悟）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;4-6年&lt;/strong&gt; 提升设计、构图、讲故事的技能；除去成稿时间外，速写、速涂、提升艺术审美时间配比1:1:3&lt;/li&gt;
-&lt;/ul&gt;
-</summary>
-    
-    
-    
-    
-    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="画画" scheme="https://grooveofmimosa.github.io/tags/%E7%94%BB%E7%94%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第八周回顾</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/28/%E7%AC%AC%E5%85%AB%E5%91%A8%E5%9B%9E%E9%A1%BE/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/28/%E7%AC%AC%E5%85%AB%E5%91%A8%E5%9B%9E%E9%A1%BE/</id>
-    <published>2023-03-28T08:48:47.051Z</published>
-    <updated>2023-04-02T13:01:29.795Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2><a href="#ben-zhou-wan-cheng-3-22-3-27" class="header-anchor">&#127795</a><span id="ben-zhou-wan-cheng-3-22-3-27">本周完成（3.22-3.27）</span></h2><ul><li><strong>考研</strong><ul><li>英语：单词120个</li><li>数学：完成高数第八章，回顾了一点点第六章</li><li>专业课：看完《大学物理》力学部分第一章、第二章</li></ul></li><li><strong>学业</strong><ul><li>学年论文：完成了初稿的draft（本周写了2000字）</li><li>课程作业：初步准备政治文献课的pre</li><li>文献考试：读了一点点《全球化的悖论》</li></ul></li><li><strong>生活</strong><ul><li>充分而彻底地研究了inoreader、WeRSS以及RSS订阅方案</li><li>试图注册ChatGPT</li><li>重启Hexo，用作每周回顾记录</li><li>和翟师一起吃饭</li></ul></li></ul><h2><a href="#xia-zhou-zhan-wang-3-29-4-3" class="header-anchor">&#127795</a><span id="xia-zhou-zhan-wang-3-29-4-3">下周展望（3.29-4.3）</span></h2><ul><li><strong>考研</strong>（并联）<ul><li>英语：单词背至余量1960，一天20；feedly一天一篇</li><li>数学：高数六七章练习&amp;三四章纠错</li><li>专业课：大学物理力学部分看完，热学部分看两眼</li></ul></li><li><strong>学业</strong>（串联）<ul><li>学年论文：初稿整理2000字，发给老师</li><li>课程作业：政治文献pre</li><li>文献考试：看完《全球化的悖论》《东周战争》</li></ul></li><li><strong>生活</strong><ul><li>好好睡觉：及时上床和洗漱，不在床上玩手机</li><li>运动：至少去一次健身房</li><li>玩耍：珺珺生日</li></ul></li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;h2&gt;&lt;a href=&quot;#ben-zhou-wan-cheng-3-22-3-27&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;ben-zhou-wan-cheng-3-22-3-27&quot;&gt;本周完成（3.22-3.27）&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;考研&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;英语：单词120个&lt;/li&gt;
-&lt;li&gt;数学：完成高数第八章，回顾了一点点第六章&lt;/li&gt;
-&lt;li&gt;专业课：看完《大学物理》力学部分第一章、第二章&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;学业&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;学年论文：完成了初稿的draft（本周写了2000字）&lt;/li&gt;
-&lt;li&gt;课程作业：初步准备政治文献课的pre&lt;/li&gt;
-&lt;li&gt;文献考试：读了一点点《全球化的悖论》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;生活&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;充分而彻底地研究了inoreader、WeRSS以及RSS订阅方案&lt;/li&gt;
-&lt;li&gt;试图注册ChatGPT&lt;/li&gt;
-&lt;li&gt;重启Hexo，用作每周回顾记录&lt;/li&gt;
-&lt;li&gt;和翟师一起吃饭&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;a href=&quot;#xia-zhou-zhan-wang-3-29-4-3&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;xia-zhou-zhan-wang-3-29-4-3&quot;&gt;下周展望（3.29-4.3）&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;考研&lt;/strong&gt;（并联）&lt;ul&gt;
-&lt;li&gt;英语：单词背至余量1960，一天20；feedly一天一篇&lt;/li&gt;
-&lt;li&gt;数学：高数六七章练习&amp;amp;三四章纠错&lt;/li&gt;
-&lt;li&gt;专业课：大学物理力学部分看完，热学部分看两眼&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;学业&lt;/strong&gt;（串联）&lt;ul&gt;
-&lt;li&gt;学年论文：初稿整理2000字，发给老师&lt;/li&gt;
-&lt;li&gt;课程作业：政治文献pre&lt;/li&gt;
-&lt;li&gt;文献考试：看完《全球化的悖论》《东周战争》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;生活&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;好好睡觉：及时上床和洗漱，不在床上玩手机&lt;/li&gt;
-&lt;li&gt;运动：至少去一次健身房&lt;/li&gt;
-&lt;li&gt;玩耍：珺珺生日&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    
-    <category term="每周回顾" scheme="https://grooveofmimosa.github.io/tags/%E6%AF%8F%E5%91%A8%E5%9B%9E%E9%A1%BE/"/>
     
   </entry>
   
