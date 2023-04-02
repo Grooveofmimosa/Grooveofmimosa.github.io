@@ -6,7 +6,7 @@
   <link href="https://grooveofmimosa.github.io/atom.xml" rel="self"/>
   
   <link href="https://grooveofmimosa.github.io/"/>
-  <updated>2023-03-31T14:07:32.995Z</updated>
+  <updated>2023-03-31T13:57:42.668Z</updated>
   <id>https://grooveofmimosa.github.io/</id>
   
   <author>
@@ -17,45 +17,20 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>自制桌面小屏幕</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/%E8%87%AA%E5%88%B6%E6%A1%8C%E9%9D%A2%E5%B0%8F%E5%B1%8F%E5%B9%95/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/%E8%87%AA%E5%88%B6%E6%A1%8C%E9%9D%A2%E5%B0%8F%E5%B1%8F%E5%B9%95/</id>
-    <published>2023-03-31T14:07:32.995Z</published>
-    <updated>2023-03-31T14:07:32.995Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="嵌入式" scheme="https://grooveofmimosa.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
-    
-    <category term="动手记录" scheme="https://grooveofmimosa.github.io/tags/%E5%8A%A8%E6%89%8B%E8%AE%B0%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
     <title>高等代数第二章-n阶行列式</title>
     <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC2%E7%AB%A0-N%E9%98%B6%E8%A1%8C%E5%88%97%E5%BC%8F/"/>
     <id>https://grooveofmimosa.github.io/2023/03/31/%E7%AC%AC2%E7%AB%A0-N%E9%98%B6%E8%A1%8C%E5%88%97%E5%BC%8F/</id>
     <published>2023-03-31T13:23:01.272Z</published>
     <updated>2023-03-31T13:57:42.668Z</updated>
     
+    <content type="html"><![CDATA[<p><u><strong>引入：</strong></u></p><p>系数矩阵的行列式——–直接从系数矩阵判断有没有解，先化简再看有没有解太麻烦</p><p>以二元一次方程组为例:</p><p>$$<br>\left{\begin{matrix}<br>a_{11}x_1+a_{12}x_2&#x3D;b1  \<br>a_{21}x_1+a_{22}x_2&#x3D;b2<br>\end{matrix}\right.<br>$$</p><p>$$a_{11}$$与$$a_{21}$$不全为零，不妨设$$a_{11} \not&#x3D; 0$$</p><p>化简为阶梯形矩阵，可据第二行X2的系数得到判断解的情况的式子$$a_{11}a_{22}-a_{12}a_{21}$$。</p><p>将此式子记作行列式，便引入了行列式。</p><p>$$<br>\begin{vmatrix}<br>a_{11}&amp;a_{12}\a_{21}&amp;a_{22}<br>\end{vmatrix}<br>&#x3D; a_{11}a_{22}-a_{12}a_{21}<br>$$</p><p>称作二阶行列式或矩阵A的行列式，记作$$\lvert A \rvert$$或$$detA$$</p><p>$$\lvert A \rvert \not&#x3D; 0$$则此二元一次方程组有唯一解。</p><p>推广到n元一次方程组，猜测应该是n阶行列式</p><p><font color="red">活用数学思维方式，解决问题的思维很重要，不仅仅要关注数学知识</font></p><h2><a href="#ss1-n-yuan-pai-lie" class="header-anchor">&#127795</a><span id="ss1-n-yuan-pai-lie">§1 n元排列</span></h2><p>观察$$a_{11}a_{22}-a_{12}a_{21}$$和$$\begin{vmatrix}<br>a_{11}&amp;a_{12}\a_{21}&amp;a_{22}<br>\end{vmatrix}$$:</p><p>是$$2!$$项的代数和，其中每一项是不同行、不同列的2个元素的乘积，每一项按行指标成自然序排好位置，当列指标形成的排列是时，该项带正号，</p><p>1,2，…n (或n个不同的正整数) 的一个全排列称为一个<strong>n元排列</strong>，共有$$n!个$$</p><p>以2431为例，顺序 (从小到大) 的数对有24, 23, 逆序 (从大到小) 的数对有21, 43, 41, 31</p><p>逆序的数对的数目称为这个排列的<strong>逆序数</strong>，2431的逆序数是4</p><p>逆序数是偶(奇)数的排列，称为<strong>偶(奇)排列</strong></p><p>4与1互换位置,其余不动, 称为一个<strong>对换</strong>, 记作(4,1)</p><p>偶排列2431$$\Rightarrow$$奇排列2134</p><blockquote><p><strong>定理1</strong> 对换改变排列的奇偶性</p></blockquote><p>证明: 先看对换的两数相邻的情况, 此情形易证定理成立</p><p>再看一般情形, 一般情形可以拆成$$(s+1)+s$$次相邻对换的结果</p><blockquote><p><strong>推论</strong> 任一n元排列$$j_1j_2…j_n$$可以与$$12…n$$经过一系列的对换互变, 所做对换的次数与$$j_1j_2…j_n$$有相同的奇偶性</p></blockquote><p>证明: 设要经过S次对换,设$$j_1j_2…j_n$$是奇排列, 则S必奇; 反之必偶</p><h2><a href="#ss2-n-jie-xing-lie-shi-de-ding-yi" class="header-anchor">&#127795</a><span id="ss2-n-jie-xing-lie-shi-de-ding-yi">§2 n阶行列式的定义</span></h2><blockquote><p><strong>定义1</strong> 是$$n!$$项的代数和，其中每一项是不同行、不同列的n个元素的乘积，每一项按行指标成自然序排好位置，当列指标形成的排列是偶排列时，该项带正号，当列指标形成的排列是奇排列时，该项带负号。</p></blockquote><p>$$<br>\begin{vmatrix}<br>a_{11}&amp; a_{12}&amp;…&amp; a_{1n}\<br>a_{21}&amp; a_{22}&amp;…&amp; a_{2n}\<br>&amp;&amp;…\<br>a_{n1}&amp; a_{n2}&amp;…&amp; a_{nn}<br>\end{vmatrix} \coloneqq \sum_{j_1j_2…j_n} (-1)^{\tau (j_1j_2…j_n)}a_{1j_{1}}a_{2j_{2}}…a_{nj_{n}}<br>$$</p><p><font color="red">注： $\tau$为逆序数，$j_1j_2…j_n$为$12…n$的一个全排列</font></p><p>若给定列指标排列的同时，给定行指标的一个排列$$i_1i_2…i_n$$, -1的指数变为$\tau (j_1j_2…j_n)+\tau (i_1i_2…i_n)$</p><p>行列式中行与列的地位是对称的</p><hr><p>$$<br>设A&#x3D; \begin{pmatrix}<br>a_{11}&amp; a_{12}&amp;…&amp; a_{1n}\<br>a_{21}&amp; a_{22}&amp;…&amp; a_{2n}\<br>&amp;&amp;…\<br>a_{n1}&amp; a_{n2}&amp;…&amp; a_{nn}<br>\end{pmatrix}<br>$$<br>简记成$$A&#x3D;(a_{ij})$$，其中$$a_{ij}$$是A的（i,j）元</p><p>n阶行列式也称为n级矩阵A的行列式，记作$$\lvert A \rvert$$或$$detA$$</p><p><strong>3阶行列式</strong> 等于$$a_{11}a_{22}a_{33}+a_{12}a_{23}a_{31}+a_{13}a_{21}a_{32}-a_{11}a_{23}a_{32}-a_{12}a_{21}a_{33}-a_{13}a_{22}a_{31}$$，快速记法：主对角线和平行的两个“U形”，副对角线和平行的两个“U形”</p><hr><p>主对角线下方元素全为0的行列式称为<strong>上三角形行列式</strong></p><blockquote><p><strong>命题1</strong> 上三角形行列式的值等于它的主对角线上n个元素的乘积</p></blockquote><h2><a href="#ss3-xing-lie-shi-de-xing-zhi" class="header-anchor">&#127795</a><span id="ss3-xing-lie-shi-de-xing-zhi">§3 行列式的性质</span></h2><p>矩阵<strong>转置</strong>，记作$A’$或$A^T$</p><blockquote><p><strong>行列式性质1</strong> $$\lvert A \rvert$$&#x3D;$$\lvert A’ \rvert$$       </p></blockquote><blockquote><p><strong>行列式性质2</strong> 若$A$的第i行整体乘上k，变成$B$，则$$\lvert B \rvert &#x3D; k \lvert A \rvert$$</p></blockquote><blockquote><p><strong>行列式性质3</strong><br>$$<br>\begin{vmatrix}<br>a_{11}&amp; …&amp; a_{1n}\<br>&amp;…\<br>b_{1}+c_{1}&amp; …&amp; b_{n}+c_{n}\<br>&amp;…\<br>a_{n1}&amp; …&amp; a_{nn}<br>\end{vmatrix}&#x3D;<br>\begin{vmatrix}<br>a_{11}&amp; …&amp; a_{1n}\<br>&amp;…\<br>b_{1}&amp; …&amp; b_{n}\<br>&amp;…\<br>a_{n1}&amp; …&amp; a_{nn}<br>\end{vmatrix}+<br>\begin{vmatrix}<br>a_{11}&amp; …&amp; a_{1n}\<br>&amp;…\<br>c_{1}&amp; …&amp; c_{n}\<br>&amp;…\<br>a_{n1}&amp; …&amp; a_{nn}<br>\end{vmatrix}<br>$$</p></blockquote><blockquote><p><strong>行列式性质4</strong> 若$A$两行对换变成$C$，则$$\lvert C \rvert &#x3D; - \lvert A \rvert$$</p></blockquote><blockquote><p><strong>行列式性质5</strong> 两行相等，行列式的值为0</p></blockquote><blockquote><p><strong>行列式性质6</strong> 两行成比例，行列式的值为0</p></blockquote><blockquote><p><strong>行列式性质7</strong> 行列式中一行的倍数加到另一行，行列式的值不变</p></blockquote><p>例题：$$\begin{vmatrix}<br>k&amp; \lambda&amp;…&amp; \lambda\<br>\lambda&amp; k&amp;…&amp; \lambda\<br>&amp;&amp;…\<br>\lambda&amp; \lambda&amp;…&amp; k<br>\end{vmatrix}&#x3D;<a href="k-%5Clambda">k+(n-1)\lambda</a>^{n-1}$$</p><p>把每一列都加到第一列，提公因数，凑出一列11111</p><h2><a href="#ss4-xing-lie-shi-an-yi-xing-lie-zhan-kai" class="header-anchor">&#127795</a><span id="ss4-xing-lie-shi-an-yi-xing-lie-zhan-kai">§4 行列式按一行（列）展开</span></h2><p><strong>余子式</strong>：把n级矩阵的某元素所在的行&#x2F;列上的元素都划掉，剩下的元素按原来的顺序构成（n-1）阶的行列式</p><p>将元素$a_{ij}$的余子式记作$M_{ij}$</p><p>$(-1)^{i+j}M_{ij}$——<strong>代数余子式</strong>，记作$A_{ij}$</p><p>以三阶行列式为例，$\lvert A \rvert &#x3D;a_{11}A_{11}+a_{12}A_{12}+a_{13}A_{13}$</p><blockquote><p><strong>定义1</strong> （余子式和代数余子式定义）</p></blockquote><blockquote><p><strong>定理1</strong> n级矩阵A的行列式 $\lvert A \rvert&#x3D;\displaystyle\sum_{j&#x3D;1}^n a_{ij}A_{ij}$ （按i行展开）</p></blockquote><blockquote><p><strong>定理2</strong> n级矩阵的行列式按列展开（公式略）</p></blockquote><blockquote><p><strong>定理3</strong> n级矩阵，当k不等于i时，$a_{i1}A_{k1}+a_{i2}A_{k2}+…+a_{in}A_{kn}&#x3D;0$ （行乘另一行的代数余子式）</p></blockquote><blockquote><p><strong>定理4</strong> 列乘另一列的代数余子式（公式略）</p></blockquote><p>n阶范德蒙行列式：$$\begin{vmatrix}<br>1&amp; 1&amp;…&amp; 1\<br>a_{1}&amp; a_{2}&amp;…&amp; a_{n}\<br>&amp;&amp;…\<br>a_{1}^{n-1}&amp; a_{2}^{n-1}&amp;…&amp; a_{n}^{n-1}<br>\end{vmatrix}&#x3D;\displaystyle\prod_{1\le j &lt; i \le n}(a_{i}-a_{j})$$</p><hr><blockquote><p><strong>定理1</strong> 数域k上n个方程的n元线性方程组有唯一解 $\Leftrightarrow$ 它的系数矩阵A的行列式 $\lvert A \rvert \not&#x3D; 0$</p></blockquote><blockquote><p><strong>推论1</strong> 数域k上n个方程的n元<font color="red">齐次</font>线性方程组只有零解 $\Leftrightarrow$ 它的系数矩阵A的行列式 $\lvert A \rvert \not&#x3D; 0$</p><p>有非零解则 &#x3D; 0</p></blockquote><h2><a href="#ss5-ke-lai-mu-fa-ze" class="header-anchor">&#127795</a><span id="ss5-ke-lai-mu-fa-ze">§5 克莱姆法则</span></h2><p>（在后面讲）</p><h2><a href="#ss6-xing-lie-shi-an-k-xing-lie-zhan-kai" class="header-anchor">&#127795</a><span id="ss6-xing-lie-shi-an-k-xing-lie-zhan-kai">§6 行列式按k行（列）展开</span></h2><p>n级矩阵A任取k行和k列，交叉处的元素形成一个k阶行列式，称为矩阵A的一个<strong>k阶子式</strong>，记作$$A \begin{pmatrix}<br>i_{1},&amp; i_{2},&amp;…&amp; i_{k}\<br>j_{1},&amp; j_{2},&amp;…&amp; j_{k}<br>\end{pmatrix}$$</p><p>划去上述K行和K列，剩下的元素按原来的排法形成的n-k阶行列式，称为该k阶子式的<strong>余子式</strong>（也是A的一个n-k阶子式）<br>代数余子式 &#x3D; $$(-1)^{(i_{1}+i_{2}+…+i_{k})+(j_{1}+j_{2}+…+j_{k})} \times该k阶子式的余子式$$</p><hr><blockquote><p><strong>Laplace定理</strong> n级矩阵 A 取定K行，则$$\lvert A \rvert$$等于这k行形成的所有k阶子式与其自己的代数余子式的乘积的和</p></blockquote><p>例子：一个行列式的右上角有(n-k) x (n-k)个0（都在一起），可以把此矩阵记作<br>$$<br>\begin{vmatrix}<br>A&amp; 0\<br>C&amp; B<br>\end{vmatrix}<br>$$<br>则其值为$$\lvert A \rvert$$</p><table><tr><td bgcolor="seagreen">017</td></tr></table>]]></content>
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    
+    <summary type="html">&lt;p&gt;&lt;u&gt;&lt;strong&gt;引入：&lt;/strong&gt;&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;系数矩阵的行列式——–直接从系数矩阵判断有没有解，先化简再看有没有解太麻烦&lt;/p&gt;
+&lt;p&gt;以二元一次方程组为例:&lt;/p&gt;
+&lt;p&gt;$$&lt;br&gt;\left{\begin{matrix}&lt;br&gt;a_{11}x_1+a_{12}x_2&amp;#x3D;b1  \&lt;br&gt;a_{21}x_1+a_{22}x_2&amp;#x3D;b2&lt;br&gt;\end{matrix}\right.&lt;br&gt;$$&lt;/p&gt;
+&lt;p&gt;$$a_{11}$$与$$a_{21}$$不全为零，不妨设$$a_{11} \not&amp;#x3D; 0$$&lt;/p&gt;</summary>
     
     
     
@@ -73,14 +48,15 @@
     <published>2023-03-31T13:23:01.272Z</published>
     <updated>2023-03-31T13:57:11.811Z</updated>
     
+    <content type="html"><![CDATA[<h2><a href="#ss1-xian-xing-kong-jian-de-ding-yi" class="header-anchor">&#127795</a><span id="ss1-xian-xing-kong-jian-de-ding-yi">§1 线性空间的定义</span></h2><p>令$$ K^n \coloneqq {(a_{1}, a_{2}, … a_{n})| a_{i} \in K ,i&#x3D;1,2,…n}$$ K为数域</p><p>规定加法、数量乘法、</p><blockquote><p>定义1 （映射）</p></blockquote><p>原像和像，单设，满射，单射+满射&#x3D;一一对应</p><blockquote><p>定义1 非空集合S上的一个代数运算，是指SxS到S的一个映射</p></blockquote><blockquote><p>定义3 设V是一个非空集合，K是一个数域，如果V上有一个运算，称为加法；K与V之间有一个运算，称为数量乘法，即KxV $\rightarrow$ V:（k,α）$\rightarrow$ kα</p><p>且满足8条运算法则：（加法4条，数乘4条）</p><ul><li>加法交换律</li><li>加法结合律</li><li>v中有一个元素，a+0&#x3D;a，则把0称为零元</li><li>a+b&#x3D;0，则把b称为负元</li><li>1a&#x3D;a</li><li>乘法结合律</li><li>乘法分配律（数乘分配，向量分配）</li></ul><p>则称为线性空间</p></blockquote>]]></content>
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    
+    <summary type="html">&lt;h2&gt;&lt;a href=&quot;#ss1-xian-xing-kong-jian-de-ding-yi&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;ss1-xian-xing-kong-jian-de-ding-yi&quot;&gt;§1 线性空间的定义&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;令$$ K^n \coloneqq {(a_{1}, a_{2}, … a_{n})| a_{i} \in K ,i&amp;#x3D;1,2,…n}$$ K为数域&lt;/p&gt;
+&lt;p&gt;规定加法、数量乘法、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;定义1 （映射）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;原像和像，单设，满射，单射+满射&amp;#x3D;一一对应&lt;/p&gt;</summary>
     
     
     
@@ -98,14 +74,22 @@
     <published>2023-03-31T13:23:01.253Z</published>
     <updated>2023-03-31T13:59:00.183Z</updated>
     
+    <content type="html"><![CDATA[<ul><li><strong>观察</strong>客观现象<ul><li>提出要研究的问题</li><li>抓住主要特征</li></ul></li><li><strong>抽象</strong>出概念或建立模型</li><li><strong>探索</strong>，运用直觉、类比、归纳、联想、推理等</li><li><strong>猜测</strong>可能有的规律</li><li><strong>论证</strong>，深入分析，适用定义、公理、已经证明过的定理和命题<font color="red">进行逻辑推理</font></li><li><strong>揭示出事物的内在规律</strong></li></ul>]]></content>
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;观察&lt;/strong&gt;客观现象&lt;ul&gt;
+&lt;li&gt;提出要研究的问题&lt;/li&gt;
+&lt;li&gt;抓住主要特征&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;抽象&lt;/strong&gt;出概念或建立模型&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;探索&lt;/strong&gt;，运用直觉、类比、归纳、联想、推理等&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;猜测&lt;/strong&gt;可能有的规律&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;论证&lt;/strong&gt;，深入分析，适用定义、公理、已经证明过的定理和命题&lt;font color=&quot;red&quot;&gt;进行逻辑推理&lt;/font&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;揭示出事物的内在规律&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
     
     
     
@@ -123,14 +107,13 @@
     <published>2023-03-31T13:23:01.253Z</published>
     <updated>2023-03-31T13:58:37.426Z</updated>
     
+    <content type="html"><![CDATA[<h2><a href="#ss1-jie-xian-xing-fang-cheng-zu-de-ju-zhen-xiao-yuan-fa" class="header-anchor">&#127795</a><span id="ss1-jie-xian-xing-fang-cheng-zu-de-ju-zhen-xiao-yuan-fa">§1 解线性方程组的矩阵消元法</span></h2><p><strong>增广矩阵</strong> 多元线性方程组的系数+等号右边</p><p>几级矩阵，即几乘几矩阵</p><p>从阶梯型方程组到<strong>阶梯型矩阵</strong>——多元线性方程组消元，抽象出主要特征</p><h4><a href="#jie-ti-xing-ju-zhen" class="header-anchor">&#127795</a><span id="jie-ti-xing-ju-zhen">阶梯型矩阵</span></h4><ul><li>0行在下方</li><li>主元（首非0元）的列指标，严格逐行递增（不能相同）</li></ul><h4><a href="#jian-hua-xing-jie-ti-xing-ju-zhen" class="header-anchor">&#127795</a><span id="jian-hua-xing-jie-ti-xing-ju-zhen">简化行阶梯形矩阵</span></h4><ul><li><p>主元都是1</p></li><li><p>主元所在列的其余元素都是0</p></li></ul><h4><a href="#ju-zhen-de-chu-deng-xing-bian-huan" class="header-anchor">&#127795</a><span id="ju-zhen-de-chu-deng-xing-bian-huan">矩阵的初等行变换</span></h4><ol><li>一行的倍数加到另一行</li><li>两行互换</li><li>一行乘以一个非零数</li></ol><p>矩阵的初等行变换得到的方程组与原来的方程组<font color="red">同解</font></p><p>表示解：有序数组</p><h2><a href="#ss2-fang-cheng-zu-jie-de-qing-kuang-ji-qi-pan-bie-zhun-ze" class="header-anchor">&#127795</a><span id="ss2-fang-cheng-zu-jie-de-qing-kuang-ji-qi-pan-bie-zhun-ze">§2 方程组解的情况及其判别准则</span></h2><p>一个例子:<br>$$<br>\left{ \begin{align}<br>x_1&amp;&#x3D;x_2+2\<br>x_3&amp;&#x3D;-1<br>\end{align}\right.<br>称为原方程组的一般解<br>$$</p><p>其中$$x_2$$是<strong>自由未知量</strong>(主变量以外的未知量)</p><p>$$x_1$$、$$x_3$$是<strong>主变量</strong>(以主元为系数的未知量)</p><blockquote><p><strong>定理1</strong> 在<u>有理数集或实数集或复数集</u>等，n元线性方程组的解的情况<strong>有且只有</strong>三种可能: </p><ul><li>无解</li><li>有唯一解</li><li>有无穷多个解</li></ul></blockquote><p>把线性方程组的增广矩阵经过初等行变换化成阶梯形，相应的阶梯型方程组如果出现&#x3D;&#x3D;“0&#x3D;d”&#x3D;&#x3D;(其中d是非零数)，那么原方程组<strong>无解</strong>; 否则，原方程组有解。</p><p>当有解时,若阶梯型矩阵的非零行的数目r&#x3D;n (未知量数目)则原方程仅有<strong>唯一解</strong>,</p><p>若r&lt;n, 则原方程组有<strong>无穷个解</strong>。</p><hr><p><strong>n元齐次线性方程组:</strong><br>$$<br>\left{\begin{matrix}<br>a_{11}x_1+a_{12}x_2+…+a_{1n}x_n&#x3D;0  \<br>a_{21}x_1+a_{22}x_2+…+a_{1n}x_n&#x3D;0 \…\<br> a_{s1}x_1+a_{s2}x_2+…+a_{sn}x_n&#x3D;0<br>\end{matrix}\right.<br>$$</p><p> (0,0,…,0)是方程组的一个解,称为&#x3D;&#x3D;零解&#x3D;&#x3D;</p><p>其余的解(如果有), 称为&#x3D;&#x3D;非零解&#x3D;&#x3D;</p><blockquote><p><strong>推论1</strong> 若系数矩阵经初等行变换化成的阶梯形矩阵的非零列数目r&lt;n, 则n元齐次线性方程组<strong>有非零解</strong></p></blockquote><blockquote><p><strong>推论2</strong> n元齐次线性方程组, 若元的方程个数s&lt;n, 则它<strong>有非零解</strong></p></blockquote><h2><a href="#ss3-shu-yu" class="header-anchor">&#127795</a><span id="ss3-shu-yu">§3 数域</span></h2><blockquote><p><strong>定义1</strong> 复数集的一个非空子集K如果满足:</p><ul><li>0,1 $$\in$$ K</li><li>a,b $$\in$$ K $$\Rightarrow$$ 四则运算对a,b封闭</li></ul></blockquote><p>有理数域 $\mathbb{Q}$   最小的数域 </p><p>实数域 $\mathbb{R}$</p><p>复数域 $\mathbb{C}$   最大的数域</p>]]></content>
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    
+    <summary type="html">&lt;h2&gt;&lt;a href=&quot;#ss1-jie-xian-xing-fang-cheng-zu-de-ju-zhen-xiao-yuan-fa&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;ss1-jie-xian-xing-fang-cheng-zu-de-ju-zhen-xiao-yuan-fa&quot;&gt;§1 解线性方程组的矩阵消元法&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;增广矩阵&lt;/strong&gt; 多元线性方程组的系数+等号右边&lt;/p&gt;
+&lt;p&gt;几级矩阵，即几乘几矩阵&lt;/p&gt;
+&lt;p&gt;从阶梯型方程组到&lt;strong&gt;阶梯型矩阵&lt;/strong&gt;——多元线性方程组消元，抽象出主要特征&lt;/p&gt;
+&lt;h4&gt;&lt;a href=&quot;#jie-ti-xing-ju-zhen&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;jie-ti-xing-ju-zhen&quot;&gt;阶梯型矩阵&lt;/span&gt;&lt;/h4&gt;</summary>
     
     
     
@@ -148,14 +131,25 @@
     <published>2023-03-31T13:22:46.789Z</published>
     <updated>2023-03-31T14:00:36.926Z</updated>
     
+    <content type="html"><![CDATA[<h2><a href="#nei-rong-ti-yao" class="header-anchor">&#127795</a><span id="nei-rong-ti-yao">内容提要</span></h2><ul><li>电阻器</li><li>独立电源</li><li>受控元件<ul><li>受控电阻</li><li><strong>受控电源</strong></li></ul></li><li><strong>基尔霍夫定律</strong></li><li>2b法求解电路</li></ul><h2><a href="#dian-zu-qi" class="header-anchor">&#127795</a><span id="dian-zu-qi">电阻器</span></h2><ul><li>电阻R</li><li>电导G  单位为S(西门子)</li></ul><p>$$<br>G&#x3D;\frac{1}{R}<br>$$</p><h3><a href="#kai-lu-he-duan-lu" class="header-anchor">&#127795</a><span id="kai-lu-he-duan-lu">开路和短路</span></h3><p>电阻两个性质: 电阻和<strong>额定功率</strong> (功率超过会烧)</p><h3><a href="#jue-ding-zu-zhi-de-yin-su" class="header-anchor">&#127795</a><span id="jue-ding-zu-zhi-de-yin-su">决定阻值的因素</span></h3><p>$$<br>R&#x3D;\rho \frac{L}{S}<br>$$</p><p>$$<br>\rho_T&#x3D;\rho_0 (1+\alpha T)<br>$$</p><h3><a href="#dian-zu-qi" class="header-anchor">&#127795</a><span id="dian-zu-qi">电阻器</span></h3><ul><li>贴片电阻 体积小, 重量轻, 可靠性高</li><li>碳膜电阻 阻值范围宽, 价格低廉</li><li>金属膜电阻 稳定性高, 精度高</li><li>线绕电阻 功率大</li></ul><p>电阻的物理尺寸设计—–由散热决定</p><h2><a href="#du-li-dian-yuan" class="header-anchor">&#127795</a><span id="du-li-dian-yuan">独立电源</span></h2><h5><a href="#li-xiang-du-li-dian-ya-yuan-u-s" class="header-anchor">&#127795</a><span id="li-xiang-du-li-dian-ya-yuan-u-s">理想独立电压源 $$U_S$$</span></h5><img align="center" src="https://s2.loli.net/2022/08/08/lGMJ4ZcYt8eCP6K.jpg">- 保持电压不变, 电压与电路其余部分无关- 电路电流由外电路决定<blockquote><p><strong>等效</strong> 在U-I平面上的线, 能画成一样的就可以看做U-I特性等效的, 如零值电阻&amp;U&#x3D;0的电源&amp;理想导线</p></blockquote><h5><a href="#li-xiang-du-li-dian-liu-yuan-i-s" class="header-anchor">&#127795</a><span id="li-xiang-du-li-dian-liu-yuan-i-s">理想独立电流源 $$I_S$$</span></h5><img align="center" src="https://s2.loli.net/2022/08/08/WbHwkiqd98ca2XR.jpg"><ul><li>保持电流不变, 电流与电路其余部分无关</li><li>电路电压由外电路决定</li><li>直流: $$I_S$$     正弦交流: $$i_S&#x3D;{I_m} \sin \omega t$$</li></ul><p>$$I_S$$&#x3D;0, 等效开路</p><h5><a href="#du-li-dian-yuan-de-gong-lu" class="header-anchor">&#127795</a><span id="du-li-dian-yuan-de-gong-lu">独立电源的功率</span></h5><h2><a href="#shou-kong-yuan-jian" class="header-anchor">&#127795</a><span id="shou-kong-yuan-jian">受控元件</span></h2><h3><a href="#shou-kong-dian-zu-kai-guan" class="header-anchor">&#127795</a><span id="shou-kong-dian-zu-kai-guan">受控电阻—-开关</span></h3><p>力控电阻—–单刀单掷开关</p><p><strong>端口</strong>: 有两个接线端构成, 且满足如下条件: <font color="red">从一个接线端流入的电流等于从另一个接线端流出的电流</font></p><p>二端元件自然构成一个端口</p><h3><a href="#li-xiang-kai-guan-de-u-i-te-xing" class="header-anchor">&#127795</a><span id="li-xiang-kai-guan-de-u-i-te-xing">理想开关的u-i特性</span></h3><p>一个压控电阻的实例: MOSFET</p><p>看成两个端口的元件</p><p>有时可以看成是（压控）电阻, 有时可以看成是（压控）电流源</p><h3><a href="#shou-kong-dian-yuan" class="header-anchor">&#127795</a><span id="shou-kong-dian-yuan">受控电源</span></h3><p>受控电压源&#x2F;受控电流源</p><ul><li><p>压控电流源（VCCS）</p><ul><li><img align="center" src="https://s2.loli.net/2022/08/14/qnspX6Eb3VL4a5w.jpg" width="200"></li><li>$$<br>  \left{ \begin{align}<br>  i_1&amp;&#x3D;0\<br>  i_2&amp;&#x3D;gu_1<br>  \end{align}\right. （g:转移电导）<br>  $$</li></ul></li><li><p>流控电流源（CCCS）</p><ul><li><img align="center" src="https://s2.loli.net/2022/08/14/JeoMxbYd4tfsgCI.jpg" width="200"></li><li>$$<br>\left{ \begin{align}<br>u_1&amp;&#x3D;0\<br>i_2&amp;&#x3D;\beta i_1<br>\end{align}\right. （\beta :转移电流比）<br>$$</li></ul></li><li><p>流控电压源（CCVS）</p><ul><li><img align="center" src="https://s2.loli.net/2022/08/14/wWM9jNmq7RdaoUK.jpg" width="200"></li><li>$$<br>\left{ \begin{align}<br>u_1&amp;&#x3D;0\<br>u_2&amp;&#x3D;ri_1<br>\end{align}\right. （r:转移电阻）<br>$$</li></ul></li><li><p>压控电压源（VCVS）</p><ul><li><img align="center" src="https://s2.loli.net/2022/08/14/QEJACyqYub3oB1k.jpg" width="200"></li><li>$$<br>\left{ \begin{align}<br>i_1&amp;&#x3D;0\<br>u_2&amp;&#x3D;\mu u_1<br>\end{align}\right. （\mu :转移电压比）<br>$$</li></ul></li></ul><h3><a href="#shou-kong-yuan-de-jin-yi-bu-tao-lun" class="header-anchor">&#127795</a><span id="shou-kong-yuan-de-jin-yi-bu-tao-lun">受控源的进一步讨论</span></h3><ol><li>受控源是二端元件吗？ ——不是</li><li>与独立源的比较<ul><li>独立源电压或电流由电源本身决定，而受控源电压或电直接由控制量决定</li><li>独立源是真正电路中的“源”，受控源在电路中是能量或信号处理元件</li></ul></li></ol><h2><a href="#ji-er-huo-fu-ding-lu" class="header-anchor">&#127795</a><span id="ji-er-huo-fu-ding-lu">基尔霍夫定律</span></h2><ul><li><strong>支路</strong>branch：若干元件无分叉地首尾相连构成一条支路，也有教材认为二端元件构成一个支路</li><li><strong>节点</strong>node：3个或更多支路的连接点，也有教材认为2个元件间的接线端构成一个节点</li><li><strong>路径</strong>path：两个节点间包含的支路</li><li><strong>回路</strong>loop：由支路组成的闭合路径</li><li><strong>网格</strong>mesh：平面电路中不与其余支路相交的回路</li></ul><p><strong>基尔霍夫电流定律</strong>(KCL)：流出节点的电流的代数和为零，流入节点的电流的代数和为零</p><ul><li>只适用于集总参数电路</li><li>对有参考方向的电流依然有效</li><li>广义KCL: 任意子电路可以等效为一个节点</li></ul><p><strong>基尔霍夫电压定律</strong>(KVL)：回路中所有电压（降）的代数和为零</p><ul><li>广义KVL: 电路中任意两点间的电压等于两点间任意一条路径经过的各元件电压的代数和</li></ul><h2><a href="#2b-fa-qiu-jie-dian-lu" class="header-anchor">&#127795</a><span id="2b-fa-qiu-jie-dian-lu">2b法求解电路</span></h2><p>对于有b个支路的任意电路，可列写<strong>b</strong>个独立元件约束，<strong>n-1</strong>个独立KCL，<strong>b-n+1</strong>个独立KVL</p>]]></content>
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    
+    <summary type="html">&lt;h2&gt;&lt;a href=&quot;#nei-rong-ti-yao&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;nei-rong-ti-yao&quot;&gt;内容提要&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;电阻器&lt;/li&gt;
+&lt;li&gt;独立电源&lt;/li&gt;
+&lt;li&gt;受控元件&lt;ul&gt;
+&lt;li&gt;受控电阻&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;受控电源&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基尔霍夫定律&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;2b法求解电路&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;a href=&quot;#dian-zu-qi&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;dian-zu-qi&quot;&gt;电阻器&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;电阻R&lt;/li&gt;
+&lt;li&gt;电导G  单位为S(西门子)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$&lt;br&gt;G&amp;#x3D;\frac{1}{R}&lt;br&gt;$$&lt;/p&gt;</summary>
     
     
     
@@ -173,14 +167,27 @@
     <published>2023-03-31T13:22:46.789Z</published>
     <updated>2023-03-31T14:00:54.215Z</updated>
     
+    <content type="html"><![CDATA[<h2><a href="#zhu-yao-nei-rong" class="header-anchor">&#127795</a><span id="zhu-yao-nei-rong">主要内容</span></h2><ul><li>电阻等效变换<ul><li>串并联</li><li>平衡电桥</li><li>Y-$$\Delta$$变换</li><li>含受控源二端网络的入端电阻</li></ul></li><li>电源等效变换<ul><li>理想独立源等效变换</li><li>实际独立源等效变换</li></ul></li></ul><h2><a href="#dian-zu-deng-xiao-bian-huan" class="header-anchor">&#127795</a><span id="dian-zu-deng-xiao-bian-huan">电阻等效变换</span></h2><blockquote><p>变换以求二端网络的入端电阻</p></blockquote><h3><a href="#chuan-bing-lian" class="header-anchor">&#127795</a><span id="chuan-bing-lian">串并联</span></h3><p><strong>二端网络</strong>：与外部只有两个接线端相连的网络</p><p><strong>无独立源二端网络</strong>：网络内部没有独立源的二端网络</p><p>一个无独立源二端电阻网络可以用端口的入端电阻来等效（$$R_{eq}$$）</p><p>两个电路<strong>等效</strong>：两个电路u-i关系的形式和参数均一样  ——等效的相对性：对于外部电路等效，内部各是各的</p><ol><li>电阻元件串联（无分叉地首尾相连）<ul><li>串联电阻元件的分压</li><li>信号源的负载电阻大小与信号强弱</li></ul></li><li>并联电阻元件（共用两个接线端）<ul><li>等效电导$$G_{eq}$$</li><li>并联电阻元件的分流</li></ul></li><li>看串并联<ul><li>节点移动、元件拉伸</li><li>去掉已知的部分</li></ul></li></ol><h3><a href="#ping-heng-dian-qiao" class="header-anchor">&#127795</a><span id="ping-heng-dian-qiao">平衡电桥</span></h3><p>两个<strong>等电位点</strong>间接任意电阻（含开短路）不影响电路的电压电流分布</p><h3><a href="#y-delta-bian-huan" class="header-anchor">&#127795</a><span id="y-delta-bian-huan">Y-$$\Delta$$变换</span></h3><p>$$\Delta$$网络、Y网络在怎样的情况下对外等效？</p><p>&#x3D;&#x3D;图&#x3D;&#x3D;</p><p>两个网络各自列出KCL和KVL，五个式子联立的方程组</p><p>把两个网络的列出的方程组化成相同的形式，比较对应的参数，就得到了等效条件：</p><p>&#x3D;&#x3D;图&#x3D;&#x3D;</p><p>$$\Delta$$网络、Y网络变形可得到$$\pi$$网络和T网络</p><h3><a href="#han-shou-kong-yuan-er-duan-wang-luo-de-ru-duan-dian-zu" class="header-anchor">&#127795</a><span id="han-shou-kong-yuan-er-duan-wang-luo-de-ru-duan-dian-zu">含受控源二端网络的入端电阻</span></h3><p>加压求流，加流求压</p><h2><a href="#dian-yuan-deng-xiao-bian-huan" class="header-anchor">&#127795</a><span id="dian-yuan-deng-xiao-bian-huan">电源等效变换</span></h2><h3><a href="#li-xiang-du-li-yuan-deng-xiao-bian-huan" class="header-anchor">&#127795</a><span id="li-xiang-du-li-yuan-deng-xiao-bian-huan">理想独立源等效变换</span></h3><p><strong>理想独立源的串、并联</strong>：在不破坏KCL和KVL的情况下，理想电流源串理想电压源&#x2F;电阻等，对外仍等于理想电流源；理想电压源并理想电流源\电阻等，对外仍等于理想电压源</p><h3><a href="#shi-ji-du-li-yuan-deng-xiao-bian-huan" class="header-anchor">&#127795</a><span id="shi-ji-du-li-yuan-deng-xiao-bian-huan">实际独立源等效变换</span></h3>]]></content>
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    
+    <summary type="html">&lt;h2&gt;&lt;a href=&quot;#zhu-yao-nei-rong&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;zhu-yao-nei-rong&quot;&gt;主要内容&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;电阻等效变换&lt;ul&gt;
+&lt;li&gt;串并联&lt;/li&gt;
+&lt;li&gt;平衡电桥&lt;/li&gt;
+&lt;li&gt;Y-$$\Delta$$变换&lt;/li&gt;
+&lt;li&gt;含受控源二端网络的入端电阻&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;电源等效变换&lt;ul&gt;
+&lt;li&gt;理想独立源等效变换&lt;/li&gt;
+&lt;li&gt;实际独立源等效变换&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;a href=&quot;#dian-zu-deng-xiao-bian-huan&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;dian-zu-deng-xiao-bian-huan&quot;&gt;电阻等效变换&lt;/span&gt;&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;变换以求二端网络的入端电阻&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;a href=&quot;#chuan-bing-lian&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;chuan-bing-lian&quot;&gt;串并联&lt;/span&gt;&lt;/h3&gt;</summary>
     
     
     
@@ -198,14 +205,13 @@
     <published>2023-03-31T13:22:46.772Z</published>
     <updated>2023-03-31T14:00:13.605Z</updated>
     
+    <content type="html"><![CDATA[<p><strong>集总参数电路&#x2F;分布参数电路</strong></p><h2><a href="#xu-lun" class="header-anchor">&#127795</a><span id="xu-lun">绪论</span></h2><p>电路是工程类第一门最重要的课</p><p>电类不同课程是从不同角度解决问题，需要贯穿起来</p><p>重要的是运用知识，比如分析新型元器件</p><p>科学类的课程的目的是探索终极真理，工程类是探索最恰当的折中（实现一个性能）</p><p><strong>计算结果</strong>表示为小数，而非分数，保留三位</p><p><strong>折中</strong>模型精度与计算速度</p><p><strong>直觉解法</strong>有能力的工程师能直接看出结果，很重要</p><p>电路——电流通路，是EE（Electrical Engineering，实际上涵盖很宽）和CS的基础</p><p>有什么作用：处理能量，处理信号，同时处理</p><p>电路原理——分析&amp;综合</p><p>分析：实际电路——电路模型——列写方程——求解</p><p>综合：我希望电路有一个结果，根据以往经验猜想电路模型</p><h2><a href="#dian-ya-dian-lu-he-gong-lu" class="header-anchor">&#127795</a><span id="dian-ya-dian-lu-he-gong-lu">电压电路和功率</span></h2><h3><a href="#dian-lu-de-zu-cheng" class="header-anchor">&#127795</a><span id="dian-lu-de-zu-cheng">电路的组成</span></h3><ul><li>源</li><li>负荷</li><li>能量和信号处理线路</li><li>导线和开关（不要忽略开关，开关的作用可能比电阻大）</li></ul><h3><a href="#ru-he-kan-dai-dian-lu" class="header-anchor">&#127795</a><span id="ru-he-kan-dai-dian-lu">如何看待电路</span></h3><ul><li>根据负荷性质：<strong>电阻电路&#x2F;动态电路</strong></li><li>其中, 动态电路根据感兴趣的时段，<strong>暂态分析&#x2F;稳态分析</strong></li><li>也可以根据电源性质, 分为<strong>直流电路&amp;交流电路</strong></li><li>其中, 交流电路可分为<strong>正弦激励&amp;周期性非正弦激励</strong></li></ul><h3><a href="#ben-ke-cheng-zhu-yao-nei-rong" class="header-anchor">&#127795</a><span id="ben-ke-cheng-zhu-yao-nei-rong">本课程主要内容</span></h3><ul><li>线性电阻电路</li><li>非线性电阻电路</li><li>线性动态电路的时域分析</li><li>线性动态电路的稳态分析<ul><li>正弦激励</li><li>周期性非正弦激励</li></ul></li></ul><p>前一半认真听, 后一半需要引用很多概念。</p><h3><a href="#dian-lu-de-mo-xing" class="header-anchor">&#127795</a><span id="dian-lu-de-mo-xing">电路的模型</span></h3><ol><li>理想电路元件—-是实际电路的抽象</li><li>电路建模</li></ol><p>​<strong>折中的艺术</strong>: 电池&amp;电灯, 电池和电灯的电阻实际都在变, 但是如果只算简单的东西, 就不需要特别精细的建模</p><ol start="3"><li><p>电路的变量</p><p><strong>电流</strong>: 单位时间内通过的电荷量(正电荷)<br>$$<br>I&#x3D;\frac{dq}{dt}<br>$$<br><strong>电压</strong>: 电场力移动单位电荷做的功(正电荷)<br>$$<br>U_{AB}&#x3D;\frac{d{w_{AB}}}{dq}<br>$$</p></li></ol><p>​<strong>电位</strong>: 从某点到参考节点的电压, 参考点的电位是零</p><p>​两点电压&#x3D;电位相减</p><p>​<strong>电动势</strong>: <u>非电场力</u>将单位正电荷从B移动到A所做的功<br>$$<br>e_{BA}&#x3D;\frac{dW_{BA}}{dq}<br>$$<br>​<font color="red">注意</font>: $$e_{BA}$$是电位的升高, 是电池的内在属性; $$u_{AB}$$是电位的降低, 是分析中约定的</p><h3><a href="#bian-liang-de-da-xiao-xie" class="header-anchor">&#127795</a><span id="bian-liang-de-da-xiao-xie">变量的大小写</span></h3><ul><li>不变的量大写,  U I</li><li>可能变化的量小写,  u i</li></ul><h3><a href="#dian-ya-he-dian-liu-de-can-kao-fang-xiang" class="header-anchor">&#127795</a><span id="dian-ya-he-dian-liu-de-can-kao-fang-xiang">电压和电流的参考方向</span></h3><h5><a href="#wei-shi-me-yao-yin-ru-can-kao-fang-xiang" class="header-anchor">&#127795</a><span id="wei-shi-me-yao-yin-ru-can-kao-fang-xiang">为什么要引入参考方向?</span></h5><ul><li>电压或电流的方向不确定</li><li>电压或电流的方向随时间变化</li></ul><h5><a href="#dian-liu-de-can-kao-fang-xiang" class="header-anchor">&#127795</a><span id="dian-liu-de-can-kao-fang-xiang">电流的参考方向</span></h5><p>表示方法: 箭头\双下标</p><h5><a href="#dian-ya-de-can-kao-fang-xiang" class="header-anchor">&#127795</a><span id="dian-ya-de-can-kao-fang-xiang">电压的参考方向</span></h5><p>表示方法: 箭头\双下标\正负极性</p><h5><a href="#dian-dong-shi-de-can-kao-fang-xiang" class="header-anchor">&#127795</a><span id="dian-dong-shi-de-can-kao-fang-xiang">电动势的参考方向</span></h5><p>表示方法: 箭头\双下标\正负极性 (&#x3D;&#x3D;注意e和u的区别&#x3D;&#x3D;)</p><h5><a href="#er-duan-yuan-jian-shang-dian-ya-can-kao-fang-xiang-he-dian-liu-can-kao-fang-xiang-zhi-jian-de-guan-xi" class="header-anchor">&#127795</a><span id="er-duan-yuan-jian-shang-dian-ya-can-kao-fang-xiang-he-dian-liu-can-kao-fang-xiang-zhi-jian-de-guan-xi">二端元件上电压参考方向和电流参考方向之间的关系</span></h5><p>关联参考方向\非关联参考方向 —-&#x3D;&#x3D;欧姆定律的四种写法(误&#x3D;&#x3D;</p><h3><a href="#dian-lu-de-gong-lu" class="header-anchor">&#127795</a><span id="dian-lu-de-gong-lu">电路的功率</span></h3><p><strong>功率</strong>: 单位时间内A到B做的功<br>$$<br>p&#x3D;\frac{dw}{dt}&#x3D;ui<br>$$</p><h5><a href="#gong-lu-de-ji-suan" class="header-anchor">&#127795</a><span id="gong-lu-de-ji-suan">功率的计算</span></h5><p>元件吸收的功率VS元件发出的功率</p><p><strong>关联参考方向</strong>: $$p_吸&#x3D;ui$$, p&gt;0则为实际吸收, p&lt;0为实际发出</p><p><strong>非关联参考方向</strong>: $$p_发&#x3D;ui$$, p&gt;0则为实际发出, 反之同理</p><p>&#x3D;&#x3D;注意功率守恒, 电池有时候也是吸功率的&#x3D;&#x3D;</p><h3><a href="#zui-chong-yao-zhi-chu" class="header-anchor">&#127795</a><span id="zui-chong-yao-zhi-chu">最重要之处</span></h3><ul><li>电压\电流都是参考方向</li><li>电动势是电源的本质参数, 不能假设</li><li>电压-电流有关联、非关联两种情况</li></ul>]]></content>
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;集总参数电路&amp;#x2F;分布参数电路&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;#xu-lun&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;xu-lun&quot;&gt;绪论&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;电路是工程类第一门最重要的课&lt;/p&gt;
+&lt;p&gt;电类不同课程是从不同角度解决问题，需要贯穿起来&lt;/p&gt;
+&lt;p&gt;重要的是运用知识，比如分析新型元器件&lt;/p&gt;</summary>
     
     
     
@@ -217,45 +223,22 @@
   </entry>
   
   <entry>
-    <title>Katex常见用例</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/Katex%E5%B8%B8%E8%A7%81%E7%94%A8%E4%BE%8B/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/Katex%E5%B8%B8%E8%A7%81%E7%94%A8%E4%BE%8B/</id>
-    <published>2023-03-31T13:22:15.134Z</published>
-    <updated>2023-03-31T14:03:33.944Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="小小总结" scheme="https://grooveofmimosa.github.io/tags/%E5%B0%8F%E5%B0%8F%E6%80%BB%E7%BB%93/"/>
-    
-    <category term="Katex" scheme="https://grooveofmimosa.github.io/tags/Katex/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Java踩坑记录</title>
     <link href="https://grooveofmimosa.github.io/2023/03/31/Java%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"/>
     <id>https://grooveofmimosa.github.io/2023/03/31/Java%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</id>
     <published>2023-03-31T13:22:04.499Z</published>
     <updated>2023-03-31T14:06:41.536Z</updated>
     
+    <content type="html"><![CDATA[<h2><a href="#cuo-wu-zhao-bu-dao-fu-hao" class="header-anchor">&#127795</a><span id="cuo-wu-zhao-bu-dao-fu-hao">错误：找不到符号</span></h2><p>使用通配符进行批量编译</p><h2><a href="#jar-zhong-mei-you-zhu-qing-dan-shu-xing" class="header-anchor">&#127795</a><span id="jar-zhong-mei-you-zhu-qing-dan-shu-xing">jar中没有主清单属性</span></h2><ul><li>用压缩包的方式打开jar文件</li><li>打开META-INF文件夹,看到MANIFEST.MF文件</li><li>添加一句代码 Main-Class: xxxxx</li></ul><h2><a href="#zhao-bu-dao-huo-wu-fa-jia-zai-zhu-lei" class="header-anchor">&#127795</a><span id="zhao-bu-dao-huo-wu-fa-jia-zai-zhu-lei">找不到或无法加载主类</span></h2><ol><li>编译时需要加-d . (有package)</li><li>运行时需要加包名</li></ol><h2><a href="#xx-bu-shi-nei-bu-huo-wai-bu-ming-ling" class="header-anchor">&#127795</a><span id="xx-bu-shi-nei-bu-huo-wai-bu-ming-ling">xx不是内部或外部命令</span></h2><ol><li>重启cmd</li><li>未配置环境变量，或将%%中间内容替换为实际路径</li></ol><h2><a href="#lei-zhong-zhao-bu-dao-fu-hao" class="header-anchor">&#127795</a><span id="lei-zhong-zhao-bu-dao-fu-hao">类中找不到符号</span></h2><p>记得import组件文件</p><h2><a href="#mo-ming-bao-yu-fa-cuo-wu" class="header-anchor">&#127795</a><span id="mo-ming-bao-yu-fa-cuo-wu">莫名报语法错误</span></h2><p>可能是自动import了不需要的包</p>]]></content>
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    
+    <summary type="html">&lt;h2&gt;&lt;a href=&quot;#cuo-wu-zhao-bu-dao-fu-hao&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;cuo-wu-zhao-bu-dao-fu-hao&quot;&gt;错误：找不到符号&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;使用通配符进行批量编译&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;#jar-zhong-mei-you-zhu-qing-dan-shu-xing&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;jar-zhong-mei-you-zhu-qing-dan-shu-xing&quot;&gt;jar中没有主清单属性&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;用压缩包的方式打开jar文件&lt;/li&gt;
+&lt;li&gt;打开META-INF文件夹,看到MANIFEST.MF文件&lt;/li&gt;
+&lt;li&gt;添加一句代码 Main-Class: xxxxx&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;a href=&quot;#zhao-bu-dao-huo-wu-fa-jia-zai-zhu-lei&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;zhao-bu-dao-huo-wu-fa-jia-zai-zhu-lei&quot;&gt;找不到或无法加载主类&lt;/span&gt;&lt;/h2&gt;</summary>
     
     
     
@@ -263,275 +246,6 @@
     <category term="Java" scheme="https://grooveofmimosa.github.io/tags/Java/"/>
     
     <category term="小小总结" scheme="https://grooveofmimosa.github.io/tags/%E5%B0%8F%E5%B0%8F%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C++踩坑记录</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/C++%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/C++%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</id>
-    <published>2023-03-31T13:21:56.132Z</published>
-    <updated>2023-03-31T14:06:14.130Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="小小总结" scheme="https://grooveofmimosa.github.io/tags/%E5%B0%8F%E5%B0%8F%E6%80%BB%E7%BB%93/"/>
-    
-    <category term="C语言" scheme="https://grooveofmimosa.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《精力管理》和《超效率手册》</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/%E3%80%8A%E7%B2%BE%E5%8A%9B%E7%AE%A1%E7%90%86%E3%80%8B%E5%92%8C%E3%80%8A%E8%B6%85%E6%95%88%E7%8E%87%E6%89%8B%E5%86%8C%E3%80%8B/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/%E3%80%8A%E7%B2%BE%E5%8A%9B%E7%AE%A1%E7%90%86%E3%80%8B%E5%92%8C%E3%80%8A%E8%B6%85%E6%95%88%E7%8E%87%E6%89%8B%E5%86%8C%E3%80%8B/</id>
-    <published>2023-03-31T13:21:46.952Z</published>
-    <updated>2023-03-31T13:54:24.420Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="效率" scheme="https://grooveofmimosa.github.io/tags/%E6%95%88%E7%8E%87/"/>
-    
-    <category term="读书笔记" scheme="https://grooveofmimosa.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《C primer plus》</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/%E3%80%8AC%20primer%20plus%E3%80%8B/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/%E3%80%8AC%20primer%20plus%E3%80%8B/</id>
-    <published>2023-03-31T13:21:35.371Z</published>
-    <updated>2023-03-31T13:53:45.666Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="C语言" scheme="https://grooveofmimosa.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
-    
-    <category term="阅读笔记" scheme="https://grooveofmimosa.github.io/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《国际经济学：理论与政策》</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/%E3%80%8A%E5%9B%BD%E9%99%85%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%9A%E7%90%86%E8%AE%BA%E4%B8%8E%E6%94%BF%E7%AD%96%E3%80%8B/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/%E3%80%8A%E5%9B%BD%E9%99%85%E7%BB%8F%E6%B5%8E%E5%AD%A6%EF%BC%9A%E7%90%86%E8%AE%BA%E4%B8%8E%E6%94%BF%E7%AD%96%E3%80%8B/</id>
-    <published>2023-03-31T13:21:33.090Z</published>
-    <updated>2023-03-31T14:04:01.498Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="阅读笔记" scheme="https://grooveofmimosa.github.io/tags/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="国际经济学" scheme="https://grooveofmimosa.github.io/tags/%E5%9B%BD%E9%99%85%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>5个跑步姿势秘诀</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/5%E4%B8%AA%E8%B7%91%E6%AD%A5%E5%A7%BF%E5%8A%BF%E7%A7%98%E8%AF%80/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/5%E4%B8%AA%E8%B7%91%E6%AD%A5%E5%A7%BF%E5%8A%BF%E7%A7%98%E8%AF%80/</id>
-    <published>2023-03-31T13:20:32.479Z</published>
-    <updated>2023-03-31T13:55:42.111Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="跑步" scheme="https://grooveofmimosa.github.io/tags/%E8%B7%91%E6%AD%A5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>画画成长路线</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/31/%E7%94%BB%E7%94%BB%E6%88%90%E9%95%BF%E8%B7%AF%E7%BA%BF/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/31/%E7%94%BB%E7%94%BB%E6%88%90%E9%95%BF%E8%B7%AF%E7%BA%BF/</id>
-    <published>2023-03-31T13:19:53.354Z</published>
-    <updated>2023-03-31T13:54:11.993Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="学习笔记" scheme="https://grooveofmimosa.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="画画" scheme="https://grooveofmimosa.github.io/tags/%E7%94%BB%E7%94%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>第八周回顾</title>
-    <link href="https://grooveofmimosa.github.io/2023/03/28/%E7%AC%AC%E5%85%AB%E5%91%A8%E5%9B%9E%E9%A1%BE/"/>
-    <id>https://grooveofmimosa.github.io/2023/03/28/%E7%AC%AC%E5%85%AB%E5%91%A8%E5%9B%9E%E9%A1%BE/</id>
-    <published>2023-03-28T08:48:47.051Z</published>
-    <updated>2023-03-31T13:40:24.941Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;本周完成（3-22-3-27）&quot;&gt;&lt;a href=&quot;#本周完成（3-22-3-27）&quot; class=&quot;headerlink&quot; title=&quot;本周完成（3.22-3.27）&quot;&gt;&lt;/a&gt;本周完成（3.22-3.27）&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;考研&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;英语：单词120个&lt;/li&gt;
-&lt;li&gt;数学：完成高数第八章，回顾了一点点第六章&lt;/li&gt;
-&lt;li&gt;专业课：看完《大学物理》力学部分第一章、第二章&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;学业&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;学年论文：完成了初稿的draft（本周写了2000字）&lt;/li&gt;
-&lt;li&gt;课程作业：初步准备政治文献课的pre&lt;/li&gt;
-&lt;li&gt;文献考试：读了一点点《全球化的悖论》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;生活&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;充分而彻底地研究了inoreader、WeRSS以及RSS订阅方案&lt;/li&gt;
-&lt;li&gt;试图注册ChatGPT&lt;/li&gt;
-&lt;li&gt;重启Hexo，用作每周回顾记录&lt;/li&gt;
-&lt;li&gt;和翟师一起吃饭&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;下周展望（3-29-4-3）&quot;&gt;&lt;a href=&quot;#下周展望（3-29-4-3）&quot; class=&quot;headerlink&quot; title=&quot;下周展望（3.29-4.3）&quot;&gt;&lt;/a&gt;下周展望（3.29-4.3）&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;考研&lt;/strong&gt;（并联）&lt;ul&gt;
-&lt;li&gt;英语：单词背至余量1960，一天20；feedly一天一篇&lt;/li&gt;
-&lt;li&gt;数学：高数六七章练习&amp;amp;三四章纠错&lt;/li&gt;
-&lt;li&gt;专业课：大学物理力学部分看完，热学部分看两眼&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;学业&lt;/strong&gt;（串联）&lt;ul&gt;
-&lt;li&gt;学年论文：初稿整理2000字，发给老师&lt;/li&gt;
-&lt;li&gt;课程作业：政治文献pre&lt;/li&gt;
-&lt;li&gt;文献考试：看完《全球化的悖论》《东周战争》&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;生活&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;好好睡觉：及时上床和洗漱，不在床上玩手机&lt;/li&gt;
-&lt;li&gt;运动：至少去一次健身房&lt;/li&gt;
-&lt;li&gt;玩耍：珺珺生日&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    
-    <category term="每周回顾" scheme="https://grooveofmimosa.github.io/tags/%E6%AF%8F%E5%91%A8%E5%9B%9E%E9%A1%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Blog测试</title>
-    <link href="https://grooveofmimosa.github.io/2022/08/02/Blog%E6%B5%8B%E8%AF%95/"/>
-    <id>https://grooveofmimosa.github.io/2022/08/02/Blog%E6%B5%8B%E8%AF%95/</id>
-    <published>2022-08-02T03:26:01.486Z</published>
-    <updated>2023-03-31T13:40:14.870Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;文章写作样式&quot;&gt;&lt;a href=&quot;#文章写作样式&quot; class=&quot;headerlink&quot; title=&quot;文章写作样式&quot;&gt;&lt;/a&gt;文章写作样式&lt;/h2&gt;&lt;h3 id=&quot;文章摘要&quot;&gt;&lt;a href=&quot;#文章摘要&quot; class=&quot;headerlink&quot; title=&quot;文章摘要&quot;&gt;&lt;/a&gt;文章摘要&lt;/h3&gt;&lt;p&gt;在&lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;标签之前的内容将作为文章摘要在首页展示。&lt;/p&gt;
-&lt;h3 id=&quot;Note-tag&quot;&gt;&lt;a href=&quot;#Note-tag&quot; class=&quot;headerlink&quot; title=&quot;Note tag&quot;&gt;&lt;/a&gt;Note tag&lt;/h3&gt;&lt;p&gt;可选用&lt;code&gt;default&lt;/code&gt;、&lt;code&gt;info&lt;/code&gt;、&lt;code&gt;primary&lt;/code&gt;、&lt;code&gt;success&lt;/code&gt;、&lt;code&gt;warning&lt;/code&gt;、&lt;code&gt;danger&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;示例：&lt;/p&gt;
-&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%note default%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;section&quot;&gt;### title&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;content&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%endnote%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;div class=&quot;note default&quot;&gt;
-            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
-          &lt;/div&gt;
-
-&lt;div class=&quot;note info&quot;&gt;
-            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
-          &lt;/div&gt;
-
-&lt;div class=&quot;note primary&quot;&gt;
-            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
-          &lt;/div&gt;
-
-&lt;div class=&quot;note success&quot;&gt;
-            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
-          &lt;/div&gt;
-
-&lt;div class=&quot;note warning&quot;&gt;
-            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
-          &lt;/div&gt;
-
-&lt;div class=&quot;note danger&quot;&gt;
-            &lt;h3 id=&quot;title&quot;&gt;&lt;a href=&quot;#title&quot; class=&quot;headerlink&quot; title=&quot;title&quot;&gt;&lt;/a&gt;title&lt;/h3&gt;&lt;p&gt;content&lt;/p&gt;
-          &lt;/div&gt;
-
-&lt;h3 id=&quot;Label-tag&quot;&gt;&lt;a href=&quot;#Label-tag&quot; class=&quot;headerlink&quot; title=&quot;Label tag&quot;&gt;&lt;/a&gt;Label tag&lt;/h3&gt;&lt;p&gt;可选用&lt;code&gt;default&lt;/code&gt;、&lt;code&gt;info&lt;/code&gt;、&lt;code&gt;primary&lt;/code&gt;、&lt;code&gt;success&lt;/code&gt;、&lt;code&gt;warning&lt;/code&gt;、&lt;code&gt;danger&lt;/code&gt;。&lt;/p&gt;
-&lt;p&gt;示例：&lt;/p&gt;
-&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%label default@content%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;span class=&quot;label default&quot;&gt;测试&lt;/span&gt;&lt;span class=&quot;label info&quot;&gt;测试&lt;/span&gt;
-
-&lt;h3 id=&quot;Button-tag&quot;&gt;&lt;a href=&quot;#Button-tag&quot; class=&quot;headerlink&quot; title=&quot;Button tag&quot;&gt;&lt;/a&gt;Button tag&lt;/h3&gt;&lt;p&gt;标准样式：&lt;/p&gt;
-&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%btn url,content,hand-o-right fa-fw,title%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a class=&quot;btn&quot; href=&quot;https://grooveofmimosa.github.io/ &quot; title=&quot;title&quot;&gt;&lt;i class=&quot;fa fa-hand-o-right fa-fw&quot;&gt;&lt;/i&gt;测试&lt;/a&gt;
-
-&lt;p&gt;说明：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;url&lt;/code&gt;：指向的链接&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;content&lt;/code&gt;：内容&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;hand-o-right fa-fw&lt;/code&gt;：图标，可换成其他图标。&lt;code&gt;fa-fw&lt;/code&gt;：fix width&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;title&lt;/code&gt;：title&lt;/p&gt;
-&lt;h3 id=&quot;center-quote-tag&quot;&gt;&lt;a href=&quot;#center-quote-tag&quot; class=&quot;headerlink&quot; title=&quot;center-quote tag&quot;&gt;&lt;/a&gt;center-quote tag&lt;/h3&gt;&lt;p&gt;示例：&lt;/p&gt;
-&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%cq%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;人类的悲欢并不相通，我只觉得他们吵闹。&lt;span class=&quot;language-xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;br&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;language-xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;strong&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;——鲁迅&lt;span class=&quot;language-xml&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;strong&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;%endcq%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-
-&lt;h2 id=&quot;代码块测试&quot;&gt;&lt;a href=&quot;#代码块测试&quot; class=&quot;headerlink&quot; title=&quot;代码块测试&quot;&gt;&lt;/a&gt;代码块测试&lt;/h2&gt;&lt;figure class=&quot;highlight json&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 动态心跳&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$(document).ready(function(e)&lt;span class=&quot;punctuation&quot;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    $(&amp;#x27;.copyright&amp;#x27;).html(&amp;#x27;©&lt;span class=&quot;number&quot;&gt;2021&lt;/span&gt; - &lt;span class=&quot;number&quot;&gt;2022&lt;/span&gt; &amp;lt;i class=&lt;span class=&quot;string&quot;&gt;&amp;quot;fa-fw fas fa-heartbeat fa-beat&amp;quot;&lt;/span&gt; style=&lt;span class=&quot;string&quot;&gt;&amp;quot;color: #f92672;&amp;quot;&lt;/span&gt;&amp;gt;&amp;lt;/i&amp;gt; By 花猪&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;punctuation&quot;&gt;&amp;#125;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$(document).ready(function(e)&lt;span class=&quot;punctuation&quot;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    show_date_time();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;punctuation&quot;&gt;&amp;#125;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//本站运行时间&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;function show_date_time()&lt;span class=&quot;punctuation&quot;&gt;&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$(&amp;#x27;.framework-info&amp;#x27;).html(&amp;#x27;本站已运行&amp;lt;span id=&lt;span class=&quot;string&quot;&gt;&amp;quot;span_dt_dt&amp;quot;&lt;/span&gt; style=&lt;span class=&quot;string&quot;&gt;&amp;quot;color: #fff;&amp;quot;&lt;/span&gt;&amp;gt;&amp;lt;/span&amp;gt;&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;window.setTimeout(&lt;span class=&quot;string&quot;&gt;&amp;quot;show_date_time()&amp;quot;&lt;/span&gt;&lt;span class=&quot;punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;1000&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;BirthDay=new Date(&lt;span class=&quot;string&quot;&gt;&amp;quot;1/20/2021 0:0:0&amp;quot;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;today=new Date();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;timeold=(today.getTime()-BirthDay.getTime());&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;sectimeold=timeold/&lt;span class=&quot;number&quot;&gt;1000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;secondsold=Math.floor(sectimeold);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;msPerDay=&lt;span class=&quot;number&quot;&gt;24&lt;/span&gt;*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;*&lt;span class=&quot;number&quot;&gt;1000&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e_daysold=timeold/msPerDay&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;daysold=Math.floor(e_daysold);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e_hrsold=(e_daysold-daysold)*&lt;span class=&quot;number&quot;&gt;24&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;hrsold=Math.floor(e_hrsold);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;e_minsold=(e_hrsold-hrsold)*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;minsold=Math.floor((e_hrsold-hrsold)*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;seconds=Math.floor((e_minsold-minsold)*&lt;span class=&quot;number&quot;&gt;60&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;span_dt_dt.innerHTML=&amp;#x27;&amp;lt;font style=color&lt;span class=&quot;punctuation&quot;&gt;:&lt;/span&gt;#afb4db&amp;gt;&amp;#x27;+daysold+&amp;#x27;&amp;lt;/font&amp;gt; 天 &amp;lt;font style=color&lt;span class=&quot;punctuation&quot;&gt;:&lt;/span&gt;#f391a9&amp;gt;&amp;#x27;+hrsold+&amp;#x27;&amp;lt;/font&amp;gt; 时 &amp;lt;font style=color&lt;span class=&quot;punctuation&quot;&gt;:&lt;/span&gt;#fdb933&amp;gt;&amp;#x27;+minsold+&amp;#x27;&amp;lt;/font&amp;gt; 分 &amp;lt;font style=color&lt;span class=&quot;punctuation&quot;&gt;:&lt;/span&gt;#a3cf62&amp;gt;&amp;#x27;+seconds+&amp;#x27;&amp;lt;/font&amp;gt; 秒&amp;#x27;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;punctuation&quot;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    
-    <category term="测试" scheme="https://grooveofmimosa.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
