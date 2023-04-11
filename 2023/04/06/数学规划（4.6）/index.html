@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content=#58b77a>
+  <title>数学规划（4.6） | 云彩观测站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="弋茵">
+  <meta name="keywords" content="">
+  <meta name="description" content="白云升远岫，摇曳入晴空。乘化随舒卷，无心任始终。">
+  <script id="hexo-configurations">
+  var CONFIG = {
+    root: '/',
+    theme: 'lx',
+    version: '0.4.3',
+    localsearch:{
+      "enable": true,
+      "trigger": "auto",
+      "top_n_per_article": 1,
+      "unescape": false,
+      "preload": false
+      },
+    path: 'search.xml'
+  };
+</script>
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/css/main.min.css">
+  <link rel="stylesheet" href="/css/custom.css">
+  <style type="text/css">
+    pre,
+    code {
+      font-family: 'Quicksand', monospace;
+    }
+    html {
+      font-family: 'Noto Serif SC', sans-serif;
+    }
+    body {
+      font-family: 'Noto Serif SC', sans-serif;
+    }
+    h1, h2, h3, h4, h5, figure {
+      font-family: 'Noto Serif SC', sans-serif;
+    }
+    .menu-container{
+      font-family: 'Noto Serif SC', sans-serif;
+    }
+  </style>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/jquery.jside.menu.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	$(".menu-container").jSideMenu({
+	    jSidePosition: "position-right",
+	    jSideSticky: true,
+	    jSideSkin: "",
+	     });
+	}); 
+	</script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:300,300italic,400,400italic,700,700italic|Noto Serif SC:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css">
+<meta name="generator" content="Hexo 6.2.0"><link rel="alternate" href="/atom.xml" title="云彩观测站" type="application/atom+xml">
+</head>
+<body>
+<div class="single">
+<div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="要找什么呢？" spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+<div id="page">
+<div class="header">
+  <div id="lx-aside" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZGb5t.jpg)" data-stellar-background-ratio="0.5">
+    <div class="overlay">
+      <a href="javascript:;" class="popup-trigger" title="search"><i class="menu-item-icon fa fa-search fa-fw"></i></a>
+      <div class="page-title">
+        <div class="avatar"><a href="/"><img src="https://s1.ax1x.com/2022/08/03/vZGW8K.jpg" alt="弋茵"></a></div>
+        <span>2023-04-06</span>
+        <h2>数学规划（4.6）</h2>
+        <div class="tags"><i class="fa fa-tag"></i><a class="tag-none-link" href="/tags/%E8%80%83%E7%A0%94/" rel="tag">考研</a></div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div id="lx-main-content">
+  <div class="lx-post">
+    <div class="lx-entry padding">
+      <div>
+        <link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2><a href="#xie-zai-qian-mian" class="header-anchor">&#127795</a><span id="xie-zai-qian-mian">写在前面</span></h2><p>命题重点：计算能力+概念理解</p>
+<p>真题建议保底10月开始</p>
+<p>数学前期投入大量时间，后期可以适当减少（要分给政治英语）</p>
+<p>没有详解的题不要做</p>
+<p><strong>这种技巧性极强的题从来都不是考研命题的主流方向</strong></p>
+<p>每天学习时长是不断变化的量，事实上，每周把该推进的内容学完，就可以了，具体时间并不是严格的！如果一天做不完，可以分成好几天，不用emo。比如我做李林880的时候，想过2天写完第二章（包含中值定理）的提升篇，根本写不完，这种情况就延长几天继续做就好，其实到最后都可以弄完的。<strong>跟他人比进度也没什么意义</strong>，他人看的快不代表都掌握了。</p>
+<h2><a href="#ji-chu-23456" class="header-anchor">&#127795</a><span id="ji-chu-23456">基础（23456）</span></h2><p>高数武忠祥及660（可做张宇300）张宇点火公式、表格法等</p>
+<p>线代汤家凤</p>
+<p>概率论余丙森</p>
+<p><strong>基础阶段不要做太多停留，把对应的习题做完即可进入强化阶段。强化是重中之重！强化是重中之重！强化是重中之重！</strong></p>
+<p><strong>强化阶段的目标：</strong>构建起完善的知识体系，多做题，同时要注重整理错题，吃透错题，建立起正确的数学思维，做到举一反三。<strong>记住，错题是你最宝贵的财富，你为什么会做错？就是因为你这个地方掌握的不牢固。注重错题！注重错题！注重错题！</strong></p>
+<p>如果要做课后习题：高数不定积分和定积分，线代全做，概率论不用做</p>
+<h2><a href="#qiang-hua-6-9" class="header-anchor">&#127795</a><span id="qiang-hua-6-9">强化（6-9）</span></h2><p>高数武忠祥及其<strong>《武忠祥严选题》</strong>，**<u><font color="red">《李林880》</font></u><strong>（高数线代概率论都能做），方浩级数和概率论，曲面积分：</strong>自己去刷张宇《高数十八讲》的第十七讲和十八讲上的所有例题<strong>，</strong>微分方程这一章，王谱的微分算子法**</p>
+<p>线代（强化部分选谁都行）李永乐及其《线性代数辅导讲义》，<u>《李正元全书》的线代部分</u>（或者李林线代辅导讲义）（继续提高：<strong>《李范全书》</strong>中的线代部分，编者叫<strong>尤承业</strong>，在9，10月左右，李范全书的编者团队还会出一本书，叫做<strong>《最后冲刺超越135分》</strong>）</p>
+<p>概率论方浩及其<strong>《考研数学通关教程》（是讲义）。</strong> <strong>《李林概率论辅导讲义》</strong>，尤其是<strong>“伽马函数”</strong></p>
+<h2><a href="#chong-ci-101112" class="header-anchor">&#127795</a><span id="chong-ci-101112">冲刺（101112）</span></h2><p><strong>用套卷去查缺，寻找遗忘和薄弱的知识点，用强化阶段的讲义和《李林高频考点108题》去补漏。</strong></p>
+<p><strong>李艳芳</strong>真题卷（李艳芳模拟卷目标145+可以做，基础不好不建议）</p>
+<p>模拟卷里，李林的六套卷和四套卷，<strong>必做</strong>。</p>
+<p>其他：</p>
+<ul>
+<li>张宇8套卷、合工大超越卷选填质量高，大题出题方向和考研不搭</li>
+<li>武忠祥《十七堂课》，《李林108》</li>
+</ul>
+<p>做套卷最重要的是，<strong>吃透</strong></p>
+<p>不要迷信所谓的押题班和任何渠道的押题。</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="lx-navigation">
+	<div class="lx-cover next lx-cover-sm" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZG5Ke.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="/2023/04/06/%E4%B8%93%E4%B8%9A%E8%AF%BE%E8%A7%84%E5%88%92%EF%BC%884.6%EF%BC%89/">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Next</span>
+						<h3>专业课规划（4...</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+        <div class="lx-cover prev lx-cover-sm" style="background-image: url(https://s1.ax1x.com/2022/08/03/vZG7VA.jpg)">
+		<div class="overlay"></div>
+		<a class="copy" href="/2023/04/06/%E6%94%BF%E6%B2%BB%E8%A7%84%E5%88%92%EF%BC%884.6%EF%BC%89/">
+			<div class="display-t">
+				<div class="display-tc">
+					<div>
+						<span>Prev</span>
+						<h3>政治规划（4.6）</h3>
+					</div>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+
+</div>
+
+<footer>
+  <div>
+  来自2023&copy;<a href="/">云彩观测站</a>&#10047;<br>
+  </div>
+</footer>
+
+</div>
+
+<button class="hamburger hamburger--arrow-r" type="button" title="menu">
+    <div class="hamburger-box">
+      <div class="hamburger-inner"></div>
+    </div>
+</button>
+<div class="menu visibility">
+  <div class="menu-head">
+    <span class="layer">
+      <div class="col">
+        <div class="row for-pic">
+          <div class="profile-pic">
+            <a href="/"><img src="https://s1.ax1x.com/2022/08/03/vZGW8K.jpg" alt="弋茵"/></a>
+          </div>
+        </div>
+        <div class="row for-name">
+          <p>弋茵</p>
+          <span class="tagline">乘化随舒卷。</span>
+        </div>
+      </div>
+    </span>
+  </div>
+  <nav class="menu-container">
+  <ul class="menu-items">
+    <li><a href="/"><i class="fa fa-home fa-fw"></i>首页</a></li>
+    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+    
+    <li class="has-sub"><span class="dropdown-heading">
+      <i class="fa fa-bookmark fa-fw"></i>页面</span>
+        <ul>
+          <li><a href="/board/">Board</a></li>
+        <li><a href="/style/">Style</a></li>
+        </ul>
+    </li>
+    
+  </ul>
+  </nav>
+</div>
+
+<div class="gototop js-top">
+  <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/jquery.easing.min.js"></script>
+<script>
+(function () {
+	"use strict";
+	var goToTop = function() {
+		$(".js-gotop").on("click", function(event){
+			event.preventDefault();
+			$("html, body").animate({
+				scrollTop: $("html").offset().top
+			}, 500, "easeInOutExpo");
+			return false;
+		});
+		$(window).scroll(function(){
+			var $win = $(window);
+			if ($win.scrollTop() > 200) {
+				$(".js-top").addClass("active");
+			} else {
+				$(".js-top").removeClass("active");
+			}
+		});
+	};
+	$(function(){
+		goToTop();
+	});
+}());
+</script>
+<script src="https://cdn.jsdelivr.net/npm/theme-lx@0.4.3/source/dist/js/local.search.min.js"></script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+  TeX: {
+          extensions: ["mhchem.js"]
+    }
+  });
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
+        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
+      }
+    });
+  });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      document.getElementById(all[i].inputID + '-Frame').parentNode.className += ' has-jax';
+    }
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-svg.js"></script>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":300,"height":300},"mobile":{"show":false},"react":{"opacity":1}});</script></body>
+</html>
+
+<!--树叶飘落-->
+<script type="text/javascript" src="/js/sakura.js"></script>
+
+<!--鼠标点击烟花爆炸效果-->
+<!--<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> -->
+<!--<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> -->
+<!--<script type="text/javascript" src="/js/fireworks.js"></script>-->
+
+
+

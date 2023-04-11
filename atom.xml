@@ -6,7 +6,7 @@
   <link href="https://grooveofmimosa.github.io/atom.xml" rel="self"/>
   
   <link href="https://grooveofmimosa.github.io/"/>
-  <updated>2023-04-06T03:20:28.487Z</updated>
+  <updated>2023-04-11T10:48:31.320Z</updated>
   <id>https://grooveofmimosa.github.io/</id>
   
   <author>
@@ -17,135 +17,111 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>高等数学考纲和复习方法</title>
-    <link href="https://grooveofmimosa.github.io/2023/04/06/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E8%80%83%E7%BA%B2%E5%92%8C%E5%A4%8D%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
-    <id>https://grooveofmimosa.github.io/2023/04/06/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E8%80%83%E7%BA%B2%E5%92%8C%E5%A4%8D%E4%B9%A0%E6%96%B9%E6%B3%95/</id>
-    <published>2023-04-06T03:01:23.304Z</published>
-    <updated>2023-04-06T03:20:28.487Z</updated>
+    <title>高数复盘</title>
+    <link href="https://grooveofmimosa.github.io/2023/04/11/%E9%AB%98%E6%95%B0%E5%A4%8D%E7%9B%98/"/>
+    <id>https://grooveofmimosa.github.io/2023/04/11/%E9%AB%98%E6%95%B0%E5%A4%8D%E7%9B%98/</id>
+    <published>2023-04-11T10:48:31.320Z</published>
+    <updated>2023-04-11T10:48:31.320Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2><a href="#gao-deng-shu-xue-kao-gang" class="header-anchor">&#127795</a><span id="gao-deng-shu-xue-kao-gang">高等数学考纲</span></h2><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E8%80%83%E7%BA%B2.png" style="zoom:67%;"><ul><li>近似计算不要求</li><li>打*号的，欧拉方程要看，其余不要求</li></ul><h2><a href="#fu-xi-fang-fa" class="header-anchor">&#127795</a><span id="fu-xi-fang-fa">复习方法</span></h2><p>（一）关于基本概念的复习</p><ol><li>会叙述（数学表达）</li><li>理解内含（数学意义，作用，几何意义等）</li><li>相关概念之间的关系（必要条件，充分条件，充要条件，既非充分条件又非必要条件)</li><li>掌握应用</li></ol><p>（二）关于基本理论（定理、性质）的复习</p><ol><li>会叙述（数学表达）</li><li>理解内含（数学意义、作用)，了解外延；</li><li>凡大纲要求掌握或理解的定理、性质不但要会用而且要会证明，凡大纲要求会用的定理、性质要会用</li></ol><p>（三）关于基本方法（法则）的复习</p><ol><li>条件</li><li>结论（公式）</li><li>如何用  (什么情况下用、怎么用、使用条件)</li></ol>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E9%AB%98%E6%95%B0%E5%A4%8D%E7%9B%981.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E9%AB%98%E6%95%B0%E5%A4%8D%E7%9B%982.jpg"></p>]]></content>
     
     
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;h2&gt;&lt;a href=&quot;#gao-deng-shu-xue-kao-gang&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;gao-deng-shu-xue-kao-gang&quot;&gt;高等数学考纲&lt;/span&gt;&lt;/h2&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E8%80%83%E7%BA%B2.png&quot; style=&quot;zoom:67%;&quot;&gt;
-
-&lt;ul&gt;
-&lt;li&gt;近似计算不要求&lt;/li&gt;
-&lt;li&gt;打*号的，欧拉方程要看，其余不要求&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;a href=&quot;#fu-xi-fang-fa&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;fu-xi-fang-fa&quot;&gt;复习方法&lt;/span&gt;&lt;/h2&gt;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E9%AB%98%E6%95%B0%E5%A4%8D%E7%9B%981.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E9%AB%98%E6%95%B0%E5%A4%8D%E7%9B%982.jpg&quot;&gt;&lt;/p&gt;
+</summary>
     
     
     
-    
-    <category term="高等数学" scheme="https://grooveofmimosa.github.io/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     
     <category term="考研" scheme="https://grooveofmimosa.github.io/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
   <entry>
-    <title>人生感悟</title>
-    <link href="https://grooveofmimosa.github.io/2023/04/06/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F/"/>
-    <id>https://grooveofmimosa.github.io/2023/04/06/%E4%BA%BA%E7%94%9F%E6%84%9F%E6%82%9F/</id>
-    <published>2023-04-06T02:53:53.945Z</published>
-    <updated>2023-04-06T02:56:13.591Z</updated>
+    <title>2月3月回顾与4月规划</title>
+    <link href="https://grooveofmimosa.github.io/2023/04/11/2%E6%9C%883%E6%9C%88%E5%9B%9E%E9%A1%BE%E4%B8%8E4%E6%9C%88%E8%A7%84%E5%88%92/"/>
+    <id>https://grooveofmimosa.github.io/2023/04/11/2%E6%9C%883%E6%9C%88%E5%9B%9E%E9%A1%BE%E4%B8%8E4%E6%9C%88%E8%A7%84%E5%88%92/</id>
+    <published>2023-04-11T08:05:29.922Z</published>
+    <updated>2023-04-11T11:08:20.584Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p>来自bilibili</p><ul><li>老哥说的很实在，我补充一点很多年轻人会犯的错误。你的价值取决于你自己对自己的认知。绝对不要把自己的定价权交给除了自己以外的任何人。当你拥有了发自内心的自信，你才能在繁杂的世界为自己开拓一块庇护所。外界的事情将不再能够轻易地改变你的想法和计划。很多年轻人渴望从他人那里获得爱和认可是可以理解的。我们也需要勇敢的去和他人接触。但是这一切的前提都是建立在你足够的自信、足够的自爱。一个空洞的自我是不能够吸引其他有趣的灵魂，更谈不上选择自己的人生路。最终的下场就如同飞蛾扑火一样，浑浑噩噩混过一生。建立发自内心的自信需要做的事情很简单、也很难：1.提高技能  2.养成储蓄的习惯  3.学会复盘与总结  4.学会兼听则明并追问自己的想法。</li><li>今年静下来把娱乐的时间抽出来了点看了点书，才想明白原来自己羡慕机会但是又恐惧损失，有时候接受了自己脚下所处的位置，才能只关注怎么走好下一步；如果一直看着山顶望着现在，往往一步都走不出去。<br>现代人很多时候真的是看了太多的人生道理太多的视频，却没人真的关掉所有外界的干扰看一看自己的内心。</li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2><a href="#xie-zai-qian-mian" class="header-anchor">&#127795</a><span id="xie-zai-qian-mian">写在前面</span></h2><p>经历了政治文献pre周和劳动教育周的仓皇，周计划一拖再拖，按周做计划显然已经不能适应当下的需要。贴吧老哥的观点很适用于我当前的情况：“按周做计划太赶了，随便有什么事情，计划就往后拖了，按月做计划比较好。”</p><p>所以学习贴吧老哥成功上岸的经验，我的回顾&amp;规划也改成按月进行了。也没必要写多么详细，简单记一下就好。</p><h2><a href="#2-yue-hui-gu" class="header-anchor">&#127795</a><span id="2-yue-hui-gu">2月回顾</span></h2><ul><li>考研<ul><li>月初，初步制定学习计划，决定设置<strong>周休日和月计日</strong></li><li>成功找回了久违的学习状态</li><li>高数认认真真学习了4章</li><li>认真看完了整本半导体物理</li><li>背完了考纲词，确定了外文阅读源读了不少英文文章</li></ul></li><li>生活<ul><li>开学，整理东西和转卖闲置</li><li>去医院，看哮喘</li></ul></li></ul><h2><a href="#3-yue-hui-gu" class="header-anchor">&#127795</a><span id="3-yue-hui-gu">3月回顾</span></h2><ul><li>考研<ul><li>月初（和2月底）感觉进度慢，找到了<strong>研分辅导班</strong>的大队伍；调整数学和专业课学习方法</li><li>高数学习方法调整，学习了4章</li><li>翻完了模电和数电，看了一点大学物理</li><li>坚持背GRE词汇，读英文文章</li></ul></li><li>学业<ul><li>学年论文确定题目，写了草稿</li><li>兵荒马乱地完成了政治文献pre（但是结果很好）</li></ul></li><li>生活<ul><li>花掉了没用完的街机游戏币</li><li>去了好几次健身房</li><li>剪头，被好多人夸</li><li>去医院，确定了哮喘类型</li><li>鹿大新开了茶话弄，喝了好多新品</li><li>下定决心注销了b站账号</li><li>充分而彻底地研究了inoreader、WeRSS以及RSS订阅方案（因为政治文献pre心理压力太大）</li><li>顺便重启了Hexo</li><li>和翟师一起吃饭</li><li>第一次尝试闲鱼，卖掉了汉服，从上架到卖出只花了一个小时</li></ul></li></ul><h2><a href="#4-yue-gui-hua" class="header-anchor">&#127795</a><span id="4-yue-gui-hua">4月规划</span></h2><p>四月到目前为止：</p><ul><li>考研<ul><li>月初感觉进度还是慢，数学和专业课学习方法大改革；终于发现了考研交流平台（<strong>考研吧</strong>），看了很多经验贴，全面细化了数学和专业课的规划；关注了很多考研公众号，加了网盘群</li><li>听取爸爸的建议改变了优先级，改为学业ddl优先，决定每天专注于3件事</li></ul></li><li>生活<ul><li>珺珺过生日</li><li>深刻认识到睡觉非常重要（晚起或者少睡一两个小时都不行），认识到经历过大事（外出&#x2F;压力和紧张）后需要缓两天，认识到周休日和月计日不可占用</li><li>去校医院报销</li><li>劳动教育，去农大涿州基地</li></ul></li></ul><p>接下来的计划：<strong>目前以学业为先</strong></p><ul><li>学业<ul><li>学年论文尽量写完</li><li>文献考试22本书准备完</li><li>DDL（国际法论文，对外经济辩论，能源外交pre）</li></ul></li><li>考研<ul><li>数学：尽量完成高数部分的视频课和课后习题</li><li>专业课：好好上辅导班的课，有需要的基础补一点点（以后再赶基础）</li><li>英语：单词一天20，背至余量1520；每天看rss阅读源</li></ul></li></ul>]]></content>
     
     
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;p&gt;来自bilibili&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;老哥说的很实在，我补充一点很多年轻人会犯的错误。你的价值取决于你自己对自己的认知。绝对不要把自己的定价权交给除了自己以外的任何人。当你拥有了发自内心的自信，你才能在繁杂的世界为自己开拓一块庇护所。外界的事情将不再能够轻易地改变你的想法和计划。很多年轻人渴望从他人那里获得爱和认可是可以理解的。我们也需要勇敢的去和他人接触。但是这一切的前提都是建立在你足够的自信、足够的自爱。一个空洞的自我是不能够吸引其他有趣的灵魂，更谈不上选择自己的人生路。最终的下场就如同飞蛾扑火一样，浑浑噩噩混过一生。建立发自内心的自信需要做的事情很简单、也很难：1.提高技能  2.养成储蓄的习惯  3.学会复盘与总结  4.学会兼听则明并追问自己的想法。&lt;/li&gt;
-&lt;li&gt;今年静下来把娱乐的时间抽出来了点看了点书，才想明白原来自己羡慕机会但是又恐惧损失，有时候接受了自己脚下所处的位置，才能只关注怎么走好下一步；如果一直看着山顶望着现在，往往一步都走不出去。&lt;br&gt;现代人很多时候真的是看了太多的人生道理太多的视频，却没人真的关掉所有外界的干扰看一看自己的内心。&lt;/li&gt;
-&lt;/ul&gt;
-</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;h2&gt;&lt;a href=&quot;#xie-zai-qian-mian&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;xie-zai-qian-mian&quot;&gt;写在前面&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;经历了政治文献pre周和劳动教育周的仓皇，周计划一拖再拖，按周做计划显然已经不能适应当下的需要。贴吧老哥的观点很适用于我当前的情况：“按周做计划太赶了，随便有什么事情，计划就往后拖了，按月做计划比较好。”&lt;/p&gt;
+&lt;p&gt;所以学习贴吧老哥成功上岸的经验，我的回顾&amp;amp;规划也改成按月进行了。也没必要写多么详细，简单记一下就好。&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;#2-yue-hui-gu&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;2-yue-hui-gu&quot;&gt;2月回顾&lt;/span&gt;&lt;/h2&gt;</summary>
     
     
     
     
-  </entry>
-  
-  <entry>
-    <title>专业测评结果</title>
-    <link href="https://grooveofmimosa.github.io/2023/04/06/%E4%B8%93%E4%B8%9A%E6%B5%8B%E8%AF%84%E7%BB%93%E6%9E%9C/"/>
-    <id>https://grooveofmimosa.github.io/2023/04/06/%E4%B8%93%E4%B8%9A%E6%B5%8B%E8%AF%84%E7%BB%93%E6%9E%9C/</id>
-    <published>2023-04-06T02:43:28.880Z</published>
-    <updated>2023-04-06T02:43:28.880Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p><img src="https://s2.loli.net/2023/04/06/XmjBE9bugH7Keqr.jpg" alt="MDpic_专业测评.jpg"></p>]]></content>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;p&gt;&lt;img src=&quot;https://s2.loli.net/2023/04/06/XmjBE9bugH7Keqr.jpg&quot; alt=&quot;MDpic_专业测评.jpg&quot;&gt;&lt;/p&gt;
-</summary>
-    
-    
-    
+    <category term="回顾&amp;规划" scheme="https://grooveofmimosa.github.io/tags/%E5%9B%9E%E9%A1%BE-%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
   <entry>
-    <title>考研时间管理</title>
-    <link href="https://grooveofmimosa.github.io/2023/04/06/%E8%80%83%E7%A0%94%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/"/>
-    <id>https://grooveofmimosa.github.io/2023/04/06/%E8%80%83%E7%A0%94%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</id>
-    <published>2023-04-06T02:20:52.862Z</published>
-    <updated>2023-04-06T02:29:20.144Z</updated>
+    <title>考研经验参考源索引</title>
+    <link href="https://grooveofmimosa.github.io/2023/04/06/%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83%E6%BA%90%E7%B4%A2%E5%BC%95/"/>
+    <id>https://grooveofmimosa.github.io/2023/04/06/%E8%80%83%E7%A0%94%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83%E6%BA%90%E7%B4%A2%E5%BC%95/</id>
+    <published>2023-04-06T05:35:08.910Z</published>
+    <updated>2023-04-11T11:39:16.414Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p>以下文段来自知乎</p><h2><a href="#kao-yan" class="header-anchor">&#127795</a><span id="kao-yan">考研</span></h2><ul><li>不用力过猛，把大三下当一个过渡期。大三真不宜全力以赴地准备研究生入学考试，不想看考<br>研资料一点关系都没有，只要能试着尝试前面的一二（调整作息和调整学习心态）就是很大的进步。心态上不要给自己太大压力，事情慢慢做就好。</li><li>考研是一场持久战，不必太拼命，不需要保持每天高强度的学习，我认识一个人，每天学习十一个小时以后，太累了，每天倒头就能睡着，也因为太劳累了，身体很虚弱，隔三差五生病，又因为生病耽误复习进程，更拼命的熬夜复习，恶性循环，在考试前的一个月还感冒了，心态爆炸，最后选择放弃考试。</li><li>一定要保证每天7小时的睡眠时间，让精力充沛的大脑学习1小时，过疲劳的大脑学习3小时，我们追求的不是时间的堆积，而是效率。</li><li>晚上临睡前和清晨的记忆效果是最好的两个时间段。我当时把一些记忆型的知识都挪到这两<br>个时段进行复习。其实这也符合加拿大学者莫克多提出的「U形记忆法」。<ul><li>将背诵形知识放在早晨&#x2F;临睡前记忆。比如说你早晨记忆，临睡前回顾。临睡前记忆，早晨回顾效果都会很好。</li><li>背诵时不要只按照单词书的顺序或者课本的顺序，你每天都试着打乱顺序背，这样就能保证每块的知识都有机会基于「开始」和「结束」的位置，不然处于中间的知识就容易被遗忘。</li></ul></li><li>1、规律作息，早睡早起。培养自己7点钟起床的习惯，按时吃早饭，上午有课就去上课，没课就去图书馆学习考研内容。背单词、刷数学题、看专业课、背政治都可以，重要的是要培养坐在桌前就进入学习状态的习惯。</li><li>2、养成良好心态，遇事绝不纠结。学习某一块知识具有挫败感，再坚特10分钟还是做不下去，我就不会再做了。可能很多同学会难以理解，毕竟我们接受到的思想观念都是【遇到困难绝不放弃】这种，但是在卡住时依然执着于攻克难题，会耗费我们大量的时间和意志力。</li></ul><h2><a href="#shi-jian-guan-li" class="header-anchor">&#127795</a><span id="shi-jian-guan-li">时间管理</span></h2><p>很多人对时间管理最大的误解就是用来帮助自己提高效率，增加对时间的利用率。单纯的增加效率，只会让事情越来越多，工作越来越忙。哪怕加薪升职，也只会带来更大的压力。</p><p>时间管理的目的是帮助自己过得更幸福，提高生活质量。分清生活中有哪些事情对自己更重要，把时间花在自己所喜欢的事情上。</p><p>时间是无法进行管理的，但却可以去选择做或不做，还可以选择事务的优先顺序。而时间管理的本质是选择，按自己的价值观进行选择。</p><p>首先需要清晰自己的三观，然后用三观来建立一个判断依据，用来选择处理不同事物的优先级。在生活、工作中做到失衡而不失控，这才是正确的时间管理。</p><p><strong>什么叫失衡而不失控呢？</strong></p><p>在人生的不同阶段中，总会因为一些因素，而对某一个部分过分的投入，比如考试前的学习、工作初期或某个阶段的疯狂加班、沉迷于某个游戏、爱上某人恨不得24小时跟对方在一起。这种方式的投入会挤占生活中的其它事情，短期内会失去各方面的平衡，而当这情况变成长期之后，很容易会慢慢失控，而一旦失控到临界点就产生工作或生活的全面崩溃。</p><p>比如短期内的加班是不可避免的，但长期的加班会损害一个人的注意力、判断能力、身体素质、情绪控制等等，当持续的长期助加班到达某一个临界点的时候，就会引起全面暴发。比如分手、离婚、身体或精神出问题，生病，严重一点直接过劳死或抑郁症，导致生活和工作的全面崩溃。</p><p>而时间管理能做好这一点，帮助你失衡而不失控，临界点到来之前来解决问题。</p><p><strong>分清生活中有哪些事情对自己更重要？</strong></p><p>这并不是一个简单就能回答的问题，每个人都会认为自己知道答案，但这个答案是真的吗？如果从时间和精力分配来看，人通常会自我欺骗，产生行为和理念上的冲突。</p><p>听过很多人说，生命中最自己最重要的是爱人，父母、孩子。但当记录自己的时间花销时，你会发现在并没有为自己生命中最重要的人留出太多的时间。反而是工作、游戏或其它事情才是最重要的，常常花上80%、90%的时间，几星期都不一定给父母打个电话，也没有留出时间专门跟另一半沟通、约会。完全没空陪孩子。从行为和时间上，完全没看到任何的重要性。</p><p>当你认为哪些因素对自己更重要，就应该多分配一些时间和精力在这些因素上，而不是与之相反。</p><p><strong>提高效率只是术，让自己更幸福才是道。</strong></p><p>问问自己生命哪些因素对你来说更重要？你的行为跟坦念相符吗？</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2><a href="#tie-ba-da-kai-fang-shi" class="header-anchor">&#127795</a><span id="tie-ba-da-kai-fang-shi">贴吧打开方式</span></h2><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E8%B4%B4%E5%90%A7%E9%A3%9F%E7%94%A8%E6%96%B9%E5%BC%8F.jpg"></p><h2><a href="#jing-yan-zong-jie-he-jing-yan-yuan-tie" class="header-anchor">&#127795</a><span id="jing-yan-zong-jie-he-jing-yan-yuan-tie">经验总结和经验原帖</span></h2><ul><li>滴答清单——周计划、部分心得</li><li>hexo——总体规划、月度回顾和规划、心得体会</li><li>pocket——经验原帖</li><li>书签&#x2F;EE&#x2F;参考经验与信息——部分有效信息</li></ul><h2><a href="#qi-ta-jing-yan" class="header-anchor">&#127795</a><span id="qi-ta-jing-yan">其他经验</span></h2><p>来自贴吧：</p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E6%9A%91%E5%81%87%E5%88%AB%E5%9B%9E%E5%AE%B6.jpg"></p><p>来自bilibili：</p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_01.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_02.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_03.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_04.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_05.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_06.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_07.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_08.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_09.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_10.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_11.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_12.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_13.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_14.jpg"></p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_15.jpg"></p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E7%BB%8F%E9%AA%8C%E5%8F%82%E8%80%83_16.png" style="zoom:80%;"><p>来自公众号：（软微经验）</p><p>（考研数学）第一轮，至少复习全书先过一遍，可以跟着视频（视频题目出现的时候先暂停下来，自己思考怎么做，动动笔再播放看老师的讲解），但是一定要配合复习全书做点书上的课后题，哪怕不会做也要对着答案看看怎么做，然后看懂之后，找几道相似的按照上一题答案的套路照葫芦画瓢地做几道，这样慢慢的过掉整个数学的知识点。然后第二轮，这时候就要分模块做，要分清轻重缓急，哪里薄弱补哪里，没必要再按照顺序一章一章花一样的时间在知识点上死磕了，这时候的重点就是买几本习题集，拿一本从头到尾做，做的过程中找到一轮复习之后依旧薄弱的地方，对这些地方的知识点重新看看，然后在另外的习题集中有针对性的挑出一些对应的薄弱的地方多做些训练，这时候做题过程中可以对应的章节找一点对应的早年真题</p><p>来自知乎：（集成电路上岸经验）</p><p>考研之前有在b站上看到一些考研的视频，总体给我的感觉就是考研是一件很悲壮的事情，感觉要拿生命去完成它。我不太喜欢这种心理暗示。其实这一路走下来，我自己包括我身边成功上岸的朋友都觉得，这好像就是一件水到渠成的事情。你每天定好自己要完成的目标，然后完成好每天的计划，一步一步走过来，到最后就会成功的。最可怕的是你每天都觉得自己很用功很努力，每天忙着感动自己，或者发朋友圈感动别人，到头来自己啥也没学进去，这就很尴尬了。我不否认考研是一件比较苦的事情，因为它的时间不短，不确定性很大，让人感到孤独或者无所适从，但我觉得每一个选择这条路的人，一定都是心里有执念，不甘于现在的生活的人。既然选择成为一个这样的人，那么考研其实是你未来道路上的第一个挑战，也可能是最简单的一个挑战了，因为它的成功与否，基本上取决于你自己的努力与自律。不要把考研当作一件神圣的事情，它就是一件很普通，很简单，很日常的事情。踏踏实实地利用好每一天的时间，不想学的时候就去放松一下，不要把自己逼得太紧，重要的是你能够一直坚持下去，我相信你一定会成功的~</p>]]></content>
     
     
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;p&gt;以下文段来自知乎&lt;/p&gt;
-&lt;h2&gt;&lt;a href=&quot;#kao-yan&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;kao-yan&quot;&gt;考研&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;不用力过猛，把大三下当一个过渡期。大三真不宜全力以赴地准备研究生入学考试，不想看考&lt;br&gt;研资料一点关系都没有，只要能试着尝试前面的一二（调整作息和调整学习心态）就是很大的进步。心态上不要给自己太大压力，事情慢慢做就好。&lt;/li&gt;
-&lt;li&gt;考研是一场持久战，不必太拼命，不需要保持每天高强度的学习，我认识一个人，每天学习十一个小时以后，太累了，每天倒头就能睡着，也因为太劳累了，身体很虚弱，隔三差五生病，又因为生病耽误复习进程，更拼命的熬夜复习，恶性循环，在考试前的一个月还感冒了，心态爆炸，最后选择放弃考试。&lt;/li&gt;
-&lt;li&gt;一定要保证每天7小时的睡眠时间，让精力充沛的大脑学习1小时，过疲劳的大脑学习3小时，我们追求的不是时间的堆积，而是效率。&lt;/li&gt;
-&lt;li&gt;晚上临睡前和清晨的记忆效果是最好的两个时间段。我当时把一些记忆型的知识都挪到这两&lt;br&gt;个时段进行复习。其实这也符合加拿大学者莫克多提出的「U形记忆法」。&lt;ul&gt;
-&lt;li&gt;将背诵形知识放在早晨&amp;#x2F;临睡前记忆。比如说你早晨记忆，临睡前回顾。临睡前记忆，早晨回顾效果都会很好。&lt;/li&gt;
-&lt;li&gt;背诵时不要只按照单词书的顺序或者课本的顺序，你每天都试着打乱顺序背，这样就能保证每块的知识都有机会基于「开始」和「结束」的位置，不然处于中间的知识就容易被遗忘。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;1、规律作息，早睡早起。培养自己7点钟起床的习惯，按时吃早饭，上午有课就去上课，没课就去图书馆学习考研内容。背单词、刷数学题、看专业课、背政治都可以，重要的是要培养坐在桌前就进入学习状态的习惯。&lt;/li&gt;
-&lt;li&gt;2、养成良好心态，遇事绝不纠结。学习某一块知识具有挫败感，再坚特10分钟还是做不下去，我就不会再做了。可能很多同学会难以理解，毕竟我们接受到的思想观念都是【遇到困难绝不放弃】这种，但是在卡住时依然执着于攻克难题，会耗费我们大量的时间和意志力。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;a href=&quot;#shi-jian-guan-li&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;shi-jian-guan-li&quot;&gt;时间管理&lt;/span&gt;&lt;/h2&gt;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;h2&gt;&lt;a href=&quot;#tie-ba-da-kai-fang-shi&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;tie-ba-da-kai-fang-shi&quot;&gt;贴吧打开方式&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E8%B4%B4%E5%90%A7%E9%A3%9F%E7%94%A8%E6%96%B9%E5%BC%8F.jpg&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;#jing-yan-zong-jie-he-jing-yan-yuan-tie&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;jing-yan-zong-jie-he-jing-yan-yuan-tie&quot;&gt;经验总结和经验原帖&lt;/span&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;滴答清单——周计划、部分心得&lt;/li&gt;
+&lt;li&gt;hexo——总体规划、月度回顾和规划、心得体会&lt;/li&gt;
+&lt;li&gt;pocket——经验原帖&lt;/li&gt;
+&lt;li&gt;书签&amp;#x2F;EE&amp;#x2F;参考经验与信息——部分有效信息&lt;/li&gt;
+&lt;/ul&gt;</summary>
     
     
     
     
     <category term="考研" scheme="https://grooveofmimosa.github.io/tags/%E8%80%83%E7%A0%94/"/>
     
-    <category term="时间管理" scheme="https://grooveofmimosa.github.io/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/"/>
+  </entry>
+  
+  <entry>
+    <title>跨考复试Tips</title>
+    <link href="https://grooveofmimosa.github.io/2023/04/06/%E8%B7%A8%E8%80%83%E5%A4%8D%E8%AF%95Tips/"/>
+    <id>https://grooveofmimosa.github.io/2023/04/06/%E8%B7%A8%E8%80%83%E5%A4%8D%E8%AF%95Tips/</id>
+    <published>2023-04-06T05:25:11.102Z</published>
+    <updated>2023-04-06T09:13:04.698Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><p>来自B站视频</p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E8%B7%A8%E8%80%83%E5%A4%8D%E8%AF%95Tips1.jpg"></p><p>来自贴吧</p><p><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E8%B7%A8%E8%80%83%E5%A4%8D%E8%AF%95Tips2.jpg"></p>]]></content>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;p&gt;来自B站视频&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E8%B7%A8%E8%80%83%E5%A4%8D%E8%AF%95Tips1.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;来自贴吧&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E8%B7%A8%E8%80%83%E5%A4%8D%E8%AF%95Tips2.jpg&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="考研" scheme="https://grooveofmimosa.github.io/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
   <entry>
-    <title>第十周计划（4.5-4.10）</title>
-    <link href="https://grooveofmimosa.github.io/2023/04/04/%E7%AC%AC%E5%8D%81%E5%91%A8%E8%AE%A1%E5%88%92%EF%BC%884.5-4.10%EF%BC%89/"/>
-    <id>https://grooveofmimosa.github.io/2023/04/04/%E7%AC%AC%E5%8D%81%E5%91%A8%E8%AE%A1%E5%88%92%EF%BC%884.5-4.10%EF%BC%89/</id>
-    <published>2023-04-04T11:57:22.857Z</published>
-    <updated>2023-04-04T14:00:28.779Z</updated>
+    <title>专业课规划（4.6）</title>
+    <link href="https://grooveofmimosa.github.io/2023/04/06/%E4%B8%93%E4%B8%9A%E8%AF%BE%E8%A7%84%E5%88%92%EF%BC%884.6%EF%BC%89/"/>
+    <id>https://grooveofmimosa.github.io/2023/04/06/%E4%B8%93%E4%B8%9A%E8%AF%BE%E8%A7%84%E5%88%92%EF%BC%884.6%EF%BC%89/</id>
+    <published>2023-04-06T05:19:36.047Z</published>
+    <updated>2023-04-11T11:52:02.148Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><ul><li><strong>考研</strong><ul><li>英语：单词背至余量1840，一天20；ino1天2篇</li><li>数学：高数第九章结束</li><li>专业课：大学物理力学部分看完，热学部分看两眼</li></ul></li><li><strong>学业</strong><ul><li>学年论文：空余时间就整理初稿，整理完</li><li>文献考试：课上努力看书！</li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2><a href="#jin-du-an-pai" class="header-anchor">&#127795</a><span id="jin-du-an-pai">进度安排</span></h2><p>主要跟着辅导班的进度走</p><h2><a href="#zi-liao" class="header-anchor">&#127795</a><span id="zi-liao">资料</span></h2><p>半物讲师经验：</p><ul><li>模电：看上海交通大学郑益慧老师课程，参考清华大学出版社童诗白主编的《模拟电子技术基础》</li><li>数模电：康华光的课后习题都做一遍</li></ul><p>可以再去看一下导学课的课件里提到的东西</p><p>知乎经验：</p><p>建议课本至少过三遍，课后题至少做两遍</p><p>跨考经验：</p><ul><li>考试指定用书；</li><li>历年真题和答案；</li><li>目标学校目标课程课件&#x2F;讲义；</li><li>目标学校目标课程的期末考试题；其他学校同专业真题</li><li>把08-19年的所有真题都搞到，然后按器件分类总结，比如pn结、mos等各自总结在一起，包括名词解释和大题，这样方便复习，名词解释都要背，别偷懒，大题注重理解，但是答题格式要熟悉。</li></ul><h2><a href="#zhong-xin-si-xiang" class="header-anchor">&#127795</a><span id="zhong-xin-si-xiang">中心思想</span></h2><ul><li>本专业好好学习，拿一个不错的绩点</li><li>初试分数狠狠往高了考</li><li>自学基础科目（复试阶段再考虑，核心科目就可以）</li><li>了解科研动态（复试阶段再考虑）</li></ul><h2><a href="#zhuan-ye-ke-cheng" class="header-anchor">&#127795</a><span id="zhuan-ye-ke-cheng">专业课程</span></h2><ul><li><strong>大学物理</strong></li><li><strong>电子电路与系统基础（电路分析？）</strong></li><li><strong>复变函数</strong></li><li>计算机程序设计基础，数据结构与算法，计算机原理与系统结构</li><li>数模集</li><li>工程图学 </li><li>信号与系统</li><li>微电子器件&#x2F;工艺技术</li><li>集成电路课程设计&#x2F;集成电路器件导论</li></ul>]]></content>
     
     
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;考研&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;英语：单词背至余量1840，一天20；ino1天2篇&lt;/li&gt;
-&lt;li&gt;数学：高数第九章结束&lt;/li&gt;
-&lt;li&gt;专业课：大学物理力学部分看完，热学部分看两眼&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;学业&lt;/strong&gt;&lt;ul&gt;
-&lt;li&gt;学年论文：空余时间就整理初稿，整理完&lt;/li&gt;
-&lt;li&gt;文献考试：课上努力看书！&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;h2&gt;&lt;a href=&quot;#jin-du-an-pai&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;jin-du-an-pai&quot;&gt;进度安排&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;主要跟着辅导班的进度走&lt;/p&gt;
+&lt;h2&gt;&lt;a href=&quot;#zi-liao&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;zi-liao&quot;&gt;资料&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;半物讲师经验：&lt;/p&gt;</summary>
     
     
     
     
-    <category term="每周计划" scheme="https://grooveofmimosa.github.io/tags/%E6%AF%8F%E5%91%A8%E8%AE%A1%E5%88%92/"/>
+    <category term="考研" scheme="https://grooveofmimosa.github.io/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
