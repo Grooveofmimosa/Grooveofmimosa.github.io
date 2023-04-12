@@ -6,7 +6,7 @@
   <link href="https://grooveofmimosa.github.io/atom.xml" rel="self"/>
   
   <link href="https://grooveofmimosa.github.io/"/>
-  <updated>2023-04-11T10:48:31.320Z</updated>
+  <updated>2023-04-12T10:39:10.459Z</updated>
   <id>https://grooveofmimosa.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论文写不下去的解决方法</title>
+    <link href="https://grooveofmimosa.github.io/2023/04/12/%E8%AE%BA%E6%96%87%E5%86%99%E4%B8%8D%E4%B8%8B%E5%8E%BB%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://grooveofmimosa.github.io/2023/04/12/%E8%AE%BA%E6%96%87%E5%86%99%E4%B8%8D%E4%B8%8B%E5%8E%BB%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2023-04-12T10:38:07.743Z</published>
+    <updated>2023-04-12T10:39:10.459Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><blockquote><p>来自<a href="https://www.zhihu.com/question/518696447">知乎回答</a></p></blockquote><p><strong><a href="https://www.zhihu.com/search?q=%E6%96%B9%E5%90%91%E6%80%A7&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2371134591%7D">方向性</a>的写不下去了</strong></p><p>整个问题和解决方案受到了致命的打击，证明错误或者证明无用功，尤其是导师在听完你的解释之后摇头对你说你还要再下功夫的时候。</p><p>从长远讲的话，下一篇论文一定要做充足准备工作，避免做了不少工作之后再被拍死。虽说这不少的工作或多或少的也是有一定贡献的，但是这样的贡献总是间接的，效率真的受影响，同时心理上也会受到沉重的打击。</p><p>从<a href="https://www.zhihu.com/search?q=%E7%9F%AD%E6%9C%9F&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2371134591%7D">短期</a>看，要仔细的想想，是怎么被证明错误或者无用功的，换一个思路，甚至换一个场景，可能就不是错误或者无用的。这个时候应该沉得住气，因为研究本来就是一个迂回前进的过程，REsearch嘛，来回找嘛。每个地方都浅尝辄止那么每个地方都会一无是处。</p><p>这个时候可以考虑放松一下，做点别的，休息一天。明天天亮之后又是一条好汉。</p><p>另外，即导师觉得好，但是自己知道东西不行，自己说服不了自己。或者说不愿意去忽悠一个自己都觉得不行的东西。我记得有一个老师跟我说过，写论文、做报告等等本身就是一个说服别人的过程，说服别人首先要说服自己，如果连自己都说服不了就不可能说服别人。因此针对这种情况，还是去解决自己，看看到底是自己的问题还是什么问题，要么说服自己做下去，要么说服自己不要做下去了。</p><p><strong>结构性的写不下去了</strong></p><p>当论文解决的问题明确，方向受到鼓励，方案清晰的时候，写不下去的基本就是结构性的了。这里也分几种情况：</p><p>1）对当前的研究现状了解的不是很透彻，不知道写到什么程度适合其这个领域的人读，即不觉得太初级，又不觉得没有介绍到。写论文的时候总觉得自己做的东西很简单，没什么好说的，同时不甚清楚别人的方法，或者对别人方法缺乏系统的总结和归纳，不敢把别人的工作写出来做对比。简单说，就是不能做到<a href="https://www.zhihu.com/search?q=%E6%97%81%E5%BE%81%E5%8D%9A%E5%BC%95&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2371134591%7D">旁征博引</a>，知识体系不完备。</p><p>2）对自己要写的东西没有想清楚，这个时候要停下来好好想一想问题出在什么地方，整理一下<a href="https://www.zhihu.com/search?q=%E7%AC%94%E8%AE%B0&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2371134591%7D">笔记</a>，画个简图调整一下思路，这个时候要是把精力都费在了<a href="https://www.zhihu.com/search?q=%E9%81%A3%E8%AF%8D%E9%80%A0%E5%8F%A5&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2371134591%7D">遣词造句</a>上可能怎么都写不出来了。其实对于很熟悉或者深入很久有很多想法的<a href="https://www.zhihu.com/search?q=%E9%A2%86%E5%9F%9F&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2371134591%7D">领域</a>，想不说出点东西都很难，如果有的地方实在说不出东西，可能真的是没有东西，或者研究的不够深入，这都需要继续深入进行研究，而不是深入进行写作。或者先不要继续写下去了，去做一做实验，从写作中暂时解放出来，把精力转移到论文实际处理的事情上去，这里更加有助于理解问题，理解解决方法。</p><p>3）想清楚了问题，但是觉得不好表达，这时可以考虑画个图，制个表，列个1234，把思路好好理清楚，其实这种情况还是很容易解决的。其实举个例子，哪怕是一个非常简单的例子，既可以让文章更加丰满，又可以让读者更容易理解你想表达的意思。</p><p>4）觉得文章条理不清楚，就好像平时说话的时候说着说着不知道自己在说什么了一样。需要从整个文章中跳出来，思考一下。因为这时可能人的思维已经陷入了细节，忽略了整体</p>]]></content>
+    
+    
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;blockquote&gt;
+&lt;p&gt;来自&lt;a href=&quot;https://www.zhihu.com/question/518696447&quot;&gt;知乎回答&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.zhihu.com/search?q=%E6%96%B9%E5%90%91%E6%80%A7&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:2371134591%7D&quot;&gt;方向性&lt;/a&gt;的写不下去了&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;整个问题和解决方案受到了致命的打击，证明错误或者证明无用功，尤其是导师在听完你的解释之后摇头对你说你还要再下功夫的时候。&lt;/p&gt;
+&lt;p&gt;从长远讲的话，下一篇论文一定要做充足准备工作，避免做了不少工作之后再被拍死。虽说这不少的工作或多或少的也是有一定贡献的，但是这样的贡献总是间接的，效率真的受影响，同时心理上也会受到沉重的打击。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="科研" scheme="https://grooveofmimosa.github.io/tags/%E7%A7%91%E7%A0%94/"/>
+    
+  </entry>
   
   <entry>
     <title>高数复盘</title>
@@ -211,33 +235,6 @@
     
     
     
-    
-    <category term="考研" scheme="https://grooveofmimosa.github.io/tags/%E8%80%83%E7%A0%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高等数学考纲和复习方法</title>
-    <link href="https://grooveofmimosa.github.io/2023/04/06/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E8%80%83%E7%BA%B2%E5%92%8C%E5%A4%8D%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
-    <id>https://grooveofmimosa.github.io/2023/04/06/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E8%80%83%E7%BA%B2%E5%92%8C%E5%A4%8D%E4%B9%A0%E6%96%B9%E6%B3%95/</id>
-    <published>2023-04-06T03:01:23.304Z</published>
-    <updated>2023-04-06T03:20:28.487Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text&#x2F;css" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css"><h2><a href="#gao-deng-shu-xue-kao-gang" class="header-anchor">&#127795</a><span id="gao-deng-shu-xue-kao-gang">高等数学考纲</span></h2><img src="https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E8%80%83%E7%BA%B2.png" style="zoom:67%;"><ul><li>近似计算不要求</li><li>打*号的，欧拉方程要看，其余不要求</li></ul><h2><a href="#fu-xi-fang-fa" class="header-anchor">&#127795</a><span id="fu-xi-fang-fa">复习方法</span></h2><p>（一）关于基本概念的复习</p><ol><li>会叙述（数学表达）</li><li>理解内含（数学意义，作用，几何意义等）</li><li>相关概念之间的关系（必要条件，充分条件，充要条件，既非充分条件又非必要条件)</li><li>掌握应用</li></ol><p>（二）关于基本理论（定理、性质）的复习</p><ol><li>会叙述（数学表达）</li><li>理解内含（数学意义、作用)，了解外延；</li><li>凡大纲要求掌握或理解的定理、性质不但要会用而且要会证明，凡大纲要求会用的定理、性质要会用</li></ol><p>（三）关于基本方法（法则）的复习</p><ol><li>条件</li><li>结论（公式）</li><li>如何用  (什么情况下用、怎么用、使用条件)</li></ol>]]></content>
-    
-    
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text&amp;#x2F;css&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css&quot;&gt;&lt;h2&gt;&lt;a href=&quot;#gao-deng-shu-xue-kao-gang&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;gao-deng-shu-xue-kao-gang&quot;&gt;高等数学考纲&lt;/span&gt;&lt;/h2&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Grooveofmimosa/Picture/main/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E8%80%83%E7%BA%B2.png&quot; style=&quot;zoom:67%;&quot;&gt;
-
-&lt;ul&gt;
-&lt;li&gt;近似计算不要求&lt;/li&gt;
-&lt;li&gt;打*号的，欧拉方程要看，其余不要求&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;&lt;a href=&quot;#fu-xi-fang-fa&quot; class=&quot;header-anchor&quot;&gt;&amp;#127795&lt;/a&gt;&lt;span id=&quot;fu-xi-fang-fa&quot;&gt;复习方法&lt;/span&gt;&lt;/h2&gt;</summary>
-    
-    
-    
-    
-    <category term="高等数学" scheme="https://grooveofmimosa.github.io/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     
     <category term="考研" scheme="https://grooveofmimosa.github.io/tags/%E8%80%83%E7%A0%94/"/>
     
